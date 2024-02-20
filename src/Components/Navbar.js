@@ -1,35 +1,113 @@
+import { IoMdSearch, IoIosMail } from "react-icons/io";
+import { BsArrowRight } from "react-icons/bs";
+import { MdKeyboardArrowDown } from "react-icons/md";
+import { RxCross1 } from "react-icons/rx";
+import { IoLocationSharp } from "react-icons/io5";
+import { FaShoppingCart } from "react-icons/fa";
+import linkedin from '../images/linkedin.png';
+import insta from '../images/insta.png';
+import twitter from '../images/x.png'
+import { useState } from "react";
+import '../App.css';
+import DropDown from "./DropDown";
+
+
+const navElemnts = [
+    "About ITC",
+    "Business",
+    "Brand",
+    "Sustainability",
+    "Media Center",
+    
+    
+    
+]
+
+
+
 function Navbar() {
+
+    const [serachEnable, setSearchEnable] = useState(false);
+
+
     return (
-        <div>
-            <div className="navbar bg-base-100">
-                <div className="flex-1">
-                    <a className="ghost text-xl"> hello</a>
-                </div>
-                <div className="flex-none">
-                    <ul className="menu menu-horizontal px-1">
-                        <li><a>About Itc</a></li>
-                        <li><a> Business</a></li>
-                        <li><a> Brand</a></li>
-                        <li><a> Sustainability</a></li>
-                        <li><a> Media Center</a></li>
-                        <li><a> Investor Relations</a></li>
-                        <li><a> Careers</a></li>
-                        <li><a> ITC Resource</a></li>
-                        <li>
-                            <details>
-                                <summary>
-                                    Parent kya hua 
-                                </summary>
-                                <ul className="p-2 bg-base-100 rounded-t-none">
-                                    <li><a>Link 1</a></li>
-                                    <li><a>Link 2</a></li>
-                                </ul>
-                            </details>
-                        </li>
-                    </ul>
+        <>
+            {/* --------------first navbar---------------- */}
+            <div>
+                <div className=" bg-stone-200 text-black text-sm  flex justify-between py-2 px-8 ">
+                    <div className="flex items-center gap-3 ">
+                        <div className="flex text-2xl gap-2" >
+                            <a href="https://www.linkedin.com/"> <img className="w-7" src={linkedin} /></a>
+                            <a href="https://twitter.com/"> <img className="w-7" src={twitter} /></a>
+                            <a href="https://www.instagram.com/">  <img className="w-7" src={insta} /></a>
+
+
+
+                        </div>
+                        <div className="h-full border-r-2 border-gray-800"></div>
+                        <div className="flex text-2xl gap-1">
+                            <a><IoIosMail className="p-1 rounded-full bg-blue-950 text-white" /></a>
+                            <a> <IoLocationSharp className="p-1 rounded-full bg-blue-950 text-white" /></a>
+                            <a><FaShoppingCart className="p-1 rounded-full bg-blue-950 text-white" /></a>
+                        </div>
+                    </div>
+                    <div className="flex justify-center items-center gap-3 font-semibold cursor-pointer">
+                        <div className="flex gap-2" onClick={() => setSearchEnable(true)}>
+                            <IoMdSearch className="text-gray-800 text-2xl" />
+                            <span>search site</span>
+                        </div>
+                        <button className="px-3 py-2 rounded-2xl text-white text-xs  bg-[#E21818]">
+                            Fraud Alert
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
+
+
+            {/* --------------second navbar---------------- */}
+
+            <div className="navbar bg-white text-black px-8 sticky top-0 z-50  ">
+                {serachEnable ?
+
+                    <div className="w-4/12 m-auto border-b border-gray-400 p-2 ">
+
+                        <input type="text" placeholder=" Type your search query here" className="w-full text-lg bg-transparent outline-none placeholder:text-black placeholder:font-semibold " />
+                        <BsArrowRight className="text-3xl " />
+                        <RxCross1 className="text-2xl absolute right-10" onClick={() => setSearchEnable(false)} />
+                    </div>
+                    :
+
+                    <>
+                        <div className="flex-1">
+                            <a className=" text-xl"> hello</a>
+                        </div>
+                        <div >
+                            <ul className="flex gap-5 px-1 text-sm font-bold text-blue-900 ">
+                                {
+                                    navElemnts.map((item,index) => {
+                                        return (
+                                            <li key={index} className="dropdown dropdown-hover static">
+                                                <a tabIndex={0} role="button" className="flex gap-1 items-center">{item}<MdKeyboardArrowDown/></a>
+                                                <ul tabIndex={0} className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] ">
+                                                    <DropDown componentFor={item} />
+                                                </ul>
+                                            </li>
+                                        )
+                                    })
+                                }
+                                <li className="dropdown dropdown-hover static"><a>Investor Relations</a></li>
+                                <li className="dropdown dropdown-hover static"><a>Careers</a></li>
+                                <li className="dropdown dropdown-hover static"><a>ITC Resource</a></li>
+
+
+
+                            </ul>
+                        </div>
+                    </>
+                }
+
+            </div>
+        </>
     )
 }
 
