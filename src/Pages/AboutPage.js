@@ -12,7 +12,7 @@ import sanjibpuri from "../images/sanjibpuri.png";
 
 let section3 = [
   {
-    img: { vision },
+    img: vision,
     Title: <h1>The ITC Vision</h1>,
     description: (
       <p>
@@ -21,9 +21,10 @@ let section3 = [
         economy and the Company's stakeholders
       </p>
     ),
+
   },
   {
-    img: { mission },
+    img: mission,
     Title: <h1>The ITC Mission</h1>,
     description: (
       <p>
@@ -34,7 +35,7 @@ let section3 = [
     ),
   },
   {
-    img: { values },
+    img: values,
     Title: <h1> ITC Values</h1>,
     description: (
       <p>
@@ -75,7 +76,7 @@ function AboutPage() {
               </b>
               , and is a global Sustainability exemplar.
             </p>
-            <button className="flex justify-between text-xs font-thin items-center w-40  text-blue py-2 px-5 border-2 border-blue-600 rounded-2xl">
+            <button className="flex justify-between text-[10px] font-semibold items-center w-40  text-blue py-2 px-5 border  border-blue-600 rounded-2xl">
               Read more <FaArrowRight className="text-[8px]" />
             </button>
           </div>
@@ -98,9 +99,9 @@ function AboutPage() {
 
       {/* section-2 -------- */}
 
-      <section className="px-20 mt-0 w-full  text-black">
-        <div className="relative -bottom-32">
-          <h1 className=" text-3xl text-black font-bold ">ITC at a Glance</h1>
+      <section className="px-14 mt-10 w-full  text-black">
+        <div>
+          <h1 className=" text-4xl text-black font-semibold ">ITC at a Glance</h1>
 
           <div className="bg-white border border-red-500  rounded-lg my-10  ">
             <div className=" flex justify-evenly  text-sm relative -top-6 ">
@@ -159,52 +160,59 @@ function AboutPage() {
       </section>
 
       {/* section -3   image is not showing and margin is not fixing */}
-      <section className="">
-        <div className="flex flex-wrap ">
-          <ul className="flex flex-wrap mt-28 ">
-            {section3.map((item, index) => (
-              <li key={index} className="flex flex-wrap justify-center max-w-full ">
-                <div className="max-w-sm rounded overflow-hidden shadow-lg   p-10 bg-[#190483] ">
-                  <img className="w-full" src={item.img} alt="Placeholder" />
-                  <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2">{item.Title}</div>
-                    <p className="text-white text-base">
-                      {item.description}
-                    </p>
+      <section className="text-white">
+        <div className="  ">
+          <ul className="grid grid-cols-3">
+            {
+              section3.map((item, index) => (
+                <li key={index} className="">
+                  <div className="overflow-hidden shadow-lg px-16 py-10 bg-[#190483] h-[70vh] bg-gradient-to-r from-[#201658aa] to-[#142770]">
+                    <img src={item.img} alt="sorry" />
+                    <div className="mt-10 font-semibold ">
+                      <div className="text-3xl mb-2 text-indigo-200">{item.Title}</div>
+                      <p className="text-indigo-300 text-xs mt-5">
+                        {item.description}
+                      </p>
+                      {
+                        index == section3.length - 1 &&
+                        <button className=" mt-10 flex justify-between text-[10px] font-thin items-center w-40  text-blue py-2 px-5 border border-white rounded-2xl">
+                          Know more <FaArrowRight className="text-[8px]" /></button>
+                      }
+                    </div>
                   </div>
-                </div>
-              </li>
-            ))}
+                </li>
+
+              ))}
           </ul>
         </div>
       </section>
-   {/* section -4 */}
 
 
+      {/* section -4 */}
 
+      <section className="bg-sky-100 -mt-2 px-14  ">
+        <div className="flex justify-between items-center py-8 text-black mt-2 border ">
+          <div className="w-5/12">
+            <h1 className="text-4xl font-semibold">ITC Leadership</h1>
+            <p className="text-xs leading-6 my-5">Flowing from the concept and principles of Corporate Governance adopted by the Company, leadership within ITC is exercised at three levels. The Board of Directors at the apex, as trustee of shareholders, carries the responsibility for strategic supervision of the Company.</p>
 
-
-      <section>
-        <div className="flex bg-[#d5e7e4] gap-5 h-80 p-10 text-black mt-2">
-        <div className="w-1/2">
-           <h1 className="text-2xl font-semibold m-2">ITC Leadership</h1>
-           <p className="text-sm m-2">Flowing from the concept and principles of Corporate Governance adopted by the Company, leadership within ITC is exercised at three levels. The Board of Directors at the apex, as trustee of shareholders, carries the responsibility for strategic supervision of the Company.</p>
-
-           <button className="my-2 ml-0 flex justify-between text-xs font-thin items-center w-40  text-blue py-2 px-5 border-2 border-blue-600 rounded-2xl">
+            <button className="my-2 ml-0 flex justify-between text-xs font-thin items-center w-40  text-blue py-2 px-5 border-2 border-blue-600 rounded-2xl">
               Read more <FaArrowRight className="text-[8px]" />
             </button>
+          </div>
+          <div className="flex w-6/12  ">
+            <div className=" overflow-hidden shadow-lg flex bg-white w-full px-8 mt-8 pt-8 rounded-xl  ">
+              <img src={sanjibpuri} alt="Placeholder" />
+              <div className="px-10 pt-16 ">
+                <div className=" w-full">
+                  <h1 className="text-3xl" >Mr. Sanjiv Puri</h1> 
+                  <p>Chairman & MD</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="flex w-1/2  ">
-        <div className=" rounded overflow-hidden shadow-lg flex bg-white w-full h-1/2  ">
-       <img className=" mb-0 mt-2 ml-4 rounded " src={sanjibpuri} alt="Placeholder" />
-       <div className="px-6 py-4">
-         <div className=" w-full"><h1 className="text-2xl" >Mr. Sanjiv Puri</h1>
-      <b>  Chairman & MD</b></div>
-       </div>
-    </div>
-        </div>
-        </div>
-        
+
       </section>
     </HomeLayout>
   );
