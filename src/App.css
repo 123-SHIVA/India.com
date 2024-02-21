@@ -1,0 +1,8 @@
+a{
+    cursor: pointer;
+}
+
+li >a:hover
+{
+    color: #39A7FF;
+}
