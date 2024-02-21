@@ -1,13 +1,17 @@
+import {Link} from "react-router-dom";
+// import AboutPage from "../Pages/AboutPage";
+
 function Navbar() {
     return (
         <div>
-            <div className="navbar bg-base-100">
+            {/* ye ho jaane dijiye dekhte hai hota hai ya nhi ha to isi me 10 din de denge */}
+            <div className="navbar bg-white">
                 <div className="flex-1">
                     <a className="ghost text-xl"> hello</a>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a>About Itc</a></li>
+                      <li><Link to='/about'>about itc</Link></li>
                         <li><a> Business</a></li>
                         <li><a> Brand</a></li>
                         <li><a> Sustainability</a></li>

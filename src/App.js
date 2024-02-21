@@ -6,6 +6,8 @@ import Navbar from './Components/Navbar';
 import HomePage from './Pages/HomePage';
 import Footer from './Components/Footer';
 
+import AboutPage from './Pages/AboutPage';
+
 function App() {
   return (
     <div className="App text-4xl">
@@ -13,7 +15,8 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path='/' element={<HomePage/>} />
+        <Route path='/' element={<HomePage/>} />
+          <Route path='/about' element={<AboutPage/>} />
         </Routes>
         <Footer/>
       </Router>
