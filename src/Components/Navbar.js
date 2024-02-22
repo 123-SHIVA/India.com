@@ -71,7 +71,7 @@ function Navbar() {
 
       {/* --------------second navbar---------------- */}
 
-      <div className="navbar bg-white text-black px-8 sticky top-0 z-50  ">
+      <div className="navbar shadow-md bg-white text-black px-8 sticky top-0 z-50  ">
         {serachEnable ? (
           <div className="w-4/12 m-auto border-b border-gray-400 p-2 ">
             <input

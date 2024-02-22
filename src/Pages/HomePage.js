@@ -1,10 +1,14 @@
-import Card from "../Components/Card";
 import Carosal from "../Components/Carosal";
 import ItcVectorGrowthCard from "../Components/ItcVectorGrowthCard";
 import HomeLayout from "../Layouts/HomeLayout";
 import { FaArrowRight } from "react-icons/fa6";
-import { IoIosArrowBack } from "react-icons/io";
-import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowBack, IoIosAdd, IoIosArrowForward } from "react-icons/io";
+import { LuBedDouble, LuMonitorPlay } from "react-icons/lu";
+import { GrBasket } from "react-icons/gr";
+import { LiaToiletPaperSolid } from "react-icons/lia";
+import { GiWheat } from "react-icons/gi";
+import { TfiPackage } from "react-icons/tfi";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 
 const vectorOfGrowth = [
@@ -79,6 +83,192 @@ const leadershipSpeaks = [
 ]
 
 
+
+const ItcBussinesses = [
+    {
+        title: "FMCG",
+        icon: <GrBasket className="text-5xl" />,
+        color: "orange"
+    },
+    {
+        title: "Hotels",
+        icon: <LuBedDouble className="text-5xl" />,
+        color: "purple"
+    },
+    {
+        title: "Paperboards & Speciality Papers",
+        icon: <LiaToiletPaperSolid className="text-5xl" />,
+        color: "red"
+    },
+    {
+        title: "Packaging",
+        icon: <TfiPackage className="text-5xl" />,
+        color: "yellow"
+    },
+    {
+        title: "Agri Business",
+        icon: <GiWheat className="text-5xl" />,
+        color: "green"
+    },
+    {
+        title: "Information Technology",
+        icon: <LuMonitorPlay className="text-5xl" />,
+        color: "sky"
+    },
+]
+
+
+const ItcBrands = [
+    {
+        img: "https://www.itcportal.com/assets/images/mint-o.jpg",
+        description: "Confectionary"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/bnatural.jpg",
+        description: "Juices and Beverages"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/jelimals-logo.jpg",
+        description: "Confectionary"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/fabelle.jpg",
+        description: "Luxury Chocolate"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/gumon.jpg",
+        description: "Gums"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/sunbean.jpg",
+        description: "Gourment Coffe and Beaten Coffee"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/itc-master-chef.jpg",
+        description: "Blended Spices, Frozen Prawns, Snacks and Kababs"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/superia.jpg",
+        description: "Soaps & Shampoos"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/savlon.jpg",
+        description: "Antiseptic Liquid, Soap and handwashes "
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/farmland.jpg",
+        description: "Freah Potatoes, Frozen vegetables and Tomato puree"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/shower-to-shower.jpg",
+        description: "Prickely Heat Powder"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/homelites.jpg",
+        description: "Homelites matches"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/aashirvaad.jpg",
+        description: "Att, Vermicelli, Gree, Salt, Spices, Ready to eat Meals and instant mixes"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/yippee.jpg",
+        description: "Instant Noodles and Pasta"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/itc-sunrise.jpg",
+        description: "Sunrise Pure! A lagacy of inovation for over 100 years!"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/fiama.jpg",
+        description: "Shower Gel, Bathing bars, Handwashes, Essential oils, body oils and  bathing Accessories"
+    },
+]
+
+
+const Sustainability = [
+    {
+        img: "https://www.itcportal.com/assets/images/icon4-sustainability.jpg",
+        title: "E-Choupal Ecosystem"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/icon9-sustainability.jpg",
+        title: "Afforestation Programme"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/icon3-sustainability.jpg",
+        title: "Watershed Developement Programme"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/icon10-sustainability.jpg",
+        title: "Sustainable Agriculture"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/icon2-sustainability.jpg",
+        title: "LiveStock Development"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/icon1-sustainability.jpg",
+        title: "Women Empowerment"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/icon5-sustainability.jpg",
+        title: "Primary Education"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/icon6-sustainability.jpg",
+        title: "Skilling & Vocational Training"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/icon8-sustainability.jpg",
+        title: "Sotid Waste Management"
+    }
+]
+
+const LatestUpdate = [
+    {
+        img: "https://www.itcportal.com/assets/images/latest-updates-11.jpg",
+        description: "Pioneering  the Green Building Movement in india",
+        date: ""
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/latest-updates-12.jpg",
+        description: "Towards Water Security for All",
+        date: ""
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/latest-updates-13.jpg",
+        description: "ITC's Biodiversity conversation programme",
+        date: ""
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/latest-updates-080224.jpg",
+        description: "Focus is on sustainable and inclusive growth' Sanjiv puri  ",
+        date: "11 feb 2024"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/latest-updates-080224-1.jpg",
+        description: "Plateful of vision 'Sanjiv puri",
+        date: "03 feb 2024"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/latest-updates-080224-2.jpg",
+        description: "ITC and a business case for Diversity, Equity and inclusion",
+        date: "13 jan 2024"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/quarterly-result-thumb.jpg",
+        description: "Financial Results for the Quarter Ended December",
+        date: "29 jan 2024"
+    },
+    {
+        img: "https://www.itcportal.com/assets/images/home-latest-updates-141223.jpg",
+        description: "ITC Institutional Investors & Financial Analysts Day",
+        date: "12 dec 2023"
+    }
+]
+
+
 function HomePage() {
     return (
         <HomeLayout>
@@ -104,26 +294,17 @@ function HomePage() {
                     </div>
 
 
-                    <div className=" flex gap-7 carousel rounded-box my-10">
-                        <div className="carousel-item">
-                            <Card />
-                        </div>
-                        <div className="carousel-item">
-                            <Card />
-                        </div>
-                        <div className="carousel-item">
+                    <div className=" flex gap-7 carousel my-10">
 
-                            <Card />
-                        </div>
-                        <div className="carousel-item">
-                            <Card />
-                        </div>
-                        <div className="carousel-item">
-                            <Card />
-                        </div>
-                        <div className="carousel-item">
-                            <Card />
-                        </div>
+                        {
+                            LatestUpdate.map((items, index) => {
+                                return (
+                                    <div className="carousel-item">
+                                        <LatestUpdateCard item={items} key={index} />
+                                    </div>
+                                )
+                            })
+                        }
 
                     </div>
 
@@ -229,8 +410,8 @@ function HomePage() {
                             {
                                 leadershipSpeaks.map((items, index) => {
                                     return (
-                                   <LeadershipSpeaksCard items={items}/>
-                                )
+                                        <LeadershipSpeaksCard items={items} />
+                                    )
                                 })
                             }
                         </div>
@@ -239,27 +420,179 @@ function HomePage() {
 
             </section>
 
+            {/* ----------------------------------ITC Businesses------------------ */}
 
-            <section className="h-[50vh] my-10 text-center">
-                <h1 className="text-4xl text-[#1b2355] font-semibold">ITC Businesses</h1>
+            <section className=" my-20 ">
 
+                <div className="w-2/3 m-auto">
+                    <h1 className="text-3xl text-[#1b2355] text-center">ITC <span className="font-semibold"> Businesses</span></h1>
+
+                    <div className="grid grid-cols-3 gap-4 my-14">
+                        {ItcBussinesses.map((items, index) => {
+                            return (
+                                <div>
+                                    <ItcBussinesseCard key={index} items={items} />
+                                </div>
+                            )
+                        })}
+                    </div>
+                </div>
+            </section>
+
+            {/* ----------------------------------ITC Brand World------------- */}
+
+            <section className="my-10 px-6">
+                <h1 className="text-3xl text-[#1b2355] text-center">ITC <span className="font-semibold"> Brand World</span></h1>
+                <div className="my-14 flex carousel gap-3">
+                    {
+                        ItcBrands.map((items, index) => {
+                            return (
+                                <BrandCard key={index} item={items} />
+                            )
+                        })
+                    }
+                </div>
             </section>
 
 
+            {/* -----------------------------Sustainability at ITC------------------------- */}
+
+            <section className="my-10 px-5">
+                <h1 className="text-3xl text-[#1b2355] text-center"><span className="font-semibold">Sustainability</span> at ITC</h1>
+                <div className="my-14 flex carousel gap-3">
+                    {
+                        Sustainability.map((items, index) => {
+                            return (
+                                <SustainabilityCard key={index} item={items} />
+                            )
+                        })
+                    }
+                </div>
+            </section>
+
+
+            <section className="my-24 px-5 text-black">
+                <div className="w-1/2  m-auto flex justify-around px-5">
+                    <div className="flex gap-10">
+                        <img src="https://www.itcportal.com/assets/images/itc-report-ac-home-2023.png" className=" w-20 h-20" />
+                        <div className="flex flex-col gap-8">
+                            <h2 className="font-bold text-sm">ITC Report And Accounts 2023</h2>
+                            <p className="text-xs">PDF 22.5 MB</p>
+                            <MdOutlineFileDownload />
+                        </div>
+                    </div>
+                    <div className="flex gap-12 border-l border-dashed border-gray-400 px-10">
+                        <img src="https://www.itcportal.com/assets/images/pdf2.png" className=" w-20 h-20" />
+                        <div className="flex flex-col justify-between">
+                            <h2 className="font-bold text-sm">ITC Sustainability Report 2023 </h2>
+                            <p className="text-xs">PDF 24 MB</p>
+                            <MdOutlineFileDownload />
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section className="border-t text-sm text-black px-32">
+                <div className="flex justify-end">
+                    <div className="flex items-center gap-3 p-3">
+                        <img src="https://www.itcportal.com/images/icon2.png" />
+                        <p>ITC on social media</p>
+                    </div>
+                    <div className="flex items-center gap-3 p-3 px-5 border-l border-r">
+                        <img src="https://www.itcportal.com/images/icon3.png" />
+                        <p>ITC App</p>
+                    </div>
+                    <div className="flex items-center gap-3 p-3">
+                        <img src="https://www.itcportal.com/images/icon4.png" />
+                        <p>Downloads & Websites</p>
+                    </div>
+                </div>
+
+            </section>
         </HomeLayout>
 
     )
 }
 
-
-function LeadershipSpeaksCard({items}) {
+function SustainabilityCard({ item }) {
     return (
         <div>
-            <div className=" w-96 font-semibold ">
+            <div className="relative w-72  shadow-xl text-center text-white font-bold">
+                <figure><img src={item.img} alt="Shoes" className=" object-contain  rounded-lg " /></figure>
+                <div className=" absolute top-0 right-0 bottom-0 left-0 flex items-end justify-between p-4">
+                    <p className="text-xs w-2/3 text-left">{item.title}</p>
+                    <FaArrowRight className="text-lg p-1 bg-white text-black rounded-full" />
+                </div>
+            </div>
+        </div>
+    )
+}
+
+
+function BrandCard({ item }) {
+    return (
+        <div>
+            <div className="relative rounded-lg overflow-hidden group w-64">
+                <img src={item.img} className="w-full" />
+                <div className="hidden bg-transparent transition-all group-hover:bg-[#CCC] absolute top-0 left-0 right-0 bottom-0 group-hover:block">
+                    <div className=" w-full h-full flex justify-center items-center text-[#3f3f3f] text-center px-5">
+                        {item.description}
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+
+function LeadershipSpeaksCard({ items }) {
+    return (
+        <div>
+            <div className=" w-96 font-semibold text-left ">
                 <h1 className="text-xl font-bold">{items.title}</h1>
                 <h2 className="text-[10px] my-1">{items.subTitle}</h2>
                 <p className="text-sm mt-5 opacity-30">{items.description}</p>
                 <button className="flex justify-between text-[10px] font-thin items-center w-32 bg-white text-black py-2 px-5 my-5 rounded-2xl">Read more <FaArrowRight className="text-[8px]" /></button>
+            </div>
+        </div>
+    )
+}
+
+
+function ItcBussinesseCard({ items }) {
+    return (
+        <div className="card shadow-md shadow-gray-200 rounded-md  overflow-hidden relative">
+            <div className="group">
+                {/* first div */}
+                <div className="bg-[#1b2355] h-[3px] transition-all group-hover:h-48 absolute top-0 bottom-0 left-0 right-0  ">
+
+                </div>
+                {/* second div */}
+                <div className=" px-5 py-8  text-gray-800 h-48 flex flex-col justify-between group-hover:bg-transparent  bg-transparent relative z-10">
+                    <h2 className="w-1/2 font-semibold group-hover:text-white ">{items.title} </h2>
+                    <div>
+                        <div className=" flex justify-between items-center text-orange-600 group-hover:text-white ">
+                            <IoIosAdd className="text-2xl group-hover:text-white " />
+                            {items.icon}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    )
+}
+
+
+function LatestUpdateCard({item}) {
+    return (
+        <div className="card w-64 bg-white text-black rounded-md">
+            <figure><img src={item.img} alt="Shoes" /></figure>
+            <div className="card-body p-5">
+                <p className="text-sm">{item.description}</p>
+                <p className=" mt-5 text-[10px] px-2">{item.date}</p>
             </div>
         </div>
     )
