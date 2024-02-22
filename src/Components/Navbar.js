@@ -87,8 +87,8 @@ function Navbar() {
           </div>
         ) : (
           <>
-            <div className="flex-1">
-              <a className=" text-xl"> hello</a>
+            <div className="flex-1  " >
+              <Link to="/" className=" text-xl"><img src="https://www.itcportal.com/images/logo_itc.png"/></Link>
             </div>
             <div>
               <ul className="flex gap-5 px-1 text-sm font-bold text-blue-900 ">
@@ -98,7 +98,7 @@ function Navbar() {
                                         )
                                     })
                                 } */}
-                <li className="dropdown dropdown-hover static">
+                <li className="dropdown dropdown-hover static z-0 ">
                   <Link to="/about"
                     tabIndex={0}
                     role="button"
@@ -109,7 +109,7 @@ function Navbar() {
                   </Link>
                   <ul
                     tabIndex={0}
-                    className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
+                    className="dropdown-content  z-10 menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
                   >
                     <DropDown componentFor={"about"} />
                   </ul>

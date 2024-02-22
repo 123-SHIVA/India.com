@@ -159,7 +159,7 @@ function AboutPage() {
         </div>
       </section>
 
-      {/* section -3   image is not showing and margin is not fixing */}
+      {/* section -3    */}
       <section className="text-white">
         <div className="  ">
           <ul className="grid grid-cols-3">
