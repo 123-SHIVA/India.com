@@ -8,6 +8,7 @@ import vision from "../images/vision.png";
 import mission from "../images/mission.png";
 import values from "../images/values.png";
 import sanjibpuri from "../images/sanjibpuri.png";
+import aboutbtm from "../images/about_btm_bg3.jpg";
 
 
 let section3 = [
@@ -48,6 +49,19 @@ let section3 = [
     ),
   },
 ];
+
+
+// card2
+
+const cardData = [
+  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic1.png",  description: "World Business And Development Awards 2012" },
+  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic2.png", description: "The Development Gateway Award 2005" },
+  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic3.png",  description: "SAM/SPG Sustainability Leadership Award 2007" },
+  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic4.png",  description:"The Stockholm Challenge Award 2006" },
+  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic5.png",  description: "ICSI National Award 2006" }
+];
+
+
 
 function AboutPage() {
   return (
@@ -216,7 +230,48 @@ function AboutPage() {
       </section>
 
 
-   
+
+      <section>
+    
+      <div class="section">
+  <div class="flex bg-gradient-to-r from-blue-800 to-blue-500 text-white justify-between">
+    <div class="flex flex-row gap-5 items-cente ml-16 py-5">
+      <img src="https://www.itcportal.com/assets/images/about/bod-icon.png" class="w-6 h-6" alt="Image 1"/>
+      <p>Board of Directors</p>
+    </div>
+    <div class="flex flex-row gap-5 items-center py-5">
+      <img src="https://www.itcportal.com/assets/images/about/cmc-icon.png" class="w-6 h-6"  alt="Image 2"/>
+      <p>Corporate Management Committee</p>
+    </div>
+    <div class="flex flex-row gap-5 items-center mr-16 py-5">
+      <img src="https://www.itcportal.com/assets/images/about/bh-icon.png" class="w-6 h-6"  alt="Image 3"/>
+      <p>Business Heads</p>
+    </div>
+  </div>
+</div>
+      </section>
+
+      <div className="text-black text-4xl text-center my-10">
+        <h2>Global <strong>Honours</strong>
+        </h2>
+      </div>
+
+      
+      <div className="flex justify-center">
+        {cardData.map((card, index) => (
+          <div key={index} className="card m-4 bg-white shadow-lg rounded-lg overflow-hidden" style={{ width: "200px", height: "250px" }}>
+          
+            <img className="w-1/2 h-1/2 justify-center" src={card.imageUrl} alt={`Card ${index + 1}`} />
+    
+            <div className="p-4 flex flex-col justify-between text-center text-black h-1/2">
+              <p>{card.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      
+
    
     </HomeLayout>
   );
