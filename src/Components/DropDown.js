@@ -14,7 +14,7 @@ function DropDown({ componentFor }) {
     return (
         <>
             {/* {componentFor === "about" && */}
-                <div className="flex font-semibold gap-10">
+                <div className="flex font-semibold gap-10 ">
 
                     <div className="text-[#39A7FF] w-5/12">
                         <h1 className="text-3xl">About ITC</h1>
