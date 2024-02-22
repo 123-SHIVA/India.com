@@ -54,18 +54,42 @@ let section3 = [
 // card2
 
 const cardData = [
-  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic1.png",  description: "World Business And Development Awards 2012" },
+  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic1.png", description: "World Business And Development Awards 2012" },
   { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic2.png", description: "The Development Gateway Award 2005" },
-  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic3.png",  description: "SAM/SPG Sustainability Leadership Award 2007" },
-  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic4.png",  description:"The Stockholm Challenge Award 2006" },
-  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic5.png",  description: "ICSI National Award 2006" }
+  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic3.png", description: "SAM/SPG Sustainability Leadership Award 2007" },
+  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic4.png", description: "The Stockholm Challenge Award 2006" },
+  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic5.png", description: "ICSI National Award 2006" }
 ];
+
+
+const lastSectionData=[
+  {
+    img:"https://www.itcportal.com/assets/images/about/about_btm_bg1.jpg",
+    icon:"https://www.itcportal.com/assets/images/about/about_btm_ic1.png",
+    title:"Investor Relations",
+    description:""
+  },
+  {
+    img:"https://www.itcportal.com/assets/images/about/about_btm_bg2.jpg",
+    icon:"https://www.itcportal.com/assets/images/about/about_btm_ic2.png",
+    title:"Exemplar in Sustainability",
+    description:"Only company in the world to be carbon positive, water positive and solid waste recycling positive."
+  },
+  {
+    img:"https://www.itcportal.com/assets/images/about/about_btm_bg3.jpg",
+    icon:"https://www.itcportal.com/assets/images/about/about_btm_ic3.png",
+    title:"ITC Research and  Development",
+    description:""
+  },
+  
+]
 
 
 
 function AboutPage() {
   return (
     <HomeLayout className="bg-white">
+
       <section className=" ">
         <div className="text-base text-white bg-blue-900 p-2">
           <Link to="/" className="">
@@ -74,9 +98,13 @@ function AboutPage() {
           /About
         </div>
       </section>
+
+
       <section className="about-banner">
         <img src={aboutImg} className="h-96" />
       </section>
+
+
       <section>
         <div className="left text-blue-800">
           <div className="absolute top-5 left-32 bottom-0 flex flex-col justify-center gap-5 text-blue-900 font-bold  ">
@@ -219,7 +247,7 @@ function AboutPage() {
               <img src={sanjibpuri} alt="Placeholder" />
               <div className="px-10 pt-16 ">
                 <div className=" w-full">
-                  <h1 className="text-3xl" >Mr. Sanjiv Puri</h1> 
+                  <h1 className="text-3xl" >Mr. Sanjiv Puri</h1>
                   <p>Chairman & MD</p>
                 </div>
               </div>
@@ -232,49 +260,85 @@ function AboutPage() {
 
 
       <section>
-    
-      <div class="section">
-  <div class="flex bg-gradient-to-r from-blue-800 to-blue-500 text-white justify-between">
-    <div class="flex flex-row gap-5 items-cente ml-16 py-5">
-      <img src="https://www.itcportal.com/assets/images/about/bod-icon.png" class="w-6 h-6" alt="Image 1"/>
-      <p>Board of Directors</p>
-    </div>
-    <div class="flex flex-row gap-5 items-center py-5">
-      <img src="https://www.itcportal.com/assets/images/about/cmc-icon.png" class="w-6 h-6"  alt="Image 2"/>
-      <p>Corporate Management Committee</p>
-    </div>
-    <div class="flex flex-row gap-5 items-center mr-16 py-5">
-      <img src="https://www.itcportal.com/assets/images/about/bh-icon.png" class="w-6 h-6"  alt="Image 3"/>
-      <p>Business Heads</p>
-    </div>
-  </div>
-</div>
-      </section>
 
-      <div className="text-black text-4xl text-center my-10">
-        <h2>Global <strong>Honours</strong>
-        </h2>
-      </div>
-
-      
-      <div className="flex justify-center">
-        {cardData.map((card, index) => (
-          <div key={index} className="card m-4 bg-white shadow-lg rounded-lg overflow-hidden" style={{ width: "200px", height: "250px" }}>
-          
-            <img className="w-1/2 h-1/2 justify-center" src={card.imageUrl} alt={`Card ${index + 1}`} />
-    
-            <div className="p-4 flex flex-col justify-between text-center text-black h-1/2">
-              <p>{card.description}</p>
+        <div class="section">
+          <div class="flex bg-gradient-to-b from-blue-700 to-blue-950 text-white text-sm justify-around py-5">
+            <div class="flex flex-row gap-5 items-cente">
+              <img src="https://www.itcportal.com/assets/images/about/bod-icon.png" class="w-6 h-6" alt="Image 1" />
+              <p>Board of Directors</p>
+            </div>
+            <div class="flex flex-row gap-5 items-center">
+              <img src="https://www.itcportal.com/assets/images/about/cmc-icon.png" class="w-6 h-6" alt="Image 2" />
+              <p>Corporate Management Committee</p>
+            </div>
+            <div class="flex flex-row gap-5 items-center">
+              <img src="https://www.itcportal.com/assets/images/about/bh-icon.png" class="w-6 h-6" alt="Image 3" />
+              <p>Business Heads</p>
             </div>
           </div>
-        ))}
-      </div>
+        </div>
+      </section>
 
-      
 
-   
+      <section className="my-20  mx-14">
+        <div className="text-black text-4xl text-center my-10">
+          <h2>Global <strong>Honours</strong>
+          </h2>
+        </div>
+
+
+        <div className="flex justify-center ">
+          {cardData.map((card, index) => (
+            <div key={index} className={`py-10 px-14 bg-white overflow-hidden flex flex-col justify-center items-center text-xs  ${index!==cardData.length-1 && "border-r"} border-gray-300  border-dashed `}>
+
+              <img src={card.imageUrl} alt={`Card`} />
+
+              <div className="p-4 flex text-center text-black">
+                <p>{card.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div>
+          <button className="flex justify-between text-xs font-thin items-center border shadow-xl border-gray-300  m-auto bg-white text-black py-2 px-5 rounded-2xl">Read more <FaArrowRight className="text-[8px]" /></button>
+        </div>
+
+      </section>
+
+      <section className="my-20 mx-10 ">
+        <div className="flex gap-3 justify-center"> 
+          {
+            lastSectionData.map((items,index)=>{
+              return(
+                <AboutCard item={items} key={index} />
+              )
+            })
+          }
+        </div>
+      </section>
     </HomeLayout>
   );
+}
+
+function  AboutCard({item})
+{
+  return(
+    <div>
+            <div className="relative shadow-xl text-center text-white font-bold ">
+                <figure><img src={item.img} alt="Shoes" className="  rounded-lg w-[35vw] h-64" /></figure>
+                <div className=" absolute top-0 right-0 bottom-0 left-0  text-center px-10  py-8">
+                  <div className="flex flex-col items-center gap-3 relative">
+                    <img src={item.icon} />
+                    <p className="text-xl ">{item.title}</p>
+                    <p className="text-xs">{item.description}</p>
+                  </div>
+                </div>
+                <div className="absolute bottom-10  left-0 right-0 ">
+                    <button className="flex text-xs font-thin items-center border shadow-xl border-gray-300  m-auto bg-white text-black py-2 px-5 rounded-2xl gap-3">Read more <FaArrowRight className="text-[8px]" /></button>
+                </div>
+            </div>
+        </div>
+  )
 }
 
 export default AboutPage;

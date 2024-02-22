@@ -494,23 +494,7 @@ function HomePage() {
 
             </section>
 
-            <section className="border-t text-sm text-black px-32">
-                <div className="flex justify-end">
-                    <div className="flex items-center gap-3 p-3">
-                        <img src="https://www.itcportal.com/images/icon2.png" />
-                        <p>ITC on social media</p>
-                    </div>
-                    <div className="flex items-center gap-3 p-3 px-5 border-l border-r">
-                        <img src="https://www.itcportal.com/images/icon3.png" />
-                        <p>ITC App</p>
-                    </div>
-                    <div className="flex items-center gap-3 p-3">
-                        <img src="https://www.itcportal.com/images/icon4.png" />
-                        <p>Downloads & Websites</p>
-                    </div>
-                </div>
-
-            </section>
+         
         </HomeLayout>
 
     )
