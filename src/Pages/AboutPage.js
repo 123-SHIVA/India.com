@@ -206,6 +206,10 @@ function AboutPage() {
         </div>
         
       </section>
+
+
+   
+   
     </HomeLayout>
   );
 }
