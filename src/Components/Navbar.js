@@ -92,12 +92,7 @@ function Navbar() {
             </div>
             <div>
               <ul className="flex gap-5 px-1 text-sm font-bold text-blue-900 ">
-                {/* {
-                                    navElemnts.map((item,index) => {
-                                        return (
-                                        )
-                                    })
-                                } */}
+
                 <li className="dropdown dropdown-hover static z-0 ">
                   <Link to="/about"
                     tabIndex={0}
@@ -167,14 +162,15 @@ function Navbar() {
                 </li>
 
                 <li className="dropdown dropdown-hover static">
-                  <a
+                  <Link
+                    to="/media-centre"
                     tabIndex={0}
                     role="button"
                     className="flex gap-1 items-center"
                   >
                     Media Center
                     <MdKeyboardArrowDown />
-                  </a>
+                  </Link>
                   <ul
                     tabIndex={0}
                     className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "

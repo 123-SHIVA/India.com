@@ -572,7 +572,7 @@ function ItcBussinesseCard({ items }) {
 
 function LatestUpdateCard({item}) {
     return (
-        <div className="card w-64 bg-white text-black rounded-md">
+        <div className="card w-64 bg-white text-black shadow-lg rounded-md">
             <figure><img src={item.img} alt="Shoes" /></figure>
             <div className="card-body p-5">
                 <p className="text-sm">{item.description}</p>

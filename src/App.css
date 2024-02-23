@@ -6,3 +6,7 @@ li >a:hover
 {
     color: #39A7FF;
 }
+
+.media-centre{
+    background-image: linear-gradient(to right, #3ea161, #67b150, #95be39, #c7c71d, #ffcc00);
+}
