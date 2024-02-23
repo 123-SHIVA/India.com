@@ -128,7 +128,9 @@ function Navbar() {
                 </li>
 
                 <li className="dropdown dropdown-hover static">
-                <Link to="/brand"
+                <Link 
+                target="_blank"
+                to="/brands"
                     tabIndex={0}
                     role="button"
                     className="flex gap-1 items-center"

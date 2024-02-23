@@ -7,6 +7,7 @@ import AboutPage from './Pages/AboutPage';
 import Business from './Pages/Business';
 import Sustainability from './Pages/Sustainability';
 import MediaCentre from './Pages/MediaCentre';
+import BrandPage from './Pages/BrandPage';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='/business' element={<Business/>} />
           <Route path='/Sustainability' element={<Sustainability/>} />
           <Route path='/media-centre' element={<MediaCentre/>} />
+          <Route path='/brands' element={<BrandPage/>} />
         </Routes>
       </Router>
     </div>
