@@ -133,14 +133,14 @@ function Navbar() {
                 </li>
 
                 <li className="dropdown dropdown-hover static">
-                  <a
+                <Link to="/brand"
                     tabIndex={0}
                     role="button"
                     className="flex gap-1 items-center"
                   >
                     Brand
                     <MdKeyboardArrowDown />
-                  </a>
+                  </Link>
                   <ul
                     tabIndex={0}
                     className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
@@ -150,14 +150,14 @@ function Navbar() {
                 </li>
 
                 <li className="dropdown dropdown-hover static">
-                  <a
+                <Link to="/Sustainability"
                     tabIndex={0}
                     role="button"
                     className="flex gap-1 items-center"
                   >
                     Sustainability
                     <MdKeyboardArrowDown />
-                  </a>
+                  </Link>
                   <ul
                     tabIndex={0}
                     className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
