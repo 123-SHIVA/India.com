@@ -1,0 +1,31 @@
+.drawer-side > .drawer-overlay {
+    transition-duration: 500ms;
+}
+.drawer-side > *:not(.drawer-overlay) {
+
+    transition-duration: 500ms;
+    transform: translateY(-100%);
+}
+[dir="rtl"] .drawer-side > *:not(.drawer-overlay) {
+    transform: translateY(100%);
+}
+.drawer-toggle:checked ~ .drawer-side > *:not(.drawer-overlay) {
+    transform: translateY(0%);
+}
+
+.drawer-end .drawer-toggle ~ .drawer-side > *:not(.drawer-overlay) {
+    transform: translateY(100%);
+}
+[dir="rtl"] .drawer-end .drawer-toggle ~ .drawer-side > *:not(.drawer-overlay) {
+    transform: translateY(-100%);
+}
+.drawer-end .drawer-toggle:checked ~ .drawer-side > *:not(.drawer-overlay) {
+    transform: translateY(0%);
+}
+
+.drawer-open > .drawer-toggle ~ .drawer-side > *:not(.drawer-overlay) {
+    transform: translateY(0%);
+}
+[dir="rtl"] .drawer-open > .drawer-toggle ~ .drawer-side > *:not(.drawer-overlay) {
+    transform: translateY(0%);
+}
