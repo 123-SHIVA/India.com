@@ -190,7 +190,21 @@ function Navbar() {
                   <a>Careers</a>
                 </li>
                 <li className="dropdown dropdown-hover static">
-                  <a>ITC Resource</a>
+                  <Link
+                    to="/ITC-Resources"
+                    tabIndex={0}
+                    role="button"
+                    className="flex gap-1 items-center"
+                  >
+                    ITC Resources
+                    <MdKeyboardArrowDown />
+                  </Link>
+                  <ul
+                    tabIndex={0}
+                    className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
+                  >
+                    <DropDown componentFor={"Media Center"} />
+                  </ul>
                 </li>
               </ul>
             </div>
