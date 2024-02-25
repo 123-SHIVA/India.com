@@ -1,8 +1,9 @@
-import { useState } from "react";
 import HomeLayout from "../Layouts/HomeLayout";
 import { FaArrowRight } from "react-icons/fa6";
 
+
 function Sustainability() {
+
   const data = [
     {
       image: "https://www.itcportal.com/images/icon1-sustainability.jpg",
@@ -48,43 +49,44 @@ function Sustainability() {
 
   return (
     <HomeLayout>
-      <div>
+
+      <section >
         <img
-          className="w-full h-96"
+          className="w-full"
           src="https://www.itcportal.com/images/sus_introbanner.jpg"
         />
-        <div className="absolute top-84 left-28 bottom-0 flex flex-col justify-center gap-5 text-white font-bold  ">
+        <div className="relative bottom-24 w-[80%] text-white font-bold  m-auto  ">
 
-          <div class="h-40 w-screen border border-black bg-[#265d1b] flex justify-center items-center">
+          <div class=" bg-[#265d1b] flex justify-between items-center mx-4 ">
 
-            <div className="text-3xl items-end ">
+            <div className="text-3xl font-[300] px-16 py-10 ">
               <h1>Transforming lives and landscapes in India</h1>
+              <hr className="w-9 mt-3 border-b-2 border-white"></hr>
             </div>
-            <div class="m-5 h-40 w-3/2 justify-end items-center ">
+            <div class="flex flex-col gap-4 items-center bg-[#253722] px-16 py-8 ">
               <img
                 src="https://www.itcportal.com/images/sus_key_ic_in.png"
-                class="mr-2"
+                className="w-16"
                 alt="Sustainability Icon"
               />
-              <div class="text-white">
+              <div class="flex flex-col items-center">
                 <h3>Sustainability</h3>
-                <p>at a glance.</p>
+                <div className="text-xs font-thin flex gap-2 items-center">at a glance. <FaArrowRight /> </div>
               </div>
-              <img
-                src="https://www.itcportal.com/images/arrow_brand.png"
-                class="ml-2"
-                alt="Arrow Icon"
-              />
+
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className=" subpixel-antialiased text-xl   text-[#231f20] p-20  h-1/3">
-        <h1 className="text-3xl mb-5" text-6xl>
+      {/* --------------------------Why is sustainability important? */}
+
+
+      <section className=" subpixel-antialiased text-[15px] font-[300]  text-[#231f20] w-[70%] m-auto leading-6 tracking-tight ">
+        <h1 className="text-3xl mb-2 font-[400]" text-6xl>
           Why is sustainability important?
         </h1>
-        <p>
+        <p className="p-1">
           For over a century, the world has witnessed remarkable material
           progress. However, this progress has come at a tremendous price,
           creating some of the most serious challenges facing the world today,
@@ -96,9 +98,7 @@ function Sustainability() {
           soil and bio-diversity not only threatens the present but also the
           socio-economic security of future generations as well.
         </p>
-        <br></br>
-
-        <p>
+        <p className="p-1">
           India mirrors these challenges. The country is home to 17% of the
           world's population, but has only 2.4% of its arable land, 4% of water
           and 1% of forest resources. India is poised to become the world's most
@@ -107,22 +107,24 @@ function Sustainability() {
           challenges like multi-dimensional poverty and job creation has also
           become crying priorities.
         </p>
-        <br></br>
 
-        <p>
+        <p className="p-1">
           Unstable societies cannot foster sustainable economic growth. The need
           of the hour is a new model of development that will simultaneously
           fuel economic growth, create sustainable livelihoods and replenish the
           environment.
         </p>
-      </div>
+      </section>
 
-      <section class="flex flex-col lg:flex-row gap-8 h-screen">
-        <div class="lg:w-1/2 p-20 bg-[#265d1b]">
-          <h3 class="text-2xl text-black font-bold mb-2">
+      {/* -----------------------Sustainability as a driving force for ITC */}
+
+      <section className="flex flex-col lg:flex-row gap-8 text-[#282828] font-[400] my-10">
+        <div className="w-1/2 py-16 pl-48 pr-6 bg-[#7ad0d8] text-sm tracking-wide font-[350] flex flex-col gap-3 ">
+          <hr className="w-7 mt-3 border-b-2 border-[#282828]"></hr>
+          <h3 className="text-2xl mb-4">
             Sustainability as a driving force for ITC
           </h3>
-          <p class="mb-4 text-black">
+          <p class="mb-4">
             Any sustainable solution to addressing the grave challenges facing
             the world today requires the concerted efforts of all sections of
             society - policymakers, regulators, business, NGOs and civil
@@ -130,7 +132,7 @@ function Sustainability() {
             innovative capacity, businesses can contribute significantly towards
             making a transformational change in society.
           </p>
-          <p className=" text-black" text-black>
+          <p >
             Inspired by this opportunity to serve larger societal purposes, we
             articulated a Vision two decades ago to make the Company a National
             Champion by adopting the credo of 'Putting India First' ' keeping
@@ -141,21 +143,22 @@ function Sustainability() {
             capital as a unified strategy.
           </p>
         </div>
-        <div class="lg:w-1/2 flex justify-center items-start">
+        <div className="lg:w-1/2 flex justify-center items-center">
           <img
             src="https://www.itcportal.com/images/driving_force.png"
             alt="Driving Force Image"
-            class="w-96 h-68 mt-2"
+            className="w-80"
           />
         </div>
       </section>
 
-      <div className=" p-10">
-        <h1 className="text-2xl mb-4 text-black">
-          Why is sustainability important?
+      {/* ------------------------------------Sustainability in Action */}
+      <section className="w-[80%] p-5 m-auto text-[#282828] font-[400]">
+        <h1 className="text-3xl mb-3 ">
+          Sustainability in Action
         </h1>
 
-        <p className="subpixel-antialiased text-xl text-[#6e6164]">
+        <p className="subpixel-antialiased text-sm tracking-wide leading-5">
           Our focus has been on spurring innovative strategies that would enable
           us to make a growing contribution along the triple bottom lines of
           building economic, environmental and social capital. Matching internal
@@ -176,74 +179,69 @@ function Sustainability() {
           Waste) programme contribute to addressing yet another national
           priority.
         </p>
-      </div>
+      </section>
 
-      <div class="flex flex-row p-5">
-        <div class="  m-4 flex items-center">
+
+      <section className="w-[80%] m-auto text-[#282828] text-base font-[350] tracking-tight flex flex-row p-5 ">
+        <div className=" flex items-center">
           <div>
             <img
               src="https://www.itcportal.com/images/images1.jpg"
               alt="Card Image"
-              class="w-full h-auto "
+              className="w-full"
             />
           </div>
-          <div className=" bg-[#265d1b] h-60 text-white w-1/2 align-right text-xl p-5">
+          <div className=" bg-[#265d1b] h-60 text-white w-1/2 align-right  p-5">
             <h1>Renewable Energy</h1>
-            <h1>
+            <h1 className="my-4">
               - About 43% of energy consumption at ITC is from renewable sources
             </h1>
-            <img
-              src="https://www.itcportal.com/images/arrow_brand.png"
-              class="ml-2"
-              alt="Arrow Icon"
-            />
+
           </div>
         </div>
 
-        <div class=" m-4 flex items-center">
+        <div className=" m-4 flex items-center">
           <div>
             <img
               src="https://www.itcportal.com/images/images2.jpg"
               alt="Card Image"
-              class="w-full h-auto "
+              className="w-full h-auto "
             />
           </div>
-          <div className=" bg-[#265d1b] h-60 text-white w-1/2 align-right text-xl p-5">
-            <h1>Responsible luxury</h1>
-            <h1>- ITC Hotels: Trailblazer in Responsible Luxury</h1>
+          <div className=" bg-[#265d1b] h-60 text-white w-1/2 align-right p-5">
+            <h>Responsible luxury</h>
+            <h1 className="my-4">- ITC Hotels: Trailblazer in Responsible Luxury</h1>
             <h1>
               - All ITC's Premium Luxury Hotels are LEED Platinium Certified
             </h1>
-            <img
-              src="https://www.itcportal.com/images/arrow_brand.png"
-              class="ml-2"
-              alt="Arrow Icon"
-            />
+
           </div>
         </div>
-      </div>
+      </section>
 
-      <section className="p-10">
-        <h1 className="text-black text-2xl text-bold">ITC's ESG Credentials</h1>
+      {/* ----------------------------ITC's ESG Credentials */}
 
-        <div class="flex justify-around items-center">
-          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <section className="w-[80%] p-5 m-auto text-[#282828] font-[400] text-sm ">
+        <h1 className="text-lg f ">ITC's ESG Credentials</h1>
+
+        <div className="flex justify-evenly items-center">
+          <div className="max-w-sm rounded overflow-hidden ">
             <img
-              class="w-full"
+              className="w-full"
               src="https://www.itcportal.com/images/esg-credential-01.jpg"
               alt="Image 1"
             />
           </div>
-          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+          <div className="max-w-sm rounded overflow-hidden">
             <img
-              class="w-full"
+              className="w-full"
               src="https://www.itcportal.com/images/esg-credential-02.jpg"
               alt="Image 2"
             />
           </div>
-          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+          <div className="max-w-sm rounded overflow-hidden ">
             <img
-              class="w-full"
+              className="w-full"
               src="https://www.itcportal.com/images/esg-credential-03.jpg"
               alt="Image 3"
             />
@@ -251,13 +249,15 @@ function Sustainability() {
         </div>
       </section>
 
-      <section>
-        <div className=" p-10">
-          <h1 className="text-2xl mb-4 text-black">
+      {/* ----------------------ITC's Social Investment Initiatives */}
+
+      <section className="w-[80%] p-5 m-auto text-[#282828] font-[400] text-sm">
+        <div >
+          <h1 className="mb-4 font-semibold text-lg">
             ITC's Social Investment Initiatives
           </h1>
 
-          <p className="subpixel-antialiased text-xl text-[#6e6164]">
+          <p className="subpixel-antialiased leading-6 tracking-wide">
             To create sustainable livelihoods, we designed interventions that
             respond to the unique challenges of our stakeholder communities. Our
             e-Choupal, watershed development, afforestation and sustainable
@@ -271,31 +271,28 @@ function Sustainability() {
         </div>
       </section>
 
-      <section>
-        <div className="flex justify-center flex-wrap">
+      <section className="w-[80%] p-5 m-auto text-[#282828] font-[400] text-sm">
+        <div className="flex justify-between flex-wrap px-10 gap-2">
           {data.map((item, index) => (
-            <div className="flex flex-col items-center m-2 border border-gray-300 rounded-md p-4 max-w-xs">
-              <img src={item.image} alt="Card" className="w-full mb-4" />
-              <div className="text-white bg-[#11abb0] h-32 w-48 p-4">
-                <p>{item.description}</p>
-                <img
-                  src="https://www.itcportal.com/images/arrow_brand.png"
-                  className=""
-                  alt="Arrow Icon"
-                />
+            <div className="overflow-hidden card rounded-none w-[19%]">
+              <img src={item.image} alt="Card" className="object-contain " />
+              <div className="text-white bg-[#68aa94] min-h-24 mt-1 flex flex-wrap justify-center items-center ">
+                <p className="w-[60%]">{item.description}</p>
               </div>
             </div>
           ))}
         </div>
       </section>
 
-      <section>
-        <div className=" p-10">
-          <h1 className="text-2xl mb-4 text-black">
+      {/* ------------------------ITC's Sustainability Impact */}
+
+      <section className="w-[80%] p-5 m-auto text-[#282828] font-[350] text-sm">
+        <div>
+          <h1 className="mb-4 font-semibold text-xl">
             ITC's Sustainability Impact
           </h1>
 
-          <p className="subpixel-antialiased text-xl text-[#6e6164]">
+          <p className="subpixel-antialiased leading-6 tracking-wide">
             At ITC, we take immense pride in the fact that we are a global
             exemplar in sustainability. Our businesses and value chains today
             support over 60 lakh sustainable livelihoods. We are the only
@@ -311,13 +308,14 @@ function Sustainability() {
         </div>
       </section>
 
-      <section class="flex flex-col lg:flex-row  h-1/2">
-        <div class="lg:w-1/2 p-20 subpixel-antialiased  text-white text-xl bg-[#265d1b] ">
-          _
-          <h3 class="text-2xl font-bold mb-2">
+      <section className=" flex flex-col lg:flex-row  text-[#282828] font-[350] text-sm">
+        <div className="lg:w-1/2 py-16  pr-5 pl-40 subpixel-antialiased  text-white  bg-[#265d1b] leading-5 tracking-wide ">
+
+          <h3 className="text-2xl  mb-2">
+            <hr className="w-7 mt-3 border-b-2 mb-3 border-white"></hr>
             ITC's Corporate Social Responsibility
           </h3>
-          <p class="mb-4 ">
+          <p>
             Our commitment to creating societal value is manifest in our CSR
             interventions, implemented under the Company's Social Investments
             Programme, that embraces the most disadvantaged sections of society,
@@ -325,8 +323,8 @@ function Sustainability() {
             grassroots capacity building. The footprint of our CSR projects is
             spread over 25 States/Union Territories covering 200 districts.
           </p>
-          <button className=" mt-10 flex justify-between text-[10px] font-thin items-center w-40  text-blue py-2 px-5 border border-white rounded-2xl">
-            Know more <FaArrowRight className="text-[8px]" />
+          <button className=" mt-10 text-[10px] font-thin  w-32  text-blue py-1 px-5 border border-white">
+            Know more 
           </button>
         </div>
         <div class="lg:w-1/2 flex justify-center items-start">
@@ -338,17 +336,17 @@ function Sustainability() {
         </div>
       </section>
 
-      <section>
+      <section  className="w-[80%] p-5 m-auto text-[#282828] font-[350] text-sm tracking-wide leading-6">
         <div className=" p-10">
-          <h1 className="text-2xl mb-4 text-black">ITC EHS</h1>
+          <h1 className="text-2xl mb-4 ">ITC EHS</h1>
 
-          <p className="subpixel-antialiased text-xl text-[#6e6164] mb-2">
+          <p className="subpixel-antialiased  mb-2">
             {" "}
             ITC's goal is to achieve the greenest and safest operations across
             all its operations.
           </p>
 
-          <p className="subpixel-antialiased text-xl text-[#6e6164]">
+          <p className="subpixel-antialiased">
             In terms of environmental performance, ITC aims to minimise impact
             and create a positive footprint wherever possible. The company also
             ensures a safe and healthy workplace for the wellbeing of its
@@ -358,9 +356,9 @@ function Sustainability() {
           </p>
 
           <div className="text-center">
-            <button className=" mt-10 flex justify-between  text-[10px] font-thin items-center w-40  text-blue py-2 px-5 border border-black rounded-2xl">
-              Know more <FaArrowRight className="text-[8px]" />
-            </button>
+          <button className=" mt-10 text-[10px] w-32  text-blue py-2 text-sm px-5 border border-gray-500 ">
+            Know more 
+          </button>
           </div>
         </div>
       </section>
