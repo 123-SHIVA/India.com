@@ -9,7 +9,6 @@ import Sustainability from './Pages/Sustainability';
 import MediaCentre from './Pages/MediaCentre';
 import BrandPage from './Pages/BrandPage';
 import ITCResources from './Pages/ITCResources';
-import ContactUsPage from './Pages/ContactUsPage';
 
 
 function App() {
@@ -23,7 +22,9 @@ function App() {
           <Route path='/business' element={<Business/>} />
           <Route path='/Sustainability' element={<Sustainability/>} />
           <Route path='/media-centre' element={<MediaCentre/>} />
+          <Route path='/investor' element={<Investor/>} />
           <Route path='/brands' element={<BrandPage/>} />
+          
           <Route path='/ITC-Resources' element={<ITCResources/>} />
           <Route path='/contact-us' element={<ContactUsPage/>} />
         </Routes>

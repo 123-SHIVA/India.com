@@ -184,7 +184,15 @@ function Navbar() {
                 
 
                 <li className="dropdown dropdown-hover static">
-                  <a>Investor Relations</a>
+                <Link
+                    to="/investor"
+                    tabIndex={0}
+                    role="button"
+                    className="flex gap-1 items-center"
+                  >
+                    ITC Resources
+                    <MdKeyboardArrowDown />
+                  </Link>
                 </li>
                 <li className="dropdown dropdown-hover static">
                   <a>Careers</a>

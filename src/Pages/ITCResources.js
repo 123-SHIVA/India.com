@@ -1,10 +1,38 @@
+import { useState,useEffect } from "react";
 import HomeLayout from "../Layouts/HomeLayout";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
 
 import { LuClock } from "react-icons/lu";
 
+const cards = [
+  { title: 'Card 1', content: 'Content of Card 1' },
+  { title: 'Card 2', content: 'Content of Card 2' },
+  { title: 'Card 3', content: 'Content of Card 3' },
+];
+
+
+
 function ITCResources() {
+  const sliderRef = useRef(null);
+
+  const scrollLeft = () => {
+    const slider = sliderRef.current;
+    slider.scrollLeft -= slider.offsetWidth;
+  };
+
+  const scrollRight = () => {
+    const slider = sliderRef.current;
+    slider.scrollLeft += slider.offsetWidth;
+  };
+
+
+
+
+
+
+
+
   const cardsData = [
     {
 
@@ -156,6 +184,58 @@ function ITCResources() {
           </div>
         </div>
       </section>
+
+
+        
+
+     {/* section-3------ */}
+  
+      
+
+
+ 
+
+ 
+
+
+     <div className="overflow-hidden relative">
+      <div
+        ref={sliderRef}
+        className="flex space-x-4 transition-transform duration-500"
+      >
+        {cards.map((card, index) => (
+          <Card key={index} {...card} />
+        ))}
+      </div>
+      <button
+        className="absolute top-1/2 transform -translate-y-1/2 left-0"
+        onClick={scrollLeft}
+      >
+        Prev
+      </button>
+      <button
+        className="absolute top-1/2 transform -translate-y-1/2 right-0"
+        onClick={scrollRight}
+      >
+        Next
+      </button>
+    </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
 
       {/* section-4-------- */}
 
