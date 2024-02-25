@@ -1,31 +1,34 @@
 import HomeLayout from "../Layouts/HomeLayout";
 import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa6";
+
+import { LuClock } from "react-icons/lu";
 
 function ITCResources() {
   const cardsData = [
     {
-      
+
       imageSrc: 'https://www.itcportal.com/assets/images/resources/gallery-thumb-chennarayappa-150224.jpg',
       title: 'ITC Stories of change | Chennarayappa',
-     
+
     },
     {
-      
+
       imageSrc: 'https://www.itcportal.com/assets/images/resources/gallery-thumb-yippee-150224.jpg',
       title: 'YiPPee! WOW MASALA',
-     
+
     },
     {
-      
+
       imageSrc: 'https://www.itcportal.com/assets/images/resources/gallery-thumb-sanjiv-puri-150224.jpg',
       title: 'ITC CMD Sanjiv Puri Speaks On Sustain-O-Vation: Transformation, Transition...',
-    
+
     },
     {
-      
+
       imageSrc: 'https://www.itcportal.com/assets/images/resources/gallery-thumb-children-150224.jpg',
       title: "From Slate to Sky: the story of dreams & hope | World Children's Day 2023 | The ITC Way"
-      
+
     },
   ];
 
@@ -43,28 +46,29 @@ function ITCResources() {
           / Business
         </div>
       </section>
-  {/* section-2-------- */}
-      <section className="relative">
+
+      {/* section-2-------- */}
+      <section className="relative bg-[#0f0544]">
         {/* Background image */}
-        <img
+        {/* <img
           className="w-full h-[100%] object-cover absolute top-0 left-0"
           src="https://www.itcportal.com/assets/images/bluebg.jpg"
           alt=""
-        />
+        /> */}
 
-        <div className="relative z-10 text-white font-bold  py-20 px-10">
-          <h1 className="text-6xl">ITC Resources</h1>
+        <div className="relative z-10 text-white text-sm font-[400] pt-20 px-10">
+          <h1 className="text-5xl font-bold">ITC Resources</h1>
 
-          <div class=" gap-10 flex flex-row justify-center items-center mt-10 p-5">
-            <div class="rounded-lg shadow-lg">
+          <div className=" gap-10 flex flex-row justify-center items-center mt-10 p-5">
+            <div className="rounded-lg shadow-lg">
               <img
                 src="https://www.itcportal.com/assets/images/resources/resourcestop_thumb1.jpg"
                 alt="Image 1"
-                class="w-full rounded-lg "
+                className="w-full rounded-lg "
               />
 
-              <div className="flex mt-7 ">
-                <div className="text-2xl">
+              <div className="flex py-5 px-1 ">
+                <div className="text-2xl font-semibold">
                   <h1>
                     ITC Sustainability
                     <br />
@@ -72,105 +76,119 @@ function ITCResources() {
                   </h1>
                 </div>
 
-                <div className="ml-[50%] flex flex-col">
-                  <span>
-                    View :
+                <div className="ml-[50%] font-[400]">
+                  <div className="flex gap-2" >
+
+                    <p>View :</p>
                     <a
                       href="https://www.itcportal.com/sustainability/sustainability-integrated-report-2023/ITC-Sustainability-Integrated-Report-2023.pdf"
                       target=""
                     >
                       <img src="https://www.itcportal.com/assets/images/resources/pdf_ic.png" />
                     </a>
-                  </span>
+                  </div>
 
-                  <a href="">
-                    View More{" "}
-                    <img
-                      src="https://www.itcportal.com/images/arrow_brand.png"
-                      class="ml-2"
-                      alt="Arrow Icon"
-                    />
-                  </a>
+                  <div className="flex gap-2 items-center " >
+
+                    <p>View More :</p>
+                    <a
+                      href=""
+                      target=""
+                    >
+                    <FaArrowRight className=" text-xs font-thin"/>
+                    </a>
+                  </div>
+
+
+
+
                 </div>
               </div>
             </div>
 
-            <div class=" rounded-lg shadow-lg ">
+
+            <div className="rounded-lg shadow-lg">
               <img
                 src="https://www.itcportal.com/assets/images/resources/resourcestop_thumb2.jpg"
-                alt="Image 2"
-                class="w-full  rounded-lg"
+                alt="Image 1"
+                className="w-full rounded-lg "
               />
 
-              <div className="flex mt-7 ">
-                <div className="text-2xl">
-                  <h1>
-                    ITC Sustainability
+              <div className="flex py-5 px-1 ">
+                <div className="text-2xl font-semibold">
+                <h1>
+                    ITC Reports &
                     <br />
-                    Report 2023
+                    Accounts 2023
                   </h1>
                 </div>
 
-                <div className="ml-[50%] flex flex-col">
-                  <span>
-                    View :
+                <div className="ml-[50%] font-[400]">
+                  <div className="flex gap-2" >
+
+                    <p>View :</p>
                     <a
                       href="https://www.itcportal.com/sustainability/sustainability-integrated-report-2023/ITC-Sustainability-Integrated-Report-2023.pdf"
                       target=""
                     >
                       <img src="https://www.itcportal.com/assets/images/resources/pdf_ic.png" />
                     </a>
-                  </span>
+                  </div>
 
-                  <a href="/">
-                    View More{" "}
-                    <img
-                      src="https://www.itcportal.com/images/arrow_brand.png"
-                      class="ml-2"
-                      alt="Arrow Icon"
-                    />
-                  </a>
+                  <div className="flex gap-2 items-center " >
+
+                    <p>View More :</p>
+                    <a
+                      href=""
+                      target=""
+                    >
+                    <FaArrowRight className=" text-xs font-thin"/>
+                    </a>
+                  </div>
+
+
+
+
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </section>
 
-        {/* section-4-------- */}
+      {/* section-4-------- */}
 
-      <section>
-          
-      <div className="flex ">
-      {cardsData.map((item, index) => (
-        <div key={index} className="m-4  bg-white rounded-xl overflow-hidden shadow-md w-[25%] text-black">
-          <div className="p-4">
+      <section className=" p-16 ">
+          <h1 className="text-4xl mb-10 text-black font-semibold">ITC Video Gallery</h1>
 
-            <img src={item.imageSrc} alt="iamge data"/>
-            <h2 className="text-xl font-semibold">{item.title}</h2>
-         
-
-            <div className="flex gap-5   mt-[10px]">
-          
-              <img src="https://www.itcportal.com/assets/images/mediacentre/dateic.png"/>
-             <span className="text-[10]"> 15 feb 2024</span>
-
-             <span>Watch video</span>
-             <a href="">
-              <img src="https://www.itcportal.com/assets/images/mediacentre/watch_mediaic.png"/>
-             </a>
-            </div>
-          </div>
-          {/* You can customize this section according to your card content */}
+        <div className="flex justify-between">
+          {cardsData.map((item, index) => (
+            <ItcVideoGallery item={item} key={index}/>
+          ))}
         </div>
-      ))}
-    </div>
- 
+
 
 
       </section>
     </HomeLayout>
   );
+}
+
+
+function ItcVideoGallery({ item }) {
+  return (
+      <div className="card bg-white text-black overflow-hidden w-72 rounded-md shadow-xl">
+          <img src={item.imageSrc} className="h-[50%]" />
+          <div className="p-5 flex flex-col  ">
+              <h1 className="font-bold text-xs pb-5">{item.title}</h1>
+              <div className="flex justify-between text-xs  absolute bottom-5  left-5 right-5 ">
+                  <span className="flex items-center gap-2 mt-4 "><LuClock />15 feb 2023</span>
+                  <div className="flex items-center gap-2 mt-4">watch video <img src="https://www.itcportal.com/assets/images/mediacentre/watch_mediaic.png" /></div>
+              </div>
+          </div>
+      </div>
+  )
 }
 
 export default ITCResources;
