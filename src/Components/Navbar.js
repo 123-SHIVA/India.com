@@ -45,9 +45,9 @@ function Navbar() {
             </div>
             <div className="h-full border-r-2 border-gray-800"></div>
             <div className="flex text-2xl gap-1">
-              <a>
+              <Link to="/contact-us" >
                 <IoIosMail className="p-1 rounded-full bg-blue-950 text-white" />
-              </a>
+              </Link>
               <a>
                 {" "}
                 <IoLocationSharp className="p-1 rounded-full bg-blue-950 text-white" />
