@@ -1,0 +1,9 @@
+input::placeholder{
+    color:#282828;
+}
+
+
+input, textarea, select{
+    border-radius: 3px;;
+    border: 1px solid #cbcaca;
+}

@@ -1,18 +1,17 @@
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 
-function HomeLayout({children})
-{
+function HomeLayout({ children }) {
     return (
         <>
-        <Navbar/>
-{
-    children
-}
-        <Footer/>
+            <Navbar />
+            {
+                children
+            }
+            <Footer />
 
         </>
     )
 }
 
-export default  HomeLayout;
+export default HomeLayout;

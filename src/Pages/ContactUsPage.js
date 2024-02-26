@@ -7,6 +7,7 @@ import { TbFileCv } from "react-icons/tb";
 import { FiFileText } from "react-icons/fi";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import './ContactUs.css';
 
 const countary = [
     "Afghanistan", "Albania", "Algeria", "American Samoa", "Australia", "Austria", "Bangladesh", "Bhutan", "Brazil", "Bulgaria", "Canada", "China", "Denmark",

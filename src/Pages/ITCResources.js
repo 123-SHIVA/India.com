@@ -2,6 +2,7 @@ import { useState,useEffect } from "react";
 import HomeLayout from "../Layouts/HomeLayout";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
+import { useRef } from "react";
 
 import { LuClock } from "react-icons/lu";
 
@@ -197,7 +198,7 @@ function ITCResources() {
 
  
 
-
+{/* 
      <div className="overflow-hidden relative">
       <div
         ref={sliderRef}
@@ -219,7 +220,7 @@ function ITCResources() {
       >
         Next
       </button>
-    </div>
+    </div> */}
    
 
 
