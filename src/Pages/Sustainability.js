@@ -1,51 +1,8 @@
 import HomeLayout from "../Layouts/HomeLayout";
 import { FaArrowRight } from "react-icons/fa6";
-
+import {socialInvestmentData} from '../Data/Data.js'
 
 function Sustainability() {
-
-  const data = [
-    {
-      image: "https://www.itcportal.com/images/icon1-sustainability.jpg",
-      description: "e-Choupal Ecosystem",
-    },
-    {
-      image: "https://www.itcportal.com/images/icon2-sustainability.jpg",
-      description: "Afforestation Programme",
-    },
-    {
-      image: "https://www.itcportal.com/images/icon3-sustainability.jpg",
-      description: "Wateshed development Programme",
-    },
-    {
-      image: "https://www.itcportal.com/images/icon4-sustainability.jpg",
-      description: "Sustainable Agriculture",
-    },
-    {
-      image: "https://www.itcportal.com/images/icon5-sustainability.jpg",
-      description: "Livestock Development",
-    },
-    {
-      image: "https://www.itcportal.com/images/icon6-sustainability.jpg",
-      description: "Women Empowerment",
-    },
-    {
-      image: "https://www.itcportal.com/images/icon7-sustainability.jpg",
-      description: "Primary Education",
-    },
-    {
-      image: "https://www.itcportal.com/images/icon8-sustainability.jpg",
-      description: "Skillin & Vocational Training",
-    },
-    {
-      image: "https://www.itcportal.com/images/icon9-sustainability.jpg",
-      description: "Health & Sanitation",
-    },
-    {
-      image: "https://www.itcportal.com/images/icon10-sustainability.jpg",
-      description: "Solid Waste Management",
-    },
-  ];
 
   return (
     <HomeLayout>
@@ -273,7 +230,7 @@ function Sustainability() {
 
       <section className="w-[80%] p-5 m-auto text-[#282828] font-[400] text-sm">
         <div className="flex justify-between flex-wrap px-10 gap-2">
-          {data.map((item, index) => (
+          {socialInvestmentData.map((item, index) => (
             <div className="overflow-hidden card rounded-none w-[19%]">
               <img src={item.image} alt="Card" className="object-contain " />
               <div className="text-white bg-[#68aa94] min-h-24 mt-1 flex flex-wrap justify-center items-center ">

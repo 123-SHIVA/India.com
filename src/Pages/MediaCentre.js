@@ -1,148 +1,13 @@
 import HomeLayout from "../Layouts/HomeLayout";
 import { Link } from "react-router-dom"
 import { FaArrowRight } from "react-icons/fa6";
-import { IoIosArrowBack, IoIosAdd, IoIosArrowForward } from "react-icons/io";
-import { LuBedDouble, LuClock, LuMonitorPlay, LuBookOpenCheck } from "react-icons/lu";
-import { GrBasket } from "react-icons/gr";
-import { LiaToiletPaperSolid } from "react-icons/lia";
-import { GiWheat, GiMatchHead } from "react-icons/gi";
-import { TfiPackage } from "react-icons/tfi";
-import { FaHandHoldingWater } from "react-icons/fa";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { LuClock} from "react-icons/lu";
+import {itcAtGlanceData, ItcBussinesses, bigStories, ItcStories, ItcNews} from '../Data/Data.js'
+import ItcAtGlanceCard from "../Cards/ItcAtGlanceCard";
+import ItcBussinessesCard from "../Cards/ItcBussinessesCard.js";
+import '../App.css';
 
-import '../App.css'
-
-
-const LatestUpdate = [
-    {
-
-
-        img: "https://www.itcportal.com/assets/images/mediacentre/big-story-thumb-solologues-080224.jpg",
-        title: "ITC and a business case for Diversity, Equity and Inclusion: Saturday Solologues",
-        description: "What happens when an enterprise links its Diversity, Equity and Inclusivity #DEI goals with business objectives? Innovation is...",
-        date: "13 jan 2024",
-        tag: "The Economic times BrandEquity"
-    },
-    {
-        img: "https://www.itcportal.com/assets/images/mediacentre/big-story-thumb-plateful-070224.jpg",
-        title: "Plateful of vision: Sanjiv Puri takes us through ITC's ambitious menu",
-        description: "ITC Chairman Sanjiv Puri and Business Standard journalist Ishita Ayan Dutt had an in-depth conversation a day after ITC's thir....",
-        date: "03 Feb 2024",
-        tag: "Business Standard"
-    },
-    {
-        img: "https://www.itcportal.com/assets/images/mediacentre/big-story-thumb-focus-070224.jpg",
-        title: "Focus is on sustainable and inclusive growth': Sanjiv Puri",
-        description: "In an interview with THE WEEK, ITC Chairman Sanjiv Puri talks about the 'ITC Next' vectors of growth - Digital and Sustainability; pillars of..",
-        date: "11 Feb 2024",
-        tag: "The Week"
-    },
-    {
-        img: "https://www.itcportal.com/assets/images/mediacentre/big-story-thumb-next-201223.jpg",
-        title: "ITC Next: How do you turn around an elephant and make it dance?",
-        description: "In an in-depth interview with ET Online, ITC Chairman Sanjiv Puri highlighted the key tenets of ITC's diversification into FMCG includin...",
-        date: "10 Dec 2023",
-        tag: "The Economic Times"
-    },
-    {
-        img: "https://www.itcportal.com/assets/images/mediacentre/big-story-thumb-climate-171123.jpg",
-        title: "As India gallops, so will FMCG industry: Sanjiv Puri, ITC CMD",
-        description: "The key driver to unleashing FMCG growth through a virtuous cycle of consumtion, investment and income lies in creating gainful...",
-        date: "01 Jan 2024",
-        tag: "The Economic Times"
-    },
-    {
-        img: "https://www.itcportal.com/assets/images/mediacentre/big-story-thumb-dairy-240124.jpg",
-        title: "Leveraging Al in dairy and beverage manufacturing to ensure product quality: Sanjay Singal...",
-        description: "In an interview with ET Digital, Sanjay Singal, Chief Operating Officer, Dairy & Beverages, ITC Foods, said that digital...",
-        date: "04 Jan 2024",
-        tag: "The Economic Times"
-    }
-]
-
-
-const ItcBussinesses = [
-    {
-        title: "FMCG",
-        icon: <GrBasket className="text-5xl" />
-    },
-    {
-        title: "Hotels",
-        icon: <LuBedDouble className="text-5xl" />
-    },
-    {
-        title: "Paperboards & Speciality Papers",
-        icon: <LiaToiletPaperSolid className="text-5xl" />
-    },
-    {
-        title: "Packaging",
-        icon: <TfiPackage className="text-5xl" />
-    },
-    {
-        title: "Agri Business",
-        icon: <GiWheat className="text-5xl" />
-    },
-    {
-        title: "Information Technology",
-        icon: <LuMonitorPlay className="text-5xl" />
-    },
-    {
-        title: "Education and Stationary",
-        icon: <LuBookOpenCheck className="text-5xl" />
-    },
-    {
-        title: "Agarbattis & Safety Matches",
-        icon: <GiMatchHead className="text-5xl" />
-    },
-    {
-        title: "Personal Care",
-        icon: <FaHandHoldingWater className="text-5xl" />
-    },
-
-]
-
-
-const ItcStories = [
-    {
-        img: "https://www.itcportal.com/assets/images/mediacentre/everyday-stories-thumb-bhadrachalam-greenco-240124.jpg",
-        title: "ITC's Bhadrachalam Unit Gets Prestigious GreenCo Platinum+ Certification",
-        date: "05 Jan 2024"
-    },
-    {
-        img: "https://www.itcportal.com/assets/images/mediacentre/everyday-stories-thumb-leed-zero-water-050124.jpg",
-        title: "3 ITC Hotels are LEED Zero Water Certified!",
-        date: "28 Dec 2023"
-    },
-    {
-        img: "https://www.itcportal.com/assets/images/mediacentre/everyday-stories-thumb-idc-050124.jpg",
-        title: "ITC's Paperboards and Specialty Papers Business is the Asia-Pacific winner of IDC Future Enterprise Awards 2023",
-        date: "08 Dec 2023"
-    },
-]
-
-
-const ItcNews = [
-    
-    {
-        img: "https://www.itcportal.com/assets/images/latest-updates-080224.jpg",
-        description: "Focus is on sustainable and inclusive growth' Sanjiv puri  ",
-        date: "11 feb 2024"
-    },
-    {
-        img: "https://www.itcportal.com/assets/images/latest-updates-080224-1.jpg",
-        description: "Plateful of vision 'Sanjiv puri",
-        date: "03 feb 2024"
-    },
-    {
-        img: "https://www.itcportal.com/assets/images/latest-updates-080224-2.jpg",
-        description: "ITC and a business case for Diversity, Equity and inclusion",
-        date: "13 jan 2024"
-    },
-    {
-        img: "https://www.itcportal.com/assets/images/quarterly-result-thumb.jpg",
-        description: "Financial Results for the Quarter Ended December",
-        date: "29 jan 2024"
-    },
-]
 
 function MediaCentre() {
     return (
@@ -177,10 +42,10 @@ function MediaCentre() {
                     <div className=" flex gap-7 carousel my-10 ">
 
                         {
-                            LatestUpdate.map((items, index) => {
+                            bigStories.map((items, index) => {
                                 return (
                                     <div className="carousel-item">
-                                        <LatestUpdateCard item={items} key={index} />
+                                        <BigStoriesCard item={items} key={index} />
                                     </div>
                                 )
                             })
@@ -205,39 +70,14 @@ function MediaCentre() {
 
                         <div className="bg-white border border-red-500  rounded-lg my-10  ">
 
-                            <div className=" flex justify-around  text-sm relative -top-6 ">
-                                <div className="text-center">
-                                    <img src="https://www.itcportal.com/assets/images/glace_ic14.png" className="m-auto" />
-                                    <div className="mt-5">
-                                        <h1 className="text-2xl">43%</h1>
-                                        <p>of Total energy <br /> is renewable</p>
-                                    </div>
-                                </div>
-
-                                <div className="text-center">
-                                    <img src="https://www.itcportal.com/assets/images/glace_ic15.png" className="m-auto" />
-                                    <div className="mt-5">
-                                        <h1 className="text-2xl">40</h1>
-                                        <p>Platinum Rated <br /> Green Building </p>
-                                    </div>
-                                </div>
-
-                                <div className="text-center">
-                                    <img src="https://www.itcportal.com/assets/images/glace_ic16.png" className="m-auto" />
-                                    <div className="mt-5">
-                                        <h1 className="text-2xl">12 Hotels, <br /> 1 Data Center</h1>
-                                        <p>LEED Zero Carbon</p>
-                                    </div>
-                                </div>
-
-                                <div className="text-center">
-                                    <img src="https://www.itcportal.com/assets/images/glace_ic16.png" className="m-auto" />
-                                    <div className="mt-5">
-                                        <h1 className="text-2xl">2 Hotels</h1>
-                                        <p>LEED Zero Water</p>
-                                    </div>
-                                </div>
-
+                            <div className="  text-sm relative -top-6 carousel flex justify-between">
+                                {
+                                    itcAtGlanceData.map((item, index) => {
+                                        return (
+                                            <ItcAtGlanceCard item={item} key={index} />
+                                        )
+                                    })
+                                }
                             </div>
                         </div>
                     </div>
@@ -256,7 +96,7 @@ function MediaCentre() {
                         {ItcBussinesses.map((items, index) => {
                             return (
                                 <div>
-                                    <ItcBussinesseCard key={index} items={items} />
+                                    <ItcBussinessesCard key={index} items={items} />
                                 </div>
                             )
                         })}
@@ -299,6 +139,7 @@ function MediaCentre() {
             </section>
 
 
+            {/* ------------------ ITC in the News-------------- */}
             <section className="text-[#3a3a3a] mx-8 my-16 ">
                 <h1 className="text-4xl">ITC in <b>the News</b></h1>
 
@@ -307,7 +148,7 @@ function MediaCentre() {
                     {
                         ItcNews.map((items, index) => {
                             return (
-                                    <ItcNewsCard item={items} key={index} />
+                                <ItcNewsCard item={items} key={index} />
                             )
                         })
                     }
@@ -323,7 +164,7 @@ function MediaCentre() {
 
 
 
-function LatestUpdateCard({ item }) {
+function BigStoriesCard({ item }) {
     return (
         <div className="card  bg-white text-[#272727]  flex-row rounded-md overflow-hidden">
             <figure><img src={item.img} alt="Shoes" className="max-w-64 rounded-md" /></figure>
@@ -339,30 +180,6 @@ function LatestUpdateCard({ item }) {
     )
 }
 
-
-function ItcBussinesseCard({ items }) {
-    return (
-        <div className="card shadow-md shadow-gray-200 rounded-md  overflow-hidden relative">
-            <div className="group">
-                {/* first div */}
-                <div className="bg-[#1b2355] h-[3px] transition-all group-hover:h-48 absolute top-0 bottom-0 left-0 right-0  ">
-
-                </div>
-                {/* second div */}
-                <div className=" px-5 py-8  text-gray-800 h-48 flex flex-col justify-between group-hover:bg-transparent  bg-transparent relative z-10">
-                    <h2 className="w-1/2 font-semibold group-hover:text-white ">{items.title} </h2>
-                    <div>
-                        <div className=" flex justify-between items-center text-orange-600 group-hover:text-white ">
-                            <IoIosAdd className="text-2xl group-hover:text-white " />
-                            {items.icon}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    )
-}
 
 
 function ItcStoriesCard({ item }) {

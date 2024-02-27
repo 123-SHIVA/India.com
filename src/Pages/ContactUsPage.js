@@ -8,41 +8,7 @@ import { FiFileText } from "react-icons/fi";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './ContactUs.css';
-
-const countary = [
-    "Afghanistan", "Albania", "Algeria", "American Samoa", "Australia", "Austria", "Bangladesh", "Bhutan", "Brazil", "Bulgaria", "Canada", "China", "Denmark",
-    "Egypt", "Finland", "France", "Greece", "Greenland", "Iceland", "Iran", "Israel", "Italy", "India", "Japan", "Korea", "Malaysia", "Mexico", "Nepal", "New Zealand",
-    "Russian", "Romania", "Saudi Arabia", "Singapore", "South Africa", "Spain", "Sri Lanka", "Switzerland", "Taiwan", "United States",
-]
-
-
-const moreCardData = [
-    {
-        color: "bg-[#571845]",
-        title: "STORE LOCATOR",
-        icon: <IoLocationOutline />,
-        description: ""
-    },
-    {
-        color: "bg-[#900c3e]",
-        title: "POST YOUR RESUME",
-        icon: <TbFileCv />,
-        description: ""
-    },
-    {
-        color: "bg-[#ea0244]",
-        title: "ITC ADDRESSES",
-        icon: <FiFileText />,
-        description: ""
-    },
-    {
-        color: "bg-[#b66b13]",
-        title: "ITC SAMBADDHA",
-        icon: <FiFileText />,
-        description: "ITC Food vandor Relationship Portal As a perspective vendor, you may wish to share your company details"
-    }
-]
-
+import {countary, moreCardData} from '../Data/Data.js'
 
 function ContactUsPage() {
 

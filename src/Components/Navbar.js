@@ -14,14 +14,6 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import './Navbar.css';
 
 
-const navElemnts = [
-  "About ITC",
-  "Business",
-  "Brand",
-  "Sustainability",
-  "Media Center",
-];
-
 function Navbar() {
   const [serachEnable, setSearchEnable] = useState(false);
 

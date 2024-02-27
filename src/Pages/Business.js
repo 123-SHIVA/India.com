@@ -1,38 +1,7 @@
 import HomeLayout from "../Layouts/HomeLayout";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
-
-const bussinessList =[
-  {
-    img:"https://www.itcportal.com/assets/images/business_thumb1.jpg",
-    title:"FMCG",
-    discription:"ITC's rich mix of FMCG portfolio is designed and customised to delight consumers in myriad ways."
-  },
-  {
-    img:"https://www.itcportal.com/assets/images/business_thumb2.jpg",
-    title:"Hotels",
-    discription:"Launched in 1975, ITC Hotels, India's premier chain of luxury hotes, had become synonymous with India hospitality."
-  },
-  {
-    img:"https://www.itcportal.com/assets/images/business_thumb3.jpg",
-    title:"Agri Business",
-    discription:"ITC is one of india's Largest Integrated agri business enterprises with significant presence across every node of the agri value chain."
-  },
-  {
-    img:"https://www.itcportal.com/assets/images/business_thumb4.jpg",
-    title:"Paperboards and Soeciality Papers",
-    discription:"ITC's Paperboards and Speciality Papers Business is India's largest, technologically advanced and most eco-friendly paper and paperboards business."
-  },
-  {
-    img:"https://www.itcportal.com/assets/images/business_thumb5.jpg",
-    title:"Information Technology",
-    discription:"ITC infortech is a specialized global services provider, let by Business and Technology Consulting."
-  },
-  { img:"https://www.itcportal.com/assets/images/business_thumb6.jpg",
-    title:"Packaging",
-    discription:"ITC's Packaging Business is the largest value added converter of paperboard packaging in South Asia. It converts over 1,00,000 tonnes of paper, paperboard and laminates per annum."
-  },
-]
+import {bussinessList} from '../Data/Data.js';
 
 function Business() {
   return (
@@ -68,8 +37,6 @@ function Business() {
           </div>
         </div>
       </section>
-
-
 
       <section className="px-10">
 

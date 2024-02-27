@@ -1,72 +1,13 @@
-import { useState,useEffect } from "react";
 import HomeLayout from "../Layouts/HomeLayout";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
-import { useRef } from "react";
-
+import {ItcVideoGallery} from '../Data/Data.js'
 import { LuClock } from "react-icons/lu";
 
-const cards = [
-  { title: 'Card 1', content: 'Content of Card 1' },
-  { title: 'Card 2', content: 'Content of Card 2' },
-  { title: 'Card 3', content: 'Content of Card 3' },
-];
-
-
-
 function ITCResources() {
-  const sliderRef = useRef(null);
-
-  const scrollLeft = () => {
-    const slider = sliderRef.current;
-    slider.scrollLeft -= slider.offsetWidth;
-  };
-
-  const scrollRight = () => {
-    const slider = sliderRef.current;
-    slider.scrollLeft += slider.offsetWidth;
-  };
-
-
-
-
-
-
-
-
-  const cardsData = [
-    {
-
-      imageSrc: 'https://www.itcportal.com/assets/images/resources/gallery-thumb-chennarayappa-150224.jpg',
-      title: 'ITC Stories of change | Chennarayappa',
-
-    },
-    {
-
-      imageSrc: 'https://www.itcportal.com/assets/images/resources/gallery-thumb-yippee-150224.jpg',
-      title: 'YiPPee! WOW MASALA',
-
-    },
-    {
-
-      imageSrc: 'https://www.itcportal.com/assets/images/resources/gallery-thumb-sanjiv-puri-150224.jpg',
-      title: 'ITC CMD Sanjiv Puri Speaks On Sustain-O-Vation: Transformation, Transition...',
-
-    },
-    {
-
-      imageSrc: 'https://www.itcportal.com/assets/images/resources/gallery-thumb-children-150224.jpg',
-      title: "From Slate to Sky: the story of dreams & hope | World Children's Day 2023 | The ITC Way"
-
-    },
-  ];
-
-
-
 
   return (
     <HomeLayout>
-      {/* section-1-------- */}
       <section className=" ">
         <div className="text-[11px] text-white bg-gradient-to-r from-[#000080de] to-blue-700 p-3 shadow-lg shadow-[navy] px-10">
           <Link to="/" className="">
@@ -76,15 +17,9 @@ function ITCResources() {
         </div>
       </section>
 
-      {/* section-2-------- */}
+      {/* ---------------------------ITC Resources---------------- */}
       <section className="relative bg-[#0f0544]">
-        {/* Background image */}
-        {/* <img
-          className="w-full h-[100%] object-cover absolute top-0 left-0"
-          src="https://www.itcportal.com/assets/images/bluebg.jpg"
-          alt=""
-        /> */}
-
+    
         <div className="relative z-10 text-white text-sm font-[400] pt-20 px-10">
           <h1 className="text-5xl font-bold">ITC Resources</h1>
 
@@ -188,14 +123,14 @@ function ITCResources() {
 
       
 
-      {/* section-4-------- */}
+      {/* ------------------------ITC Video Gallery----------- */}
 
       <section className=" p-16 ">
           <h1 className="text-4xl mb-10 text-black font-semibold">ITC Video Gallery</h1>
 
         <div className="flex justify-between">
-          {cardsData.map((item, index) => (
-            <ItcVideoGallery item={item} key={index}/>
+          {ItcVideoGallery.map((item, index) => (
+            <ItcVideoGalleryCard item={item} key={index}/>
           ))}
         </div>
 
@@ -207,7 +142,7 @@ function ITCResources() {
 }
 
 
-function ItcVideoGallery({ item }) {
+function ItcVideoGalleryCard({ item }) {
   return (
       <div className="card bg-white text-black overflow-hidden w-72 rounded-md shadow-xl">
           <img src={item.imageSrc} className="h-[50%]" />
