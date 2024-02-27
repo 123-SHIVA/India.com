@@ -9,7 +9,10 @@ import insta from "../images/insta.png";
 import twitter from "../images/x.png";
 import { useState } from "react";
 import DropDown from "./DropDown";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
+import './Navbar.css';
+
 
 const navElemnts = [
   "About ITC",
@@ -70,7 +73,7 @@ function Navbar() {
 
       {/* --------------second navbar---------------- */}
 
-      <div className="navbar shadow-md bg-white text-black px-8 sticky top-0 z-50  ">
+      <div className="navbar shadow-md bg-white text-black px-8 sticky top-0 z-50 justify-between ">
         {serachEnable ? (
           <div className="w-4/12 m-auto border-b border-gray-400 p-2 ">
             <input
@@ -86,138 +89,164 @@ function Navbar() {
           </div>
         ) : (
           <>
-            <div className="flex-1  " >
-              <Link to="/" className=" text-xl"><img src="https://www.itcportal.com/images/logo_itc.png"/></Link>
+            <div className="flex " >
+              <Link to="/" className=" text-xl"><img src="https://www.itcportal.com/images/logo_itc.png" /></Link>
             </div>
-            <div>
+
+
+            <div className="hidden lg:block">
               <ul className="flex gap-5 px-1 text-sm font-bold text-blue-900 ">
-
-                <li className="dropdown dropdown-hover static z-0 ">
-                  <Link to="/about"
-                    tabIndex={0}
-                    role="button"
-                    className="flex gap-1 items-center"
-                  >
-                    About ITC
-                    <MdKeyboardArrowDown />
-                  </Link>
-                  <ul
-                    tabIndex={0}
-                    className="dropdown-content  z-10 menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
-                  >
-                    <DropDown componentFor={"about"} />
-                  </ul>
-                </li>
-
-                <li className="dropdown dropdown-hover static">
-                <Link to="/business"
-                    tabIndex={0}
-                    role="button"
-                    className="flex gap-1 items-center"
-                  >
-                    Business
-                    <MdKeyboardArrowDown />
-                  </Link>
-                  <ul
-                    tabIndex={0}
-                    className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
-                  >
-                    <DropDown componentFor={"Business"} />
-                  </ul>
-                </li>
-
-                <li className="dropdown dropdown-hover static">
-                <Link 
-                target="_blank"
-                to="/brands"
-                    tabIndex={0}
-                    role="button"
-                    className="flex gap-1 items-center"
-                  >
-                    Brand
-                    <MdKeyboardArrowDown />
-                  </Link>
-                  <ul
-                    tabIndex={0}
-                    className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
-                  >
-                    <DropDown componentFor={"Brand"} />
-                  </ul>
-                </li>
-
-                <li className="dropdown dropdown-hover static">
-                <Link to="/Sustainability"
-                    tabIndex={0}
-                    role="button"
-                    className="flex gap-1 items-center"
-                  >
-                    Sustainability
-                    <MdKeyboardArrowDown />
-                  </Link>
-                  <ul
-                    tabIndex={0}
-                    className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
-                  >
-                    <DropDown componentFor={"Sustainability"} />
-                  </ul>
-                </li>
-
-                <li className="dropdown dropdown-hover static">
-                  <Link
-                    to="/media-centre"
-                    tabIndex={0}
-                    role="button"
-                    className="flex gap-1 items-center"
-                  >
-                    Media Center
-                    <MdKeyboardArrowDown />
-                  </Link>
-                  <ul
-                    tabIndex={0}
-                    className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
-                  >
-                    <DropDown componentFor={"Media Center"} />
-                  </ul>
-                </li>
-
-                
-
-                <li className="dropdown dropdown-hover static">
-                <Link
-                    to="/investor"
-                    tabIndex={0}
-                    role="button"
-                    className="flex gap-1 items-center"
-                  >
-                    Investor Relation
-                  </Link>
-                </li>
-                <li className="dropdown dropdown-hover static">
-                  <a>Careers</a>
-                </li>
-                <li className="dropdown dropdown-hover static">
-                  <Link
-                    to="/ITC-Resources"
-                    tabIndex={0}
-                    role="button"
-                    className="flex gap-1 items-center"
-                  >
-                    ITC Resources
-                  </Link>
-                  <ul
-                    tabIndex={0}
-                    className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
-                  >
-                    <DropDown componentFor={"Media Center"} />
-                  </ul>
-                </li>
+                <NavbarElement />
               </ul>
             </div>
+
+
+            <div>
+
+            <div className="drawer drawer-end lg:hidden">
+              <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
+              <div className="drawer-content">
+                
+              <label htmlFor="my-drawer-4" className="drawer-button "><GiHamburgerMenu/></label>
+              </div>
+              <div className="drawer-side">
+                <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
+                <ul className="menu  p-4  min-h-full bg-white gap-5  text-sm font-bold text-blue-900 w-[60vw]">
+                  <NavbarElement/>
+                </ul>
+              </div> 
+            </div>
+            </div>
+
+
           </>
         )}
       </div>
     </>
   );
+}
+
+
+function NavbarElement() {
+  return (
+    <>
+
+      <li className="dropdown dropdown-hover static z-0 ">
+        <Link to="/about"
+          tabIndex={0}
+          role="button"
+          className="flex gap-1 items-center"
+        >
+          About ITC
+          <MdKeyboardArrowDown className="hidden lg:block" />
+        </Link>
+        <ul
+          tabIndex={0}
+          className="dropdown-content  z-10 menu bg-white  text-black left-0 right-0 p-16 h-[60vh] hidden lg:block"
+        >
+          <DropDown componentFor={"about"} />
+        </ul>
+      </li>
+
+      <li className="dropdown dropdown-hover static">
+        <Link to="/business"
+          tabIndex={0}
+          role="button"
+          className="flex gap-1 items-center"
+        >
+          Business
+          <MdKeyboardArrowDown className="hidden lg:block" />
+        </Link>
+        <ul
+          tabIndex={0}
+          className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] hidden lg:block"
+        >
+          <DropDown componentFor={"Business"} />
+        </ul>
+      </li>
+
+      <li className="dropdown dropdown-hover static">
+        <Link
+          target="_blank"
+          to="/brands"
+          tabIndex={0}
+          role="button"
+          className="flex gap-1 items-center"
+        >
+          Brand
+          <MdKeyboardArrowDown className="hidden lg:block" />
+        </Link>
+        <ul
+          tabIndex={0}
+          className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] hidden lg:block"
+        >
+          <DropDown componentFor={"Brand"} />
+        </ul>
+      </li>
+
+      <li className="dropdown dropdown-hover static">
+        <Link to="/Sustainability"
+          tabIndex={0}
+          role="button"
+          className="flex gap-1 items-center"
+        >
+          Sustainability
+          <MdKeyboardArrowDown className="hidden lg:block" />
+        </Link>
+        <ul
+          tabIndex={0}
+          className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] hidden lg:block "
+        >
+          <DropDown componentFor={"Sustainability"} />
+        </ul>
+      </li>
+
+      <li className="dropdown dropdown-hover static">
+        <Link
+          to="/media-centre"
+          tabIndex={0}
+          role="button"
+          className="flex gap-1 items-center"
+        >
+          Media Center
+          <MdKeyboardArrowDown className="hidden lg:block" />
+        </Link>
+        <ul
+          tabIndex={0}
+          className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] hidden lg:block "
+        >
+          <DropDown componentFor={"Media Center"} />
+        </ul>
+      </li>
+
+
+
+      <li className="dropdown dropdown-hover static">
+        <Link
+          to="/investor"
+          tabIndex={0}
+          role="button"
+          className="flex gap-1 items-center"
+        >
+          Investor Relation
+        </Link>
+      </li>
+      <li className="dropdown dropdown-hover static">
+        <a>Careers</a>
+      </li>
+      <li className="dropdown dropdown-hover static">
+        <Link
+          to="/ITC-Resources"
+          tabIndex={0}
+          role="button"
+          className="flex gap-1 items-center"
+        >
+          ITC Resources
+        </Link>
+        
+      </li>
+    </>
+  )
 }
 
 export default Navbar;

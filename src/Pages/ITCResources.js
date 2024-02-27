@@ -186,57 +186,7 @@ function ITCResources() {
         </div>
       </section>
 
-
-        
-
-     {/* section-3------ */}
-  
       
-
-
- 
-
- 
-
-{/* 
-     <div className="overflow-hidden relative">
-      <div
-        ref={sliderRef}
-        className="flex space-x-4 transition-transform duration-500"
-      >
-        {cards.map((card, index) => (
-          <Card key={index} {...card} />
-        ))}
-      </div>
-      <button
-        className="absolute top-1/2 transform -translate-y-1/2 left-0"
-        onClick={scrollLeft}
-      >
-        Prev
-      </button>
-      <button
-        className="absolute top-1/2 transform -translate-y-1/2 right-0"
-        onClick={scrollRight}
-      >
-        Next
-      </button>
-    </div> */}
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
 
       {/* section-4-------- */}
 
