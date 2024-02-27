@@ -190,9 +190,11 @@ function Navbar() {
                     role="button"
                     className="flex gap-1 items-center"
                   >
-                    ITC Resources
+                    Investor Resources
                     <MdKeyboardArrowDown />
                   </Link>
+
+               
                 </li>
                 <li className="dropdown dropdown-hover static">
                   <a>Careers</a>

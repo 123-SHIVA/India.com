@@ -207,10 +207,12 @@ function MediaCentre() {
 
                             <div className=" flex justify-around  text-sm relative -top-6 ">
                                 <div className="text-center">
-                                    <img src="https://www.itcportal.com/assets/images/glace_ic14.png" className="m-auto" />
+                                    <img src="https://www.itcportal.com/assets/images/glace_ic1.png" className="m-auto" />
                                     <div className="mt-5">
-                                        <h1 className="text-2xl">43%</h1>
-                                        <p>of Total energy <br /> is renewable</p>
+                                        <h1 className="text-2xl">40L-50L </h1>
+                                        <h1 className="text-2xl">Gross Revenue </h1>
+
+                                        <p>figures as on 31.03.2023<br /> </p>
                                     </div>
                                 </div>
 

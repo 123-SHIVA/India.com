@@ -9,6 +9,8 @@ import Sustainability from './Pages/Sustainability';
 import MediaCentre from './Pages/MediaCentre';
 import BrandPage from './Pages/BrandPage';
 import ITCResources from './Pages/ITCResources';
+import Investor from './Pages/Investor';
+import ContactUsPage from './Pages/ContactUsPage';
 
 
 function App() {

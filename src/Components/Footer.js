@@ -27,7 +27,7 @@ function Footer()
                         <li>Virginia House,</li>
                         <li>37, J. L. Nehru Road</li>
                         <li>Kolkata - 700071, India</li>
-                        <li>Ph: +91-33-22889371</li>
+                        <li className="text-bold text-white">Ph: +91 9748052028</li>
                         <li>Working Hours:</li>
                         <li>(Monday to Friday)</li>
                         <li>- 9:00AM to 6:00PM</li>

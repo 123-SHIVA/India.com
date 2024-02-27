@@ -133,11 +133,7 @@ function AboutPage() {
         </div>
       </section>
 
-      {/* <div className="flex items-center gap-2  text-gray-800 ">
-                        <button className="flex justify-between text-[11px] font-thin items-center w-32 bg-white py-2 px-5 rounded-2xl">View more <FaArrowRight className="text-[8px]" /></button>
-                        <IoIosArrowBack   className="bg-white rounded-full p-1 text-2xl"/>
-                        <IoIosArrowForward className=" bg-white rounded-full p-1 text-2xl" />
-                    </div> */}
+  
 
       {/* section-2 -------- */}
 
@@ -342,3 +338,5 @@ function  AboutCard({item})
 }
 
 export default AboutPage;
+
+
