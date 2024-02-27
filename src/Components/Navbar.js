@@ -8,6 +8,7 @@ import linkedin from "../images/linkedin.png";
 import insta from "../images/insta.png";
 import twitter from "../images/x.png";
 import { useState } from "react";
+import "../App.css";
 import DropDown from "./DropDown";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -71,7 +72,7 @@ function Navbar() {
             <input
               type="text"
               placeholder=" Type your search query here"
-              className="w-full text-lg bg-transparent  placeholder:text-black placeholder:font-semibold outline-none border-none "
+              className="w-full text-lg bg-transparent outline-none placeholder:text-black placeholder:font-semibold "
             />
             <BsArrowRight className="text-3xl " />
             <RxCross1
@@ -213,30 +214,40 @@ function NavbarElement() {
 
 
 
-      <li className="dropdown dropdown-hover static">
-        <Link
-          to="/investor"
-          tabIndex={0}
-          role="button"
-          className="flex gap-1 items-center"
-        >
-          Investor Relation
-        </Link>
-      </li>
-      <li className="dropdown dropdown-hover static">
-        <a>Careers</a>
-      </li>
-      <li className="dropdown dropdown-hover static">
-        <Link
-          to="/ITC-Resources"
-          tabIndex={0}
-          role="button"
-          className="flex gap-1 items-center"
-        >
-          ITC Resources
-        </Link>
-        
-      </li>
+                <li className="dropdown dropdown-hover static">
+                <Link
+                    to="/investor"
+                    tabIndex={0}
+                    role="button"
+                    className="flex gap-1 items-center"
+                  >
+                    Investor Relation
+                  </Link>
+                </li>
+                <li className="dropdown dropdown-hover static">
+                  <a>Careers</a>
+                </li>
+                <li className="dropdown dropdown-hover static">
+                  <Link
+                    to="/ITC-Resources"
+                    tabIndex={0}
+                    role="button"
+                    className="flex gap-1 items-center"
+                  >
+                    ITC Resources
+                  </Link>
+                  <ul
+                    tabIndex={0}
+                    className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
+                  >
+                    <DropDown componentFor={"Media Center"} />
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </>
+        )}
+      </div>
     </>
   )
 }

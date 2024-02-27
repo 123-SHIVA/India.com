@@ -70,14 +70,39 @@ function MediaCentre() {
 
                         <div className="bg-white border border-red-500  rounded-lg my-10  ">
 
-                            <div className="  text-sm relative -top-6 carousel flex justify-between">
-                                {
-                                    itcAtGlanceData.map((item, index) => {
-                                        return (
-                                            <ItcAtGlanceCard item={item} key={index} />
-                                        )
-                                    })
-                                }
+                            <div className=" flex justify-around  text-sm relative -top-6 ">
+                                <div className="text-center">
+                                    <img src="https://www.itcportal.com/assets/images/glace_ic14.png" className="m-auto" />
+                                    <div className="mt-5">
+                                        <h1 className="text-2xl">43%</h1>
+                                        <p>of Total energy <br /> is renewable</p>
+                                    </div>
+                                </div>
+
+                                <div className="text-center">
+                                    <img src="https://www.itcportal.com/assets/images/glace_ic15.png" className="m-auto" />
+                                    <div className="mt-5">
+                                        <h1 className="text-2xl">40</h1>
+                                        <p>Platinum Rated <br /> Green Building </p>
+                                    </div>
+                                </div>
+
+                                <div className="text-center">
+                                    <img src="https://www.itcportal.com/assets/images/glace_ic16.png" className="m-auto" />
+                                    <div className="mt-5">
+                                        <h1 className="text-2xl">12 Hotels, <br /> 1 Data Center</h1>
+                                        <p>LEED Zero Carbon</p>
+                                    </div>
+                                </div>
+
+                                <div className="text-center">
+                                    <img src="https://www.itcportal.com/assets/images/glace_ic16.png" className="m-auto" />
+                                    <div className="mt-5">
+                                        <h1 className="text-2xl">2 Hotels</h1>
+                                        <p>LEED Zero Water</p>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>

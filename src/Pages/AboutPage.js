@@ -54,6 +54,11 @@ function AboutPage() {
         </div>
       </section>
 
+      {/* <div className="flex items-center gap-2  text-gray-800 ">
+                        <button className="flex justify-between text-[11px] font-thin items-center w-32 bg-white py-2 px-5 rounded-2xl">View more <FaArrowRight className="text-[8px]" /></button>
+                        <IoIosArrowBack   className="bg-white rounded-full p-1 text-2xl"/>
+                        <IoIosArrowForward className=" bg-white rounded-full p-1 text-2xl" />
+                    </div> */}
 
       {/* --------------------------ITC at a Glance------------ */}
       <section className="px-14 mt-10 w-full  text-black">
@@ -220,3 +225,5 @@ function MoreAboutItc({ item }) {
 }
 
 export default AboutPage;
+
+
