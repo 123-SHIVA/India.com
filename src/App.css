@@ -11,11 +11,17 @@ li >a:hover
     background-image: linear-gradient(to right, #3ea161, #67b150, #95be39, #c7c71d, #ffcc00);
 }
 
-input::placeholder{
-    color:#282828;
+.group:hover .group-hover\:animate-bounce {
+    animation: bounce .4s 2;
 }
 
-input, textarea, select{
-    border-radius: 3px;;
-    border: 1px solid #cbcaca;
+@keyframes bounce {
+    0%, 100% {
+        transform: translateX(-50%);
+        animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
 }

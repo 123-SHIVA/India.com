@@ -2,6 +2,7 @@ import { useState,useEffect,useRef } from "react";
 import HomeLayout from "../Layouts/HomeLayout";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
+import { useRef } from "react";
 
 import { LuClock } from "react-icons/lu";
 
@@ -112,7 +113,48 @@ function ITCResources() {
             </a>
           </div>
         </div>
+<<<<<<< HEAD
       </div>
+=======
+      </section>
+
+
+        
+
+     {/* section-3------ */}
+  
+      
+
+
+ 
+
+ 
+
+{/* 
+     <div className="overflow-hidden relative">
+      <div
+        ref={sliderRef}
+        className="flex space-x-4 transition-transform duration-500"
+      >
+        {cards.map((card, index) => (
+          <Card key={index} {...card} />
+        ))}
+      </div>
+      <button
+        className="absolute top-1/2 transform -translate-y-1/2 left-0"
+        onClick={scrollLeft}
+      >
+        Prev
+      </button>
+      <button
+        className="absolute top-1/2 transform -translate-y-1/2 right-0"
+        onClick={scrollRight}
+      >
+        Next
+      </button>
+    </div> */}
+   
+>>>>>>> 8936344f7dd877754385cfb47bdf9d25f968794f
 
       <div className="rounded-lg shadow-lg">
         <img

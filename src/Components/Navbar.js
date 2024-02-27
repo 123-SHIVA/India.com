@@ -8,7 +8,6 @@ import linkedin from "../images/linkedin.png";
 import insta from "../images/insta.png";
 import twitter from "../images/x.png";
 import { useState } from "react";
-import "../App.css";
 import DropDown from "./DropDown";
 import {Link} from "react-router-dom"
 
@@ -77,7 +76,7 @@ function Navbar() {
             <input
               type="text"
               placeholder=" Type your search query here"
-              className="w-full text-lg bg-transparent outline-none placeholder:text-black placeholder:font-semibold "
+              className="w-full text-lg bg-transparent  placeholder:text-black placeholder:font-semibold outline-none border-none "
             />
             <BsArrowRight className="text-3xl " />
             <RxCross1
@@ -190,8 +189,12 @@ function Navbar() {
                     role="button"
                     className="flex gap-1 items-center"
                   >
+<<<<<<< HEAD
                     Investor Resources
                     <MdKeyboardArrowDown />
+=======
+                    Investor Relation
+>>>>>>> 8936344f7dd877754385cfb47bdf9d25f968794f
                   </Link>
 
                
@@ -207,7 +210,6 @@ function Navbar() {
                     className="flex gap-1 items-center"
                   >
                     ITC Resources
-                    <MdKeyboardArrowDown />
                   </Link>
                   <ul
                     tabIndex={0}
