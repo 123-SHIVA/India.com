@@ -225,7 +225,21 @@ function NavbarElement() {
         </Link>
       </li>
       <li className="dropdown dropdown-hover static">
-        <a>Careers</a>
+        <Link
+          to="/career"
+          tabIndex={0}
+          role="button"
+          className="flex gap-1 items-center"
+        >
+          Career
+          <MdKeyboardArrowDown className="hidden lg:block" />
+        </Link>
+        <ul
+          tabIndex={0}
+          className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] hidden lg:block "
+        >
+          <DropDown componentFor={"Media Center"} />
+        </ul>
       </li>
       <li className="dropdown dropdown-hover static">
         <Link
