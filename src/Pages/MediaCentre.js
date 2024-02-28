@@ -125,11 +125,9 @@ function MediaCentre() {
 
                 <div className="w-[100%]">
                     <h1 className="text-3xl font-bold mb-10">Everyday stories from ITC</h1>
-<<<<<<< HEAD
-                    <div className="flex  gap-5 ">
-=======
+
                     <div className="flex flex-col sm:flex-row  gap-5 ">
->>>>>>> f1d6488cfaa11af76dbb9e63fb95b7266f31c6b8
+
                         {
                             ItcStories.map((item, index) => {
                                 return (
@@ -170,13 +168,10 @@ function MediaCentre() {
 
 function BigStoriesCard({ item }) {
     return (
-<<<<<<< HEAD
-        <div className="card w-[80%]  bg-white text-[#272727]  lg:flex-row rounded-md overflow-hidden">
-            <figure><img src={item.img} alt="Shoes" className="lg:max-w-64 w-full rounded-md" /></figure>
-=======
+
+
         <div className="card lg:w-full w-96 bg-white text-[#272727]  lg:flex-row rounded-md overflow-hidden">
             <figure><img src={item.img} alt="Shoes" className=" w-full h-full rounded-md" /></figure>
->>>>>>> f1d6488cfaa11af76dbb9e63fb95b7266f31c6b8
             <div className="card-body p-8 flex flex-col  lg:max-w-72">
                 <h1 className="font-bold text-sm text-[#1b2355]">{item.title}</h1>
                 <p className="text-xs leading-5 mt-3 ">{item.description}</p>

@@ -25,3 +25,8 @@ li >a:hover
         animation-timing-function: cubic-bezier(0,0,0.2,1);
     }
 }
+
+
+.careerCardBg{
+    background-image: url('https://www.itcportal.com/images/bg.jpg');
+}
