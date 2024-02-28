@@ -9,6 +9,7 @@ import BrandPage from './Pages/BrandPage';
 import ITCResources from './Pages/ITCResources';
 import Investor from './Pages/Investor';
 import ContactUsPage from './Pages/ContactUsPage';
+import Career from './Pages/Career';
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
           <Route path='/brands' element={<BrandPage/>} />
           <Route path='/ITC-Resources' element={<ITCResources/>} />
           <Route path='/contact-us' element={<ContactUsPage/>} />
+          <Route path='/career' element={<Career/>} />
+          
         </Routes>
       </Router>
     </div>
