@@ -1,9 +1,8 @@
-function Footer()
-{
+function Footer() {
     return (
         <div>
-            <section className="border-t text-sm text-black px-32">
-                <div className="flex justify-end">
+            <section className="border-t text-sm text-black lg:px-32  px-10">
+                <div className="flex lg:justify-end">
                     <div className="flex items-center gap-3 p-3">
                         <img src="https://www.itcportal.com/images/icon2.png" />
                         <p>ITC on social media</p>
@@ -20,7 +19,7 @@ function Footer()
 
             </section>
 
-            <div className="bg-[#3594e1] text-[#a2ceed] font-semibold">
+            <div className="bg-[#3594e1] text-[#a2ceed] font-semibold hidden lg:block">
                 <div className=" flex text-[11px] w-10/12 m-auto gap-10 px-10 py-14 ">
                     <ul className="leading-6">
                         <li className="text-white text-sm font-bold">ITC LIMITED</li>
@@ -98,19 +97,20 @@ function Footer()
                         <li>Sitemap</li>
                     </ul>
                 </div>
-                <div className=" bg-white text-[#6b6b6b] text-xs py-6 ">
-                    <div className="w-10/12 px-10 flex justify-between m-auto">
-                        <div >@ ITC Limited 2024</div>
-                        <ul className="flex gap-5">
-                            <li>Terms of use</li>
-                            <li>Privacy Policy</li>
-                            <li>Sitemap</li>
-                        </ul>
-                    </div>
+            </div>
+
+            <div className=" bg-white text-[#6b6b6b] text-xs py-6 border ">
+                <div className="w-10/12 px-10 flex flex-col lg:flex-row justify-between items-center m-auto">
+                    <div >@ ITC Limited 2024</div>
+                    <ul className="flex gap-5">
+                        <li>Terms of use</li>
+                        <li>Privacy Policy</li>
+                        <li>Sitemap</li>
+                    </ul>
                 </div>
             </div>
         </div>
     )
-} 
+}
 
 export default Footer;

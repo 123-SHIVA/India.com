@@ -1,5 +1,5 @@
-import Carosal from "../Components/Carosal";
-import ItcVectorGrowthCard from "../Components/ItcVectorGrowthCard";
+import Carosal from "../Cards/Carosal.js";
+import ItcVectorGrowthCard from "../Cards/ItcVectorGrowthCard.js";
 import HomeLayout from "../Layouts/HomeLayout";
 import { FaArrowRight } from "react-icons/fa6";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
@@ -115,18 +115,20 @@ function HomePage() {
 
             {/* --------------------------------- Leadership Speaks---------- */}
 
-            <section className="bg-[#2f2649] h-[73vh] relative flex items-end justify-center text-white">
+            <section className="bg-[#2f2649] py-10 relative flex  items-end justify-center text-white">
 
-                <div className=" w-9/12  flex justify-evenly items-center  ">
-                    <div className="font-semibold">
+                <div className=" lg:w-9/12 w-11/12 flex  flex-col lg:flex-row justify-evenly lg:items-center   ">
+                    <div className="font-semibold ">
                         <h2 className="text-xl">Leadership Speaks</h2>
                         <h1 className="text-3xl mt-5 mb-3">Mr. Sanjiv Puri</h1>
                         <p className="text-sm">Chairman & Md</p>
                     </div>
-                    <img src="https://www.itcportal.com/assets/images/sanjiv-puri.png" className="h-[65vh]" />
-
-                    <div className="w-96 mt-10 ml-10">
-                        <div className="carousel flex gap-5 items-end ">
+                    <div >
+                        <img src="https://www.itcportal.com/assets/images/sanjiv-puri.png" className="h-[65vh]" />
+                        <hr className="mt-5 lg:hidden" />
+                    </div>
+                    <div className="lg:w-96 w-[70vw] mt-10 ml-10 ">
+                        <div className="carousel flex gap-5  justify-between ">
                             {
                                 leadershipSpeaks.map((items, index) => {
                                     return (
@@ -144,7 +146,7 @@ function HomePage() {
 
             <section className=" my-20 ">
 
-                <div className="w-2/3 m-auto">
+                <div className="lg:w-2/3 w-11/12 m-auto">
                     <h1 className="text-3xl text-[#1b2355] text-center">ITC <span className="font-semibold"> Businesses</span></h1>
 
                     <div className="grid grid-cols-3 gap-4 my-14">
@@ -195,7 +197,7 @@ function HomePage() {
 
 
             <section className="my-24 px-5 text-black">
-                <div className="w-1/2  m-auto flex justify-around px-5">
+                <div className="lg:w-1/2  m-auto flex justify-around px-5">
                     <div className="flex gap-10">
                         <img src="https://www.itcportal.com/assets/images/itc-report-ac-home-2023.png" className=" w-20 h-20" />
                         <div className="flex flex-col gap-8">
@@ -257,7 +259,7 @@ function BrandCard({ item }) {
 function LeadershipSpeaksCard({ items }) {
     return (
         <div>
-            <div className=" w-96 font-semibold text-left ">
+            <div className=" lg:w-96 w-[70vw] card font-semibold text-left flex flex-col justify-between ">
                 <h1 className="text-xl font-bold">{items.title}</h1>
                 <h2 className="text-[10px] my-1">{items.subTitle}</h2>
                 <p className="text-sm mt-5 opacity-30">{items.description}</p>
