@@ -2,8 +2,8 @@ import HomeLayout from "../Layouts/HomeLayout";
 import { Link } from "react-router-dom"
 import { FaArrowRight } from "react-icons/fa6";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import { LuClock} from "react-icons/lu";
-import {itcAtGlanceData, ItcBussinesses, bigStories, ItcStories, ItcNews} from '../Data/Data.js'
+import { LuClock } from "react-icons/lu";
+import { itcAtGlanceData, ItcBussinesses, bigStories, ItcStories, ItcNews } from '../Data/Data.js'
 import ItcAtGlanceCard from "../Cards/ItcAtGlanceCard";
 import ItcBussinessesCard from "../Cards/ItcBussinessesCard.js";
 import '../App.css';
@@ -70,39 +70,14 @@ function MediaCentre() {
 
                         <div className="bg-white border border-red-500  rounded-lg my-10  ">
 
-                            <div className=" flex justify-around  text-sm relative -top-6 ">
-                                <div className="text-center">
-                                    <img src="https://www.itcportal.com/assets/images/glace_ic14.png" className="m-auto" />
-                                    <div className="mt-5">
-                                        <h1 className="text-2xl">43%</h1>
-                                        <p>of Total energy <br /> is renewable</p>
-                                    </div>
-                                </div>
-
-                                <div className="text-center">
-                                    <img src="https://www.itcportal.com/assets/images/glace_ic15.png" className="m-auto" />
-                                    <div className="mt-5">
-                                        <h1 className="text-2xl">40</h1>
-                                        <p>Platinum Rated <br /> Green Building </p>
-                                    </div>
-                                </div>
-
-                                <div className="text-center">
-                                    <img src="https://www.itcportal.com/assets/images/glace_ic16.png" className="m-auto" />
-                                    <div className="mt-5">
-                                        <h1 className="text-2xl">12 Hotels, <br /> 1 Data Center</h1>
-                                        <p>LEED Zero Carbon</p>
-                                    </div>
-                                </div>
-
-                                <div className="text-center">
-                                    <img src="https://www.itcportal.com/assets/images/glace_ic16.png" className="m-auto" />
-                                    <div className="mt-5">
-                                        <h1 className="text-2xl">2 Hotels</h1>
-                                        <p>LEED Zero Water</p>
-                                    </div>
-                                </div>
-
+                            <div className="  text-sm relative -top-6 carousel flex justify-between">
+                                {
+                                    itcAtGlanceData.map((item, index) => {
+                                        return (
+                                            <ItcAtGlanceCard item={item} key={index} />
+                                        )
+                                    })
+                                }
                             </div>
                         </div>
                     </div>
@@ -150,7 +125,11 @@ function MediaCentre() {
 
                 <div className="w-[100%]">
                     <h1 className="text-3xl font-bold mb-10">Everyday stories from ITC</h1>
+<<<<<<< HEAD
                     <div className="flex  gap-5 ">
+=======
+                    <div className="flex flex-col sm:flex-row  gap-5 ">
+>>>>>>> f1d6488cfaa11af76dbb9e63fb95b7266f31c6b8
                         {
                             ItcStories.map((item, index) => {
                                 return (
@@ -191,8 +170,13 @@ function MediaCentre() {
 
 function BigStoriesCard({ item }) {
     return (
+<<<<<<< HEAD
         <div className="card w-[80%]  bg-white text-[#272727]  lg:flex-row rounded-md overflow-hidden">
             <figure><img src={item.img} alt="Shoes" className="lg:max-w-64 w-full rounded-md" /></figure>
+=======
+        <div className="card lg:w-full w-96 bg-white text-[#272727]  lg:flex-row rounded-md overflow-hidden">
+            <figure><img src={item.img} alt="Shoes" className=" w-full h-full rounded-md" /></figure>
+>>>>>>> f1d6488cfaa11af76dbb9e63fb95b7266f31c6b8
             <div className="card-body p-8 flex flex-col  lg:max-w-72">
                 <h1 className="font-bold text-sm text-[#1b2355]">{item.title}</h1>
                 <p className="text-xs leading-5 mt-3 ">{item.description}</p>

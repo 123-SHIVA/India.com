@@ -23,8 +23,8 @@ function ContactUsPage() {
 
 
             emailjs
-                .sendForm('service_neha_baghel', 'template_ukks1lg', form.current, {
-                    publicKey: 'QU9HEMqLqI6gzpPK0',
+                .sendForm('service_jo93pjm', 'template_aursd0j', form.current, {
+                    publicKey: 'sDXNB0DgK2-eTioGZ',
                 })
                 .then(
                     () => { },
