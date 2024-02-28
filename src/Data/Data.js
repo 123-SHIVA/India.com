@@ -225,7 +225,8 @@ export const ItcPerspective = [
           economy and the Company's stakeholders
         </p>
       ),
-  
+      color:"bg-[#190483]"
+      
     },
     {
       img: mission,
@@ -237,6 +238,7 @@ export const ItcPerspective = [
           values
         </p>
       ),
+      color:"bg-[#150371]"
     },
     {
       img: values,
@@ -250,8 +252,9 @@ export const ItcPerspective = [
           Know more
         </p>
       ),
+      color:"bg-[#13045c]"
     },
-  ];
+];
   
 
 export  const globalHonours = [
