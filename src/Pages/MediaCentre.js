@@ -39,7 +39,7 @@ function MediaCentre() {
                     </div>
 
 
-                    <div className=" flex gap-7 carousel my-10 ">
+                    <div className="w-full flex gap-7 carousel my-10 ">
 
                         {
                             bigStories.map((items, index) => {
@@ -114,7 +114,7 @@ function MediaCentre() {
             {/* ----------------------------- ITC Businesses----------------------- */}
             <section className=" my-40 ">
 
-                <div className="w-2/3 m-auto">
+                <div className="lg:w-2/3 w-11/12 m-auto">
                     <h1 className="text-3xl text-[#1b2355] text-center">ITC <span className="font-semibold"> Businesses</span></h1>
 
                     <div className="grid grid-cols-3 gap-4 my-14">
@@ -132,8 +132,8 @@ function MediaCentre() {
 
             {/* ---------------------Press Releases----------------------- */}
 
-            <section className="bg-[#0f0544]  px-10 py-14 text-white flex gap-24">
-                <div className="w-1/4 ">
+            <section className="bg-[#0f0544]  px-10 py-14 text-white flex flex-col lg:flex-row gap-24">
+                <div className=" lg:w-1/4 ">
                     <h1 className="text-3xl font-bold mb-10">Press Releases</h1>
                     <div className="text-xs text-[#f3f0f0] flex flex-col gap-10 ">
                         <div>
@@ -150,7 +150,7 @@ function MediaCentre() {
 
                 <div className="w-[100%]">
                     <h1 className="text-3xl font-bold mb-10">Everyday stories from ITC</h1>
-                    <div className="grid grid-cols-3 gap-5 ">
+                    <div className="flex  gap-5 ">
                         {
                             ItcStories.map((item, index) => {
                                 return (
@@ -168,7 +168,7 @@ function MediaCentre() {
             <section className="text-[#3a3a3a] mx-8 my-16 ">
                 <h1 className="text-4xl">ITC in <b>the News</b></h1>
 
-                <div className=" grid grid-cols-4 gap-5 my-10">
+                <div className="w-full grid lg:grid-cols-4 grid-cols-2 gap-7 carousel my-10 ">
 
                     {
                         ItcNews.map((items, index) => {
@@ -191,9 +191,9 @@ function MediaCentre() {
 
 function BigStoriesCard({ item }) {
     return (
-        <div className="card  bg-white text-[#272727]  flex-row rounded-md overflow-hidden">
-            <figure><img src={item.img} alt="Shoes" className="max-w-64 rounded-md" /></figure>
-            <div className="card-body p-8 flex flex-col  max-w-72">
+        <div className="card w-[80%]  bg-white text-[#272727]  lg:flex-row rounded-md overflow-hidden">
+            <figure><img src={item.img} alt="Shoes" className="lg:max-w-64 w-full rounded-md" /></figure>
+            <div className="card-body p-8 flex flex-col  lg:max-w-72">
                 <h1 className="font-bold text-sm text-[#1b2355]">{item.title}</h1>
                 <p className="text-xs leading-5 mt-3 ">{item.description}</p>
                 <div className=" mt-5 text-[10px] px-2 flex justify-between  text-[#1b2355]">
@@ -226,8 +226,8 @@ function ItcStoriesCard({ item }) {
 
 function ItcNewsCard({ item }) {
     return (
-        <div className="card  bg-white text-black shadow-lg rounded-md">
-            <figure><img src={item.img} alt="Shoes" className="w-full" /></figure>
+        <div className="card w-full  bg-white text-black shadow-lg rounded-md">
+            <figure><img src={item.img} alt="News" className="w-full" /></figure>
             <div className="card-body p-5">
                 <p className="text-sm">{item.description}</p>
                 <p className=" mt-5 text-[10px] px-2">{item.date}</p>
