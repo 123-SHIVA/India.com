@@ -1,6 +1,6 @@
 import HomeLayout from "../Layouts/HomeLayout";
 import { FaArrowRight } from "react-icons/fa6";
-import {socialInvestmentData} from '../Data/Data.js'
+import { socialInvestmentData } from '../Data/Data.js'
 
 function Sustainability() {
 
@@ -12,15 +12,15 @@ function Sustainability() {
           className="w-full"
           src="https://www.itcportal.com/images/sus_introbanner.jpg"
         />
-        <div className="relative bottom-24 w-[80%] text-white font-bold  m-auto  ">
+        <div className="relative lg:bottom-24 bottom-16 lg:w-[80%] text-white font-bold  m-auto  ">
 
-          <div className=" bg-[#265d1b] flex justify-between items-center mx-4 ">
+          <div className=" bg-[#265d1b] flex justify-between items-center lg:mx-4 ">
 
-            <div className="text-3xl font-[300] px-16 py-10 ">
+            <div className="lg:text-3xl font-[350] px-16  ">
               <h1>Transforming lives and landscapes in India</h1>
               <hr className="w-9 mt-3 border-b-2 border-white"></hr>
             </div>
-            <div className="flex flex-col gap-4 items-center bg-[#253722] px-16 py-8 ">
+            <div className="flex flex-col gap-4 items-center bg-[#253722] px-16 lg:py-8  py-2">
               <img
                 src="https://www.itcportal.com/images/sus_key_ic_in.png"
                 className="w-16"
@@ -39,7 +39,7 @@ function Sustainability() {
       {/* --------------------------Why is sustainability important? */}
 
 
-      <section className=" subpixel-antialiased text-[15px] font-[300]  text-[#231f20] w-[70%] m-auto leading-6 tracking-tight ">
+      <section className=" subpixel-antialiased text-[15px] font-[300]  text-[#231f20] w-[80%] lg:w-[70%] m-auto leading-6 tracking-tight ">
         <h1 className="text-3xl mb-2 font-[400] ">
           Why is sustainability important?
         </h1>
@@ -75,8 +75,8 @@ function Sustainability() {
 
       {/* -----------------------Sustainability as a driving force for ITC */}
 
-      <section className="flex flex-col lg:flex-row gap-8 text-[#282828] font-[400] my-10">
-        <div className="w-1/2 py-16 pl-48 pr-6 bg-[#7ad0d8] text-sm tracking-wide font-[350] flex flex-col gap-3 ">
+      <section className="flex flex-col lg:flex-row gap-8 lg:text-[#282828]text-white font-[400] my-10">
+        <div className="lg:w-1/2 py-16 lg:pl-48 px-10 pr-6 lg:bg-[#7ad0d8] bg-[#265d1b] text-sm tracking-wide font-[350] flex flex-col gap-3 ">
           <hr className="w-7 mt-3 border-b-2 border-[#282828]"></hr>
           <h3 className="text-2xl mb-4">
             Sustainability as a driving force for ITC
@@ -110,7 +110,7 @@ function Sustainability() {
       </section>
 
       {/* ------------------------------------Sustainability in Action */}
-      <section className="w-[80%] p-5 m-auto text-[#282828] font-[400]">
+      <section className="lg:w-[80%] w-[90%] p-5 m-auto text-[#282828] font-[400]">
         <h1 className="text-3xl mb-3 ">
           Sustainability in Action
         </h1>
@@ -139,16 +139,14 @@ function Sustainability() {
       </section>
 
 
-      <section className="w-[80%] m-auto text-[#282828] text-base font-[350] tracking-tight flex flex-row p-5 ">
-        <div className=" flex items-center">
-          <div>
-            <img
-              src="https://www.itcportal.com/images/images1.jpg"
-              alt="Card Image"
-              className="w-full"
-            />
-          </div>
-          <div className=" bg-[#265d1b] h-60 text-white w-1/2 align-right  p-5">
+      <section className="lg:w-[80%] w-[90%] m-auto text-[#282828] text-base font-[350] tracking-tight flex flex-row p-5 ">
+        <div className=" w-1/2 mx-4 lg:m-4 flex flex-col lg:flex-row items-center">
+          <img
+            src="https://www.itcportal.com/images/images1.jpg"
+            alt="Card Image"
+            className="lg:w-1/2" />
+
+          <div className=" bg-[#265d1b] h-full text-white lg:w-1/2 p-5">
             <h1>Renewable Energy</h1>
             <h1 className="my-4">
               - About 43% of energy consumption at ITC is from renewable sources
@@ -157,16 +155,14 @@ function Sustainability() {
           </div>
         </div>
 
-        <div className=" m-4 flex items-center">
-          <div>
-            <img
-              src="https://www.itcportal.com/images/images2.jpg"
-              alt="Card Image"
-              className="w-full h-auto "
-            />
-          </div>
-          <div className=" bg-[#265d1b] h-60 text-white w-1/2 align-right p-5">
-            <h1>Responsible luxury</h1>
+        <div className=" w-1/2 mx-4 lg:m-4 flex flex-col lg:flex-row items-center">
+          <img
+            src="https://www.itcportal.com/images/images2.jpg"
+            alt="Card Image"
+            className="lg:w-1/2" />
+
+          <div className=" bg-[#265d1b] h-full text-white lg:w-1/2 p-5">
+          <h1>Responsible luxury</h1>
             <h1 className="my-4">- ITC Hotels: Trailblazer in Responsible Luxury</h1>
             <h1>
               - All ITC's Premium Luxury Hotels are LEED Platinium Certified
@@ -174,11 +170,13 @@ function Sustainability() {
 
           </div>
         </div>
+
+      
       </section>
 
       {/* ----------------------------ITC's ESG Credentials */}
 
-      <section className="w-[80%] p-5 m-auto text-[#282828] font-[400] text-sm ">
+      <section className="lg:w-[80%] w-[90%] p-5 m-auto text-[#282828] font-[400] text-sm ">
         <h1 className="text-lg f ">ITC's ESG Credentials</h1>
 
         <div className="flex justify-evenly items-center">
@@ -208,7 +206,7 @@ function Sustainability() {
 
       {/* ----------------------ITC's Social Investment Initiatives */}
 
-      <section className="w-[80%] p-5 m-auto text-[#282828] font-[400] text-sm">
+      <section className="lg:w-[80%] w-[90%] p-5 m-auto text-[#282828] font-[400] text-sm">
         <div >
           <h1 className="mb-4 font-semibold text-lg">
             ITC's Social Investment Initiatives
@@ -228,10 +226,10 @@ function Sustainability() {
         </div>
       </section>
 
-      <section className="w-[80%] p-5 m-auto text-[#282828] font-[400] text-sm">
-        <div className="flex justify-between flex-wrap px-10 gap-2">
+      <section className="lg:w-[80%] w-[95%]  p-5 m-auto text-[#282828] font-[400] text-sm">
+        <div className="grid lg:grid-cols-4 grid-cols-2 justify-between gap-2">
           {socialInvestmentData.map((item, index) => (
-            <div className="overflow-hidden card rounded-none w-[19%]" key={index}>
+            <div className="overflow-hidden card rounded-none " key={index}>
               <img src={item.image} alt="Card" className="object-contain " />
               <div className="text-white bg-[#68aa94] min-h-24 mt-1 flex flex-wrap justify-center items-center ">
                 <p className="w-[60%]">{item.description}</p>
@@ -243,7 +241,7 @@ function Sustainability() {
 
       {/* ------------------------ITC's Sustainability Impact */}
 
-      <section className="w-[80%] p-5 m-auto text-[#282828] font-[350] text-sm">
+      <section className="lg:w-[80%] w-[90%]  p-5 m-auto text-[#282828] font-[350] text-sm">
         <div>
           <h1 className="mb-4 font-semibold text-xl">
             ITC's Sustainability Impact
@@ -266,7 +264,7 @@ function Sustainability() {
       </section>
 
       <section className=" flex flex-col lg:flex-row  text-[#282828] font-[350] text-sm">
-        <div className="lg:w-1/2 py-16  pr-5 pl-40 subpixel-antialiased  text-white  bg-[#265d1b] leading-5 tracking-wide ">
+        <div className="lg:w-1/2 py-16  pr-5 lg:pl-40 px-14 subpixel-antialiased  text-white  bg-[#265d1b] leading-5 tracking-wide ">
 
           <h3 className="text-2xl  mb-2">
             <hr className="w-7 mt-3 border-b-2 mb-3 border-white"></hr>
@@ -281,7 +279,7 @@ function Sustainability() {
             spread over 25 States/Union Territories covering 200 districts.
           </p>
           <button className=" mt-10 text-[10px] font-thin  w-32  text-blue py-1 px-5 border border-white">
-            Know more 
+            Know more
           </button>
         </div>
         <div className="lg:w-1/2 flex justify-center items-start">
@@ -293,7 +291,7 @@ function Sustainability() {
         </div>
       </section>
 
-      <section  className="w-[80%] p-5 m-auto text-[#282828] font-[350] text-sm tracking-wide leading-6">
+      <section className="lg:w-[80%] w-[95%] p-5 m-auto text-[#282828] font-[350] text-sm tracking-wide leading-6">
         <div className=" p-10">
           <h1 className="text-2xl mb-4 ">ITC EHS</h1>
 
@@ -313,14 +311,16 @@ function Sustainability() {
           </p>
 
           <div className="text-center">
-          <button className=" mt-10 text-[10px] w-32  text-blue py-2 text-sm px-5 border border-gray-500 ">
-            Know more 
-          </button>
+            <button className=" mt-10 text-[10px] w-32  text-blue py-2 text-sm px-5 border border-gray-500 ">
+              Know more
+            </button>
           </div>
         </div>
       </section>
     </HomeLayout>
   );
 }
+
+
 
 export default Sustainability;
