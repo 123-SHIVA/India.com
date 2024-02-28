@@ -3,6 +3,9 @@ import HomeLayout from "../Layouts/HomeLayout";
 function Career(){
 
 
+   
+
+
 return (
    <HomeLayout>
    <div className="flex  ">
@@ -17,6 +20,61 @@ return (
         </div>
     </div>
 </div>
+
+
+
+{/* section --2 */}
+<div className="flex flex-wrap justify-center">
+      
+        <div  className="bg-[black]  w shadow-lg m-4">
+          <img
+            className="w-full"
+            src=''
+            alt=''
+          />
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2"></div>
+            <p className="text-gray-700 text-base"></p>
+          </div>
+        </div>
+    
+        <div  className="max-w-xs rounded overflow-hidden bg-green-800 shadow-lg m-4">
+          <img
+            className="w-full"
+            src=''
+            alt=''
+          />
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2"></div>
+            <p className="text-gray-700 text-base"></p>
+          </div>
+        </div>
+    
+        <div  className="max-w-xs rounded overflow-hidden bg-blue-400 shadow-lg m-4">
+          <img
+            className="w-full"
+            src=''
+            alt=''
+          />
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2"></div>
+            <p className="text-gray-700 text-base"></p>
+          </div>
+        </div>
+    
+        <div  className="max-w-xs rounded overflow-hidden bg-red-600 shadow-lg m-4">
+          <img
+            className="w-full"
+            src='https://www.itcportal.com/images/careers-icon1.png'
+            alt=''
+          />
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2"></div>
+            <p className="text-gray-700 text-base"></p>
+          </div>
+        </div>
+    
+    </div>
 
 
 
