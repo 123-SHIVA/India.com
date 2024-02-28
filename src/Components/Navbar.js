@@ -160,7 +160,6 @@ function NavbarElement() {
 
       <li className="dropdown dropdown-hover static">
         <Link
-          target="_blank"
           to="/brands"
           tabIndex={0}
           role="button"
@@ -250,12 +249,7 @@ function NavbarElement() {
         >
           ITC Resources
         </Link>
-        <ul
-          tabIndex={0}
-          className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
-        >
-          <DropDown componentFor={"Media Center"} />
-        </ul>
+        
       </li>
 
 
