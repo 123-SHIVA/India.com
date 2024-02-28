@@ -4,7 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { TfiViewListAlt, TfiViewGrid } from "react-icons/tfi";
 import { Link } from "react-router-dom";
 import { RxCross1 } from "react-icons/rx";
-import {brandsData, drawerDate} from '../Data/Data.js'
+import { brandsData, drawerDate } from '../Data/Data.js'
 import './BrandPage.css'
 
 
@@ -19,27 +19,26 @@ function BrandPage() {
 
 
             <section className="bg-white" >
-                <div className="bg-[#071952] h-80 text-white">
+                <div className="lg:bg-[#071952] bg-[#0080ff]  h-80 text-white">
 
-                    <div className="w-[85vw] m-auto">
+                    <div className="lg:w-[85vw] m-auto">
                         <div className="flex justify-between items-center">
                             <div className="p-5 border-x border-gray-700 h-28 flex items-center" >
                                 <Link to="/" target="_blank"><img src="https://www.itcportal.com/brands-microsite/images/logo.png" className="w-[90%]" /></Link>
                             </div>
-                            <div className="flex items-center gap-10 text-sm">
-                                <div>
-                                    <img className="inline px-2 w-11" src="https://www.itcportal.com/brands-microsite/images/cart_ic.png" />
-                                    <p className="inline">Store Locator</p>
-                                </div>
-                                <div>
-                                    <img className="inline px-2 w-11" src="https://www.itcportal.com/brands-microsite/images/cart_cart.png" />
-                                    <p className="inline">Order online</p>
+                            <div className="flex  items-center sm:gap-10   text-sm">
+                                <div className="flex flex-col sm:flex-row ">
+                                    <div>
+                                        <img className="inline px-2 w-11" src="https://www.itcportal.com/brands-microsite/images/cart_ic.png" />
+                                        <p className="inline">Store Locator</p>
+                                    </div>
+                                    <div>
+                                        <img className="inline px-2 w-11" src="https://www.itcportal.com/brands-microsite/images/cart_cart.png" />
+                                        <p className="inline">Order online</p>
+                                    </div>
                                 </div>
                                 <div className="px-5 h-28  border-x border-gray-700 flex items-center">
                                     <Drawer />
-
-
-
                                 </div>
                             </div>
                         </div>
@@ -60,7 +59,7 @@ function BrandPage() {
 
 
             {/* -----------navbar---------- */}
-            <div className="px-24 sticky top-0 z-20 bg-white text-2xl font-thin pt-2 pb-5 flex justify-between items-center">
+            <div className="lg:px-24 px-10 sticky top-0 z-20 bg-white text-2xl font-thin pt-2 pb-5 flex justify-between items-center">
                 <div>ITC's World class Indian Brands. <span className="inline text-red-600">Delighting 230 million households in India.</span></div>
                 <div className="flex items-center gap-2 px-5 ">
                     <TfiViewListAlt onClick={() => setTab(true)} className="text-red-600 hover:text-gray-400 opacity-30" />
@@ -89,12 +88,12 @@ function BrandPage() {
 
             {
                 !tab &&
-                <section className="px-24">
+                <section className="lg:px-24 px-3">
                     <div className="grid grid-cols-3 gap-2">
                         {
                             brandsData.map((item, index) => {
                                 return (
-                                    <div key={index+item} className={item.color}>
+                                    <div key={index + item} className={item.color}>
                                         <div className="py-8 flex justify-center items-center">
                                             <img src={item.logo} className="" />
                                         </div>
@@ -123,16 +122,18 @@ function BrandCards({ item }) {
     return (
         <div className={item.color}>
 
-            <div className="h-80 w-[80%] m-auto text-white flex text-center ">
-                <div className="w-[20%] py-10 px-5 text-sm">
-                    <img src={item.logo} />
-                    <div className="font-bold">{item.title}</div>
+            <div className="lg:h-80 w-[80%] m-auto text-white flex flex-col lg:flex-row text-center ">
+                
+                <div className="lg:w-[20%] py-10 px-5 flex lg:flex-col flex-row  items-center gap-10 text-sm">
+                    <img src={item.logo} className="w-1/4 lg:w-full  "/>
+                    <div className="font-bold border-l lg:border-none p-3 ">{item.title}</div>
                 </div>
-                <div className=" border-x text-xs  border-opacity-20 border-gray-200  flex justify-between items-center w-[70%] p-10">
+
+                <div className=" border-x text-xs  border-opacity-20 border-gray-200  flex justify-between items-center  lg:w-[70%] p-10">
                     {
                         item.products.map((prod, index) => {
                             return (
-                                <div key={index+prod}>
+                                <div key={index + prod}>
                                     <img src={prod.img} />
                                     <div className="shadow-xl h-5 rounded-full"></div>
                                     <div>{prod.name}</div>
@@ -164,13 +165,13 @@ function Drawer() {
                 <div className="px-4 w-[100vw] min-h-full bg-[#0a1b38] text-white" >
                     <div className="flex w-[45%] m-auto ">
 
-                    {
-                        drawerDate.map((item, index)=>{
-                            return(
-                                <DrawerItems item={item} key={index+item} />
-                            )
-                        })
-                    }
+                        {
+                            drawerDate.map((item, index) => {
+                                return (
+                                    <DrawerItems item={item} key={index + item} />
+                                )
+                            })
+                        }
 
                     </div>
                     <div className="fixed top-5 right-10">
@@ -183,18 +184,18 @@ function Drawer() {
     )
 }
 
-function DrawerItems({item}) {
+function DrawerItems({ item }) {
 
     return (
         <div className="pt-24 px-4 h-[100vh] border-x border-opacity-10 border-gray-300" >
-            <img src={item.img}  />
+            <img src={item.img} />
             <h1 className="font-semibold my-4 text-sm ">{item.title}</h1>
             <ul className="text-xs font-thin leading-6 text-gray-400">
                 {
-                    item.products.map((li,i)=>{
-                        return(
+                    item.products.map((li, i) => {
+                        return (
 
-                            <li key={i+li}>{li}</li>
+                            <li key={i + li}>{li}</li>
                         )
                     })
                 }
