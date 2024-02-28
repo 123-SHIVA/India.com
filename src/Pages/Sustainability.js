@@ -75,7 +75,7 @@ function Sustainability() {
 
       {/* -----------------------Sustainability as a driving force for ITC */}
 
-      <section className="flex flex-col lg:flex-row gap-8 lg:text-[#282828]text-white font-[400] my-10">
+      <section className="flex flex-col lg:flex-row gap-8 lg:text-[#282828] text-white font-[400] my-10">
         <div className="lg:w-1/2 py-16 lg:pl-48 px-10 pr-6 lg:bg-[#7ad0d8] bg-[#265d1b] text-sm tracking-wide font-[350] flex flex-col gap-3 ">
           <hr className="w-7 mt-3 border-b-2 border-[#282828]"></hr>
           <h3 className="text-2xl mb-4">

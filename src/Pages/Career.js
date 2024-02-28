@@ -35,6 +35,54 @@ const careersData = [
       </ul>,
 
   }
+  ,{
+    color: 'bg-[#6b1871] bg-opacity-90 ',
+    logo: "https://www.itcportal.com/images/careers-icon1.png",
+    title: "Know ITC",
+    description:
+      <ul>
+        <li>ITC</li>
+        <li>ITC Today</li>
+        <li>Core Values</li>
+        <li>Corporate Governance</li>
+        <li>ITC Brands</li>
+        <li>ITC Businesses</li>
+        <li>Sustainability</li>
+      </ul>,
+
+  }
+  ,{
+    color: 'bg-[#6b1871] bg-opacity-90 ',
+    logo: "https://www.itcportal.com/images/careers-icon1.png",
+    title: "Know ITC",
+    description:
+      <ul>
+        <li>ITC</li>
+        <li>ITC Today</li>
+        <li>Core Values</li>
+        <li>Corporate Governance</li>
+        <li>ITC Brands</li>
+        <li>ITC Businesses</li>
+        <li>Sustainability</li>
+      </ul>,
+
+  }
+  ,{
+    color: 'bg-[#6c1871] bg-opacity-90 ',
+    logo: "https://www.itcportal.com/images/careers-icon1.png",
+    title: "Know ITC",
+    description:
+      <ul>
+        <li>ITC</li>
+        <li>ITC Today</li>
+        <li>Core Values</li>
+        <li>Corporate Governance</li>
+        <li>ITC Brands</li>
+        <li>ITC Businesses</li>
+        <li>Sustainability</li>
+      </ul>,
+
+  }
 ]
 
 function Career() {
@@ -78,7 +126,7 @@ function Career() {
 
 
       {/* section --2 */}
-      <div className="flex justify-center">
+      <div className="flex justify-center gap-10 m-10">
         {
           careersData.map((item, index) => {
             return (

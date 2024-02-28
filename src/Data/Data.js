@@ -15,8 +15,8 @@ import { FiFileText } from "react-icons/fi";
 export const itcAtGlanceData = [
     {
       logo: "https://www.itcportal.com/assets/images/glace_ic14.png",
-      title: "43%",
-      subTitle: "of Total energy is renewable"
+      title: "40L-50L",
+      subTitle: "figures as on 31.03.2023"
     },
     {
       logo: "https://www.itcportal.com/assets/images/glace_ic15.png",
