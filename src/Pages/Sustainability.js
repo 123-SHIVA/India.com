@@ -14,19 +14,19 @@ function Sustainability() {
         />
         <div className="relative bottom-24 w-[80%] text-white font-bold  m-auto  ">
 
-          <div class=" bg-[#265d1b] flex justify-between items-center mx-4 ">
+          <div className=" bg-[#265d1b] flex justify-between items-center mx-4 ">
 
             <div className="text-3xl font-[300] px-16 py-10 ">
               <h1>Transforming lives and landscapes in India</h1>
               <hr className="w-9 mt-3 border-b-2 border-white"></hr>
             </div>
-            <div class="flex flex-col gap-4 items-center bg-[#253722] px-16 py-8 ">
+            <div className="flex flex-col gap-4 items-center bg-[#253722] px-16 py-8 ">
               <img
                 src="https://www.itcportal.com/images/sus_key_ic_in.png"
                 className="w-16"
                 alt="Sustainability Icon"
               />
-              <div class="flex flex-col items-center">
+              <div className="flex flex-col items-center">
                 <h3>Sustainability</h3>
                 <div className="text-xs font-thin flex gap-2 items-center">at a glance. <FaArrowRight /> </div>
               </div>
@@ -40,7 +40,7 @@ function Sustainability() {
 
 
       <section className=" subpixel-antialiased text-[15px] font-[300]  text-[#231f20] w-[70%] m-auto leading-6 tracking-tight ">
-        <h1 className="text-3xl mb-2 font-[400]" text-6xl>
+        <h1 className="text-3xl mb-2 font-[400] ">
           Why is sustainability important?
         </h1>
         <p className="p-1">
@@ -81,7 +81,7 @@ function Sustainability() {
           <h3 className="text-2xl mb-4">
             Sustainability as a driving force for ITC
           </h3>
-          <p class="mb-4">
+          <p className="mb-4">
             Any sustainable solution to addressing the grave challenges facing
             the world today requires the concerted efforts of all sections of
             society - policymakers, regulators, business, NGOs and civil
@@ -166,7 +166,7 @@ function Sustainability() {
             />
           </div>
           <div className=" bg-[#265d1b] h-60 text-white w-1/2 align-right p-5">
-            <h>Responsible luxury</h>
+            <h1>Responsible luxury</h1>
             <h1 className="my-4">- ITC Hotels: Trailblazer in Responsible Luxury</h1>
             <h1>
               - All ITC's Premium Luxury Hotels are LEED Platinium Certified
@@ -231,7 +231,7 @@ function Sustainability() {
       <section className="w-[80%] p-5 m-auto text-[#282828] font-[400] text-sm">
         <div className="flex justify-between flex-wrap px-10 gap-2">
           {socialInvestmentData.map((item, index) => (
-            <div className="overflow-hidden card rounded-none w-[19%]">
+            <div className="overflow-hidden card rounded-none w-[19%]" key={index}>
               <img src={item.image} alt="Card" className="object-contain " />
               <div className="text-white bg-[#68aa94] min-h-24 mt-1 flex flex-wrap justify-center items-center ">
                 <p className="w-[60%]">{item.description}</p>
@@ -284,11 +284,11 @@ function Sustainability() {
             Know more 
           </button>
         </div>
-        <div class="lg:w-1/2 flex justify-center items-start">
+        <div className="lg:w-1/2 flex justify-center items-start">
           <img
             src="https://www.itcportal.com/images/corporate.jpg"
             alt="Driving Force Image"
-            class="w-full h-96 "
+            className="w-full h-96 "
           />
         </div>
       </section>

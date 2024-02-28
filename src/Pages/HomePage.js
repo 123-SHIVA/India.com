@@ -44,7 +44,7 @@ function HomePage() {
                         {
                             LatestUpdate.map((items, index) => {
                                 return (
-                                    <div className="carousel-item">
+                                    <div className="carousel-item" key={index}>
                                         <LatestUpdateCard item={items} key={index} />
                                     </div>
                                 )
@@ -100,8 +100,8 @@ function HomePage() {
                         {
                             vectorOfGrowth.map((item, index) => {
                                 return (
-                                    <div className={index % 2 === 0 && "mt-16"}>
-                                        <ItcVectorGrowthCard key={index} value={item} />
+                                    <div className={index % 2 === 0 ? "mt-16":""} key={index}>
+                                        <ItcVectorGrowthCard  value={item} />
                                     </div>
                                 )
                             })
@@ -130,7 +130,7 @@ function HomePage() {
                             {
                                 leadershipSpeaks.map((items, index) => {
                                     return (
-                                        <LeadershipSpeaksCard items={items} />
+                                        <LeadershipSpeaksCard key={index} items={items} />
                                     )
                                 })
                             }
@@ -150,10 +150,10 @@ function HomePage() {
                     <div className="grid grid-cols-3 gap-4 my-14">
                         {ItcBussinesses.map((items, index) => {
                             return (
-                                <div>
+                                <div  key={index}>
                                     {
                                         index < 6 &&
-                                        <ItcBussinessesCard key={index} items={items} />
+                                        <ItcBussinessesCard items={items} />
                                     }
                                 </div>
                             )

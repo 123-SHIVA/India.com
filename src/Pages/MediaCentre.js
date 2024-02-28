@@ -44,7 +44,7 @@ function MediaCentre() {
                         {
                             bigStories.map((items, index) => {
                                 return (
-                                    <div className="carousel-item">
+                                    <div className="carousel-item" key={index}>
                                         <BigStoriesCard item={items} key={index} />
                                     </div>
                                 )
@@ -120,7 +120,7 @@ function MediaCentre() {
                     <div className="grid grid-cols-3 gap-4 my-14">
                         {ItcBussinesses.map((items, index) => {
                             return (
-                                <div>
+                                <div key={index}>
                                     <ItcBussinessesCard key={index} items={items} />
                                 </div>
                             )

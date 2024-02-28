@@ -2,20 +2,14 @@ import { Link } from "react-router-dom";
 import HomeLayout from "../Layouts/HomeLayout";
 import CaptchaImage from "./CaptchaImage";
 import { useState } from "react";
-import { IoLocationOutline } from "react-icons/io5";
-import { TbFileCv } from "react-icons/tb";
-import { FiFileText } from "react-icons/fi";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { countary, moreCardData } from '../Data/Data.js'
 import './ContactUs.css';
-import {countary, moreCardData} from '../Data/Data.js'
 
 function ContactUsPage() {
 
     const [captchaStatus, setCaptchaStatus] = useState(false);
-    console.log(captchaStatus)
-
-
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -33,9 +27,7 @@ function ContactUsPage() {
                     publicKey: 'QU9HEMqLqI6gzpPK0',
                 })
                 .then(
-                    () => {
-                        console.log('SUCCESS!');
-                    },
+                    () => { },
                     (error) => {
                         console.log('FAILED...', error.text);
                     },
@@ -74,10 +66,10 @@ function ContactUsPage() {
                 <div className="my-6 flex justify-between">
 
 
-                    {/* -----------------form */}
+                    {/* -----------------form------------------- */}
 
                     <div className="w-[70%]  text-sm text-[#282828] font-thin  ">
-                        <form ref={form} onSubmit={sendEmail}>
+                        <form ref={form} onSubmit={sendEmail} key={"contac_us_page"}>
                             <p className="font-thin text-[10px] text-right text-rose-700">Fields marked with * are compulsory</p>
                             <div className="grid grid-cols-2 items-end gap-3 tracking-tighter text-xs">
                                 <div className="">
@@ -109,7 +101,7 @@ function ContactUsPage() {
                                         {
                                             countary.map((item, index) => {
                                                 return (
-                                                    <option value={item} key={index} >{item}</option>
+                                                    <option key={index} value={item}  >{item}</option>
                                                 )
                                             })
                                         }
@@ -137,8 +129,6 @@ function ContactUsPage() {
                                         <option value="Student Academia~N~Careers/Internships~C">Careers / Internships</option>
 
                                     </select>
-
-
                                 </div>
 
                                 <div className="">
@@ -181,8 +171,6 @@ function ContactUsPage() {
                                     <input id="submit-button"
                                         className='bg-[#001e56] w-full text-base font-[300] text-white py-3 rounded-sm mt-5 hover:bg-[#004ea6] transition-colors'
                                         type="submit" value='Submit' />
-
-
                                 </div>
 
                             </div>
@@ -191,13 +179,13 @@ function ContactUsPage() {
 
                     </div>
 
-                    {/* -------------------more card */}
+                    {/* -------------------more cards ------------------------- */}
 
                     <div className="w-[25%] text-white">
                         {
                             moreCardData.map((item, index) => {
                                 return (
-                                    <div className={`${item.color} py-5 px-8 text-sm m-2`}>
+                                    <div ky={index} className={`${item.color} py-5 px-8 text-sm m-2`}>
                                         <div className="text-3xl mb-6">
                                             {item.icon}
                                         </div>

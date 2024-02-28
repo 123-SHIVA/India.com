@@ -8,10 +8,10 @@ import linkedin from "../images/linkedin.png";
 import insta from "../images/insta.png";
 import twitter from "../images/x.png";
 import { useState } from "react";
-import "../App.css";
 import DropDown from "./DropDown";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
+import "../App.css";
 import './Navbar.css';
 
 
@@ -94,21 +94,21 @@ function Navbar() {
             </div>
 
 
-            <div>
+            <div className="lg:hidden">
 
-            <div className="drawer drawer-end lg:hidden">
-              <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
-              <div className="drawer-content">
-                
-              <label htmlFor="my-drawer-4" className="drawer-button "><GiHamburgerMenu/></label>
+              <div className="drawer drawer-end ">
+                <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
+                <div className="drawer-content">
+
+                  <label htmlFor="my-drawer-4" className="drawer-button "><GiHamburgerMenu /></label>
+                </div>
+                <div className="drawer-side">
+                  <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
+                  <ul className="menu  p-4  min-h-full bg-white gap-5  text-sm font-bold text-blue-900 w-[60vw]">
+                    <NavbarElement />
+                  </ul>
+                </div>
               </div>
-              <div className="drawer-side">
-                <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
-                <ul className="menu  p-4  min-h-full bg-white gap-5  text-sm font-bold text-blue-900 w-[60vw]">
-                  <NavbarElement/>
-                </ul>
-              </div> 
-            </div>
             </div>
 
 
@@ -214,40 +214,40 @@ function NavbarElement() {
 
 
 
-                <li className="dropdown dropdown-hover static">
-                <Link
-                    to="/investor"
-                    tabIndex={0}
-                    role="button"
-                    className="flex gap-1 items-center"
-                  >
-                    Investor Relation
-                  </Link>
-                </li>
-                <li className="dropdown dropdown-hover static">
-                  <a>Careers</a>
-                </li>
-                <li className="dropdown dropdown-hover static">
-                  <Link
-                    to="/ITC-Resources"
-                    tabIndex={0}
-                    role="button"
-                    className="flex gap-1 items-center"
-                  >
-                    ITC Resources
-                  </Link>
-                  <ul
-                    tabIndex={0}
-                    className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
-                  >
-                    <DropDown componentFor={"Media Center"} />
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </>
-        )}
-      </div>
+      <li className="dropdown dropdown-hover static">
+        <Link
+          to="/investor"
+          tabIndex={0}
+          role="button"
+          className="flex gap-1 items-center"
+        >
+          Investor Relation
+        </Link>
+      </li>
+      <li className="dropdown dropdown-hover static">
+        <a>Careers</a>
+      </li>
+      <li className="dropdown dropdown-hover static">
+        <Link
+          to="/ITC-Resources"
+          tabIndex={0}
+          role="button"
+          className="flex gap-1 items-center"
+        >
+          ITC Resources
+        </Link>
+        <ul
+          tabIndex={0}
+          className="dropdown-content  z-[1] menu bg-white  text-black left-0 right-0 p-16 h-[60vh] "
+        >
+          <DropDown componentFor={"Media Center"} />
+        </ul>
+      </li>
+
+
+
+
+
     </>
   )
 }

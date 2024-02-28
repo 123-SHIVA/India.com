@@ -1,6 +1,4 @@
-function ItcVectorGrowthCard({value,key}) {
-
-
+function ItcVectorGrowthCard({value}) {
     return (
         <div>
             <div className="relative w-64  shadow-xl text-center text-white font-bold">

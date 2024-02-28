@@ -31,14 +31,14 @@ function AboutPage() {
           <div className="absolute top-5 left-32 bottom-0 flex flex-col justify-center gap-5 text-blue-900 font-bold  ">
             <h1 className="text-5xl">About ITC</h1>
 
-            <p>
+            <div>
               ITC is a leading multi-business Indian enterprise with <br></br>{" "}
               presence in{" "}
               <b>
                 FMCG, Paper, Packaging, Agribusiness, Hotels <br></br> and IT
               </b>
               , and is a global Sustainability exemplar.
-            </p>
+            </div>
             <button className="flex justify-between text-[10px] font-semibold items-center w-40  text-blue py-2 px-5 border  border-blue-600 rounded-2xl">
               Read more <FaArrowRight className="text-[8px]" />
             </button>
@@ -47,9 +47,9 @@ function AboutPage() {
           <div className="absolute top-0 right-32 bottom-0 flex flex-col justify-center gap-5 text-blue-900 font-bold  ">
             <h1 className="text-5xl">200+</h1>
 
-            <p>
+            <div>
               Manifacturing <br></br> Units
-            </p>
+            </div>
           </div>
         </div>
       </section>
@@ -94,9 +94,9 @@ function AboutPage() {
                     <img src={item.img} alt="sorry" />
                     <div className="mt-10 font-semibold ">
                       <div className="text-3xl mb-2 text-indigo-200">{item.Title}</div>
-                      <p className="text-indigo-300 text-xs mt-5">
+                      <div className="text-indigo-300 text-xs mt-5">
                         {item.description}
-                      </p>
+                      </div>
                       {
                         index == ItcPerspective.length - 1 &&
                         <button className=" mt-10 flex justify-between text-[10px] font-thin items-center w-40  text-blue py-2 px-5 border border-white rounded-2xl">
@@ -143,18 +143,18 @@ function AboutPage() {
 
       <section>
 
-        <div class="section">
-          <div class="flex bg-gradient-to-b from-blue-700 to-blue-950 text-white text-sm justify-around py-5">
-            <div class="flex flex-row gap-5 items-cente">
-              <img src="https://www.itcportal.com/assets/images/about/bod-icon.png" class="w-6 h-6" alt="Image 1" />
+        <div className="section">
+          <div className="flex bg-gradient-to-b from-blue-700 to-blue-950 text-white text-sm justify-around py-5">
+            <div className="flex flex-row gap-5 items-cente">
+              <img src="https://www.itcportal.com/assets/images/about/bod-icon.png" className="w-6 h-6" alt="Image 1" />
               <p>Board of Directors</p>
             </div>
-            <div class="flex flex-row gap-5 items-center">
-              <img src="https://www.itcportal.com/assets/images/about/cmc-icon.png" class="w-6 h-6" alt="Image 2" />
+            <div className="flex flex-row gap-5 items-center">
+              <img src="https://www.itcportal.com/assets/images/about/cmc-icon.png" className="w-6 h-6" alt="Image 2" />
               <p>Corporate Management Committee</p>
             </div>
-            <div class="flex flex-row gap-5 items-center">
-              <img src="https://www.itcportal.com/assets/images/about/bh-icon.png" class="w-6 h-6" alt="Image 3" />
+            <div className="flex flex-row gap-5 items-center">
+              <img src="https://www.itcportal.com/assets/images/about/bh-icon.png" className="w-6 h-6" alt="Image 3" />
               <p>Business Heads</p>
             </div>
           </div>
@@ -172,12 +172,12 @@ function AboutPage() {
 
         <div className="flex justify-center ">
           {globalHonours.map((card, index) => (
-            <div key={index} className={`py-10 px-14 bg-white overflow-hidden flex flex-col justify-center items-center text-xs  ${index !== globalHonours.length - 1 && "border-r"} border-gray-300  border-dashed `}>
+            <div key={index} className={`py-10 px-14 bg-white overflow-hidden flex flex-col justify-center items-center text-xs  ${index !== globalHonours.length - 1 ? "border-r": ""} border-gray-300  border-dashed `}>
 
               <img src={card.imageUrl} alt={`Card`} />
 
               <div className="p-4 flex text-center text-black">
-                <p>{card.description}</p>
+                <div>{card.description}</div>
               </div>
             </div>
           ))}

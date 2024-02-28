@@ -78,7 +78,7 @@ function BrandPage() {
 
                         brandsData.map((item, index) => {
                             return (
-                                <BrandCards key={indexedDB} item={item} />
+                                <BrandCards key={index} item={item} />
                             )
                         })
                     }
@@ -94,7 +94,7 @@ function BrandPage() {
                         {
                             brandsData.map((item, index) => {
                                 return (
-                                    <div className={item.color}>
+                                    <div key={index+item} className={item.color}>
                                         <div className="py-8 flex justify-center items-center">
                                             <img src={item.logo} className="" />
                                         </div>
@@ -119,7 +119,7 @@ function BrandPage() {
     )
 }
 
-function BrandCards({ item, className }) {
+function BrandCards({ item }) {
     return (
         <div className={item.color}>
 
@@ -132,7 +132,7 @@ function BrandCards({ item, className }) {
                     {
                         item.products.map((prod, index) => {
                             return (
-                                <div>
+                                <div key={index+prod}>
                                     <img src={prod.img} />
                                     <div className="shadow-xl h-5 rounded-full"></div>
                                     <div>{prod.name}</div>
@@ -167,7 +167,7 @@ function Drawer() {
                     {
                         drawerDate.map((item, index)=>{
                             return(
-                                <DrawerItems item={item} key={index} />
+                                <DrawerItems item={item} key={index+item} />
                             )
                         })
                     }
@@ -194,7 +194,7 @@ function DrawerItems({item}) {
                     item.products.map((li,i)=>{
                         return(
 
-                            <li>{li}</li>
+                            <li key={i+li}>{li}</li>
                         )
                     })
                 }

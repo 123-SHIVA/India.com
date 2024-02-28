@@ -1,21 +1,14 @@
 import './App.css';
 import { BrowserRouter as Router , Routes, Route } from 'react-router-dom';
 import HomePage from './Pages/HomePage';
-
-
 import AboutPage from './Pages/AboutPage';
 import Business from './Pages/Business';
 import Sustainability from './Pages/Sustainability';
 import MediaCentre from './Pages/MediaCentre';
 import BrandPage from './Pages/BrandPage';
 import ITCResources from './Pages/ITCResources';
-<<<<<<< HEAD
 import Investor from './Pages/Investor';
 import ContactUsPage from './Pages/ContactUsPage';
-=======
-import ContactUsPage from './Pages/ContactUsPage';
-import Investor from './Pages/Investor';
->>>>>>> 8936344f7dd877754385cfb47bdf9d25f968794f
 
 
 function App() {
@@ -31,7 +24,6 @@ function App() {
           <Route path='/media-centre' element={<MediaCentre/>} />
           <Route path='/investor' element={<Investor/>} />
           <Route path='/brands' element={<BrandPage/>} />
-          
           <Route path='/ITC-Resources' element={<ITCResources/>} />
           <Route path='/contact-us' element={<ContactUsPage/>} />
         </Routes>

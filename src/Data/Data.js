@@ -7,6 +7,9 @@ import { LuBedDouble, LuMonitorPlay, LuBookOpenCheck } from "react-icons/lu";
 import vision from "../images/vision.png";
 import mission from "../images/mission.png";
 import values from "../images/values.png";
+import { IoLocationOutline } from "react-icons/io5";
+import { TbFileCv } from "react-icons/tb";
+import { FiFileText } from "react-icons/fi";
 
 
 export const itcAtGlanceData = [
