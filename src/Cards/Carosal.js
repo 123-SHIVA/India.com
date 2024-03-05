@@ -7,8 +7,8 @@ function Carosal() {
 
 
             <div id="item1" className="carousel-item w-full relative h-[70vh]">
-                <img src="https://www.itcportal.com/assets/images/home-renewable-energy-web.jpg" className="w-full h-full object-cover" />
-                <div className="absolute top-0 left-32 bottom-0 flex flex-col justify-center gap-5 text-white font-bold  ">
+                <img src="https://i.postimg.cc/k4BYGmtT/Welcome-to-ITC-SHOP.png" className="w-full h-full object-cover" />
+                <div className="absolute top-0 left-32 bottom-0 flex flex-col justify-center gap-5 text-black font-bold  ">
                     <h1 className="text-5xl">Adopting renewable energy</h1>
                     <p>Paving a path to a Sustainable Future</p>
                     <button className="flex justify-between text-xs font-thin items-center w-40 bg-white text-black py-2 px-5 rounded-2xl">Read more <FaArrowRight className="text-[8px]" /></button>
@@ -17,7 +17,7 @@ function Carosal() {
 
 
             <div id="item2" className="carousel-item w-full relative h-[70vh]">
-                <img src="https://www.itcportal.com/assets/images/home-food-web.jpg" className="w-full h-full object-cover" />
+                <img src="https://i.postimg.cc/vHHgVZm8/Welcome-to-ITC-SHOP-1.png" className="w-full h-96 object-cover" />
                 <div className="absolute top-0 left-32 bottom-0 flex flex-col justify-center gap-5 text-white font-bold  ">
                     <h1 className="text-5xl">ITC FoodTech</h1>
                     <p>A new vector of growth</p>
@@ -27,7 +27,7 @@ function Carosal() {
 
 
             <div id="item3" className="carousel-item w-full relative h-[70vh]">
-                <img src="https://www.itcportal.com/assets/images/home-innovation-web.jpg" className="w-full h-full object-cover" />
+                <img src="" />
                 <div className="absolute top-0 left-32 bottom-0 flex flex-col justify-center gap-5 text-white font-bold  ">
                     <h1 className="text-5xl">Innovation at ITC</h1>
                     <p>A Fulcrum of growth</p>
