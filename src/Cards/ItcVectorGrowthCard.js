@@ -1,8 +1,8 @@
 function ItcVectorGrowthCard({value}) {
     return (
         <div>
-            <div className="relative lg:w-64  w-32  shadow-xl text-center text-white font-bold">
-                <figure><img src={value.img} alt="Shoes" className=" object-contain  rounded-lg " /></figure>
+            <div className="relative lg:w-64  w-32  shadow-xl text-center text-white font-bold overflow-hidden bg-black rounded-lg">
+                <figure><img src={value.img} alt="Shoes" className=" object-cover  w-full h-96 opacity-70" /></figure>
                 <div className=" absolute top-0 right-0 bottom-0 left-0 flex flex-col items-center justify-between py-5">
                     <div>
                         <h2 className="lg:text-2xl  ">{value.title}</h2>

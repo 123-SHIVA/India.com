@@ -2,34 +2,37 @@ import { GrBasket } from "react-icons/gr";
 import { LiaToiletPaperSolid } from "react-icons/lia";
 import { GiWheat, GiMatchHead } from "react-icons/gi";
 import { TfiPackage } from "react-icons/tfi";
-import { FaHandHoldingWater } from "react-icons/fa";
-import { LuBedDouble, LuMonitorPlay, LuBookOpenCheck } from "react-icons/lu";
+import { FaHandHoldingWater,FaHotel } from "react-icons/fa";
+import { LuBedDouble, LuMonitorPlay, LuBookOpenCheck,LuArrowUpRightFromCircle } from "react-icons/lu";
 import vision from "../images/vision.png";
 import mission from "../images/mission.png";
 import values from "../images/values.png";
 import { IoLocationOutline } from "react-icons/io5";
 import { TbFileCv } from "react-icons/tb";
 import { FiFileText } from "react-icons/fi";
+import { BsBuildings } from "react-icons/bs";
+import itcLogo from "../images/itc-online-high-resolution-logo-transparent.png"
+
 
 
 export const itcAtGlanceData = [
     {
-      logo: "https://www.itcportal.com/assets/images/glace_ic14.png",
+      logo: <LuArrowUpRightFromCircle />,
       title: "40L-50L",
       subTitle: "figures as on 31.03.2023"
     },
     {
-      logo: "https://www.itcportal.com/assets/images/glace_ic15.png",
+      logo: <BsBuildings />,
       title: "40",
       subTitle: "Platinum Rated Green Building"
     },
     {
-      logo: "https://www.itcportal.com/assets/images/glace_ic16.png",
+      logo: <FaHotel />,
       title: "12 Hotels, 1 Data Center",
       subTitle: "LEED Zero Carbon"
     },
     {
-      logo: "https://www.itcportal.com/assets/images/glace_ic16.png",
+      logo: <FaHotel />,
       title: "2 Hotels",
       subTitle: "LEED Zero Water"
     }
@@ -79,42 +82,42 @@ export const ItcBussinesses = [
 
 export const LatestUpdate = [
     {
-        img: "https://www.itcportal.com/assets/images/latest-updates-11.jpg",
+        img: "https://thumbs.dreamstime.com/b/building-industrial-complex-apartments-workers-engineers-work-concreting-construction-buildings-demolition-production-272543479.jpg",
         description: "Pioneering  the Green Building Movement in india",
         date: ""
     },
     {
-        img: "https://www.itcportal.com/assets/images/latest-updates-12.jpg",
+        img: "https://images.pexels.com/photos/2131967/pexels-photo-2131967.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         description: "Towards Water Security for All",
         date: ""
     },
     {
-        img: "https://www.itcportal.com/assets/images/latest-updates-13.jpg",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd44QWCcTqlrAuddKufx93vLe8MBzrpXIHcdoZM0garv8Q950C5b_i58OHd2wU5lHuHkc&usqp=CAU",
         description: "ITC's Biodiversity conversation programme",
         date: ""
     },
     {
-        img: "https://www.itcportal.com/assets/images/latest-updates-080224.jpg",
+        img: "https://i.pinimg.com/474x/9c/d0/e0/9cd0e0013428014698f084a584d35892.jpg",
         description: "Focus is on sustainable and inclusive growth' Sanjiv puri  ",
         date: "11 feb 2024"
     },
     {
-        img: "https://www.itcportal.com/assets/images/latest-updates-080224-1.jpg",
+        img: "https://prevenko.com/wp-content/uploads/2021/06/photo-blank-.png",
         description: "Plateful of vision 'Sanjiv puri",
         date: "03 feb 2024"
     },
     {
-        img: "https://www.itcportal.com/assets/images/latest-updates-080224-2.jpg",
+        img: "https://t4.ftcdn.net/jpg/05/88/68/59/360_F_588685904_GV8YCwcUm8wCFW4cY1HYsCqTdbV3bRVq.jpg",
         description: "ITC and a business case for Diversity, Equity and inclusion",
         date: "13 jan 2024"
     },
     {
-        img: "https://www.itcportal.com/assets/images/quarterly-result-thumb.jpg",
+        img: "https://t3.ftcdn.net/jpg/05/07/88/96/360_F_507889611_vdbjUXkBQIfEqdyb5qNtTxCR6jm47wSS.jpg",
         description: "Financial Results for the Quarter Ended December",
         date: "29 jan 2024"
     },
     {
-        img: "https://www.itcportal.com/assets/images/home-latest-updates-141223.jpg",
+        img: itcLogo,
         description: "ITC Institutional Investors & Financial Analysts Day",
         date: "12 dec 2023"
     }
@@ -292,51 +295,51 @@ export const vectorOfGrowth = [
     {
         title: "ITCMAARS",
         description: "Ushering in NExtgen Agriculture",
-        img: "https://www.itcportal.com/assets/images/vector-mar_thumb.jpg"
+        img: "https://img.lovepik.com/background/20211030/medium/lovepik-rice-ear-mobile-phone-wallpaper-background-image_400426969.jpg"
     },
     {
         title: "ITC FOODTECH",
         description: "A New vector of Growth",
-        img: "https://www.itcportal.com/assets/images/vector-food_thumb.jpg"
+        img: "https://png.pngtree.com/thumb_back/fw800/background/20230902/pngtree-book-with-coffee-cake-cake-on-the-table-image_13183240.jpg"
     },
     {
         title: "SUSTAINABLE PACKAGING",
         description: "Solution for the future",
-        img: "https://www.itcportal.com/assets/images/vector-sus_thumb.jpg"
+        img: "https://images.unsplash.com/photo-1605615923013-f26c14fe7155?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3VzdGFpbmFibGUlMjBwYWNrYWdpbmd8ZW58MHx8MHx8fDA%3D"
     },
     {
         title: "CLIMATE SMART AGRICULTURE",
         description: "Building resilience in india's agriculture sector",
-        img: "https://i.postimg.cc/fbQwfqbG/generate-a-similar-image-like-this-to-remove-the-owner-rights-1.jpg"
+        img: "https://sanremcrsp.cired.vt.edu/wp-content/uploads/2014/12/Climate_SmartAgriculture.jpg"
     }, {
         title: "DIGITAL TRANSFORM AT ITC",
         description: "For a Future Tech Organisation",
-        img: "https://www.itcportal.com/assets/images/vector-digi_thumb.jpg"
+        img: "https://i.pinimg.com/474x/15/86/3e/15863efffea395bf09bb6ff8c89f035c.jpg"
     }
 
 ]
 
 export const leadershipSpeaks = [
     {
-        title: "'Focus is on sustainable and inclusive growth': Sanjiv Puri",
+        title: "'Focus is on sustainable and inclusive growth'",
         subTitle: "The Week",
         description: "In an interview with THE WEEK, ITC Chairman Sanjiv Puri talks about the 'ITC Next' vectors of growth - Digital and Sustainability, pillars of ITC's competitiveness",
     },
     {
-        title: "Plateful of vision: Sanjiv Puri takes us through ITC's ambitious menu",
+        title: "Plateful of vision:  takes us through ITC's ambitious menu",
         subTitle: "Business Standard",
         description: "ITC Chairman Sanjiv Puri and Business Standard journalist Ishita Ayan Dutt had an in-depth conversation a day after ITC's third-quarter results were declared",
     },
 
     {
-        title: "As India gallops, so will FMCG industry: Sanjiv Puri, ITC CMD",
+        title: "As India gallops, so will FMCG industry, ITC CMD",
         subTitle: "The Economic Times",
         description: "The key driver to unleashing FMCG growth through a virtuous cycle of consumption, investment and income lies in creating gainful livelihood opportunities...",
     },
     {
-        title: "Mr. Sanjiv Puri in Conversation with Ms. Shereen Bhan, CNBCTV18",
+        title: " in Conversation with Ms. Shereen Bhan, CNBCTV18",
         subTitle: " CNBCTV18",
-        description: "Mr Sanjiv Puri, Chairman ITC, was recently interviewed by Ms Shereen Bhan, Managing Editor, CNBCTV18. In this candid conversation, Mr Puri shared...",
+        description: " Chairman ITC, was recently interviewed by Ms Shereen Bhan, Managing Editor, CNBCTV18. In this candid conversation, Mr Puri shared...",
     },
     {
 
@@ -360,107 +363,91 @@ export const leadershipSpeaks = [
 
 export const ItcBrands = [
     {
-        img: "https://www.itcportal.com/assets/images/mint-o.jpg",
+        img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEUAAAD///95eXnp6el0dHTc3NwrKyvZ2dlfX1+8vLz29vbJycmtra0jIyMoKCiGhoaWlpZqamqPj4/Ozs7w8PBGRkZkZGSfn5/h4eGDg4NXV1cdHR34+PimpqbDw8O2trZMTEwUFBQ/Pz82NjY4ODhDVUo5AAADzklEQVR4nO3d63KiMACGYQGreOgqiqIWFdve/zWukgNJQFemYVg77/OrJETyCSQBZ3YH4W83AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID/0yHLipZN3ofZqouudGMSXM3btPgaX1vsuuqPd4ug1OIfvovLBm/ddcmzN5Fw/XyL4MUSRqLD0dMNli+acPJ0g9mLJvx6usH41RJOy2u0eL7ByyXcFEXx3abByyVs7f9JmOzDxCn6DvfhtsVHHML9sHALHyXcXg+QXFocoZ2PubC4/r2QA0i61NXv81z2rTa7b1ZnuajJxEccr3/GctAMThu9Y7JcrtT0slreVF/iYZLKBvmpzdfYwihQk3cyDbRc9mFZFQWRNXLGaTUfyk7mg4+1sf9Z7XoOXKqqeLOKI/fy8ZrwtLI7UZ6esV1mdCAUXRIb6tSP7N2jy72EmaiY1CpaLJJaJ0zdgx1rAYMgVq0+goaEee7sHt1LeDCbWabPT7FtE9bFx1pRrlotmxLWTZoTls0u06YWQdBqEvpZwtpZDaobaPxcQnGyagnLQajp42/yjy4Trucz90pLZ3PzYn23MjUk3J0nxmZ5X9m3W3oa3QpPZtHOjOt7zjQSivs/NDOm4o6p+rh6nHBWDi6bnS5Qh5Hf0lhtJ1UgMQ0Nq2F40VXCpFZSPR3pWWP9MOFR7a9ngaGdUJ8f3WSvezJURfpu95ww00VbnbAa2NQ3bGdyEo6rj3UzOwl1mmpdoAdofaH4TmiUqR6fqqLC3q05YVztr8Zh9QTpJFRf2HBgOthfoyfVmqYyr11B8nnpcULz6oofJ5S1M6czatT1OpyOGg62qJ8TfZ6sLTvh1Nj9z8OE6j4wr9Gbd1nu9b926CWhHLjSWm/kINzqNeW/9JJQ3gbGfS6d71X8QFNCtQjvLKEMch64MlHhdQHeS8K5XVn5NQmP1pZh8luu0tD6MINcnx5rFT/Qy0jzKWvNCfdGTflen/V7SajWD2aLm511EE86Sqjm7jsJ5061oJZ6ft9l9JNQXabW3K7fFPl9IdVPQvVLzbXkU3VEPyB6/hm1p4T6Sel6Ta7iTbwy3kO6q9XXTDjYB/dkA7/6StjwjlGeUs8B+0vY8D64k4A9JlSLUIvX5yahx4SDwn3ROu3ix5mmtxgqoXk89UbT2kqb6kpqTaPW0HK14k4EezNj5Pk1onQJhyXzfH2KsnBklCVit6G1lTTVWR97kNtbsVk/R5tsHE3zaTQ+Fv5CAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoFPhb/cXgvsuHGT1Mt8AAAAASUVORK5CYII=",
         description: "Confectionary"
     },
     {
-        img: "https://www.itcportal.com/assets/images/bnatural.jpg",
+        img: "https://sancus.co.in/wp-content/uploads/2014/10/logo-BNatural.jpg",
         description: "Juices and Beverages"
     },
     {
-        img: "https://www.itcportal.com/assets/images/jelimals-logo.jpg",
+        img: "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/c/AmazonStores/A21TJRUUN4KGV/e2b779011a00a570f960121102e279c6.w400.h400.png",
         description: "Confectionary"
     },
     {
-        img: "https://www.itcportal.com/assets/images/fabelle.jpg",
+        img: "https://pbs.twimg.com/profile_images/1543844689765314561/-xnse9SR_400x400.jpg",
         description: "Luxury Chocolate"
     },
     {
-        img: "https://www.itcportal.com/assets/images/gumon.jpg",
+        img: "https://pbs.twimg.com/profile_images/797019671211819009/JhWE2jBm_400x400.jpg",
         description: "Gums"
     },
     {
-        img: "https://www.itcportal.com/assets/images/sunbean.jpg",
+        img: "https://media.licdn.com/dms/image/C5603AQF1myU_GqrcLQ/profile-displayphoto-shrink_400_400/0/1517018421469?e=2147483647&v=beta&t=rqwJmoNURwA00c-bWsY66yokL-IazqgLeCrR7yMVKco",
         description: "Gourment Coffe and Beaten Coffee"
     },
     {
-        img: "https://www.itcportal.com/assets/images/itc-master-chef.jpg",
+        img: "https://img.freepik.com/premium-vector/yellow-chef-logo-with-chef-hat-yellow-background_25572-235.jpg",
         description: "Blended Spices, Frozen Prawns, Snacks and Kababs"
     },
     {
-        img: "https://www.itcportal.com/assets/images/superia.jpg",
+        img: "https://i1.sndcdn.com/artworks-000109726909-kxny4y-t500x500.jpg",
         description: "Soaps & Shampoos"
     },
     {
-        img: "https://www.itcportal.com/assets/images/savlon.jpg",
+        img: "https://adn-static2.nykaa.com/media/wysiwyg/8901725973155p1.jpg?tr=w-400,pr-true",
         description: "Antiseptic Liquid, Soap and handwashes "
     },
     {
-        img: "https://www.itcportal.com/assets/images/farmland.jpg",
-        description: "Freah Potatoes, Frozen vegetables and Tomato puree"
-    },
-    {
-        img: "https://www.itcportal.com/assets/images/shower-to-shower.jpg",
-        description: "Prickely Heat Powder"
-    },
-    {
-        img: "https://www.itcportal.com/assets/images/homelites.jpg",
+        img: "https://images.thdstatic.com/productImages/bd2eda92-87ff-4907-afe0-b8363be7ec59/svn/homelite-cordless-hedge-trimmers-homht10-e1_600.jpg",
         description: "Homelites matches"
     },
     {
-        img: "https://www.itcportal.com/assets/images/aashirvaad.jpg",
+        img: "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/8/AmazonStores/A21TJRUUN4KGV/4ba62de6fa4103a0c4a7e0f7f34afff9.w800.h800.png",
         description: "Att, Vermicelli, Gree, Salt, Spices, Ready to eat Meals and instant mixes"
     },
     {
-        img: "https://www.itcportal.com/assets/images/yippee.jpg",
+        img: "https://tyroo.com/wp-content/uploads/2022/11/yipee-2-1.jpg",
         description: "Instant Noodles and Pasta"
     },
     {
-        img: "https://www.itcportal.com/assets/images/itc-sunrise.jpg",
+        img: "https://img.freepik.com/premium-vector/sunrise-view-logo-design-illustration-inspiration_340145-158.jpg",
         description: "Sunrise Pure! A lagacy of inovation for over 100 years!"
     },
     {
-        img: "https://www.itcportal.com/assets/images/fiama.jpg",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShxDmXWEPL60fdN6PavPGTeUpss4AZO2reiQ&usqp=CAU",
         description: "Shower Gel, Bathing bars, Handwashes, Essential oils, body oils and  bathing Accessories"
     },
 ]
 
 export const Sustainability = [
     {
-        img: "https://www.itcportal.com/assets/images/icon4-sustainability.jpg",
+        img: "https://pmagy.gov.in/admin/gallery_image/615a8e7189fab.jpg",
         title: "E-Choupal Ecosystem"
     },
     {
-        img: "https://www.itcportal.com/assets/images/icon9-sustainability.jpg",
+        img: "https://c1.wallpaperflare.com/preview/720/634/562/lady-street-photography-woman.jpg",
         title: "Afforestation Programme"
     },
     {
-        img: "https://www.itcportal.com/assets/images/icon3-sustainability.jpg",
+        img: "https://thumbs.dreamstime.com/b/indian-man-bathing-ganges-river-10522874.jpg",
         title: "Watershed Developement Programme"
     },
     {
-        img: "https://www.itcportal.com/assets/images/icon10-sustainability.jpg",
+        img: "https://hindi.cdn.zeenews.com/hindi/sites/default/files/styles/zm_700x400/public/2022/06/14/1182558-mahila-panchayt.jpg?itok=Mq8ezZ1a",
         title: "Sustainable Agriculture"
     },
     {
-        img: "https://www.itcportal.com/assets/images/icon2-sustainability.jpg",
+        img: "https://ak.picdn.net/offset/photos/533aed188e5b3dd8a2ce1af0/medium/offset_91598.jpg",
         title: "LiveStock Development"
     },
     {
-        img: "https://www.itcportal.com/assets/images/icon1-sustainability.jpg",
+        img: "https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2016/10/06/Photos/Processed/mahila-kOfD--621x414@LiveMint.jpg",
         title: "Women Empowerment"
     },
     {
-        img: "https://www.itcportal.com/assets/images/icon5-sustainability.jpg",
+        img: "https://t3.ftcdn.net/jpg/05/01/74/62/360_F_501746213_H7NXW6EpSdWPQST1hN7bjkmG1ncTDIyx.jpg",
         title: "Primary Education"
-    },
-    {
-        img: "https://www.itcportal.com/assets/images/icon6-sustainability.jpg",
-        title: "Skilling & Vocational Training"
-    },
-    {
-        img: "https://www.itcportal.com/assets/images/icon8-sustainability.jpg",
-        title: "Sotid Waste Management"
     }
 ]
 
