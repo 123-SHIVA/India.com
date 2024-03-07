@@ -140,7 +140,7 @@ export const LatestUpdate = [
         tag: "Business Standard"
     },
     {
-        img: "https://www.itcportal.com/assets/images/mediacentre/big-story-thumb-focus-070224.jpg",
+        img: "https://i.postimg.cc/G2sxn2R8/generate-a-similar-image-like-this-to-remove-the-owner-rights-8.jpg",
         title: "Focus is on sustainable and inclusive growth': Sanjiv Puri",
         description: "In an interview with THE WEEK, ITC Chairman Sanjiv Puri talks about the 'ITC Next' vectors of growth - Digital and Sustainability; pillars of..",
         date: "11 Feb 2024",
@@ -307,7 +307,7 @@ export const vectorOfGrowth = [
     {
         title: "CLIMATE SMART AGRICULTURE",
         description: "Building resilience in india's agriculture sector",
-        img: "https://www.itcportal.com/assets/images/vector-cli_thumb.jpg"
+        img: "https://i.postimg.cc/fbQwfqbG/generate-a-similar-image-like-this-to-remove-the-owner-rights-1.jpg"
     }, {
         title: "DIGITAL TRANSFORM AT ITC",
         description: "For a Future Tech Organisation",

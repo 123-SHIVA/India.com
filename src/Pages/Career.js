@@ -100,7 +100,7 @@ function Career() {
 
         <div className="lg:absolute top-0 left-0 right-0  lg:w-full lg:h-full bg-orange-700  lg:bg-transparent flex lg:flex-row flex-col text-white font-bold  ">
           <div>
-            <img src="https://www.itcportal.com/images/careers-mrigaban.jpg" alt="Career Image" className="sm:w-full sm:h-full" />
+            <img src="https://i.postimg.cc/Wtc27fWh/generate-a-similar-image-like-this-to-remove-the-owner-rights-6.jpg" alt="Career Image" className="sm:w-full sm:h-full" />
           </div>
           <div className="my-10 flex flex-col justify-center items-center px-10 font-[350]">
             <div className="flex gap-5">

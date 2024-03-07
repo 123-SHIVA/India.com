@@ -106,7 +106,7 @@ function AboutPage() {
 
           <div className="flex lg:w-6/12 w-full  ">
             <div className=" overflow-hidden shadow-lg flex bg-white w-full px-8 mt-8 pt-8 rounded-xl  ">
-              <img src={sanjibpuri} alt="Placeholder" />
+              <img src='https://i.postimg.cc/CL4d5gLR/generate-a-similar-image-like-this-to-remove-the-owner-rights-4.jpg' alt="Placeholder" />
               <div className="px-10 pt-16 ">
                 <div className=" w-full">
                   <h1 className="text-3xl" >Mr. Sanjiv Puri</h1>

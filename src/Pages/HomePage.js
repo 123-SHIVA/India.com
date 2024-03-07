@@ -124,7 +124,7 @@ function HomePage() {
                         <p className="text-sm">Chairman & Md</p>
                     </div>
                     <div >
-                        <img src="https://www.itcportal.com/assets/images/sanjiv-puri.png" className="h-[65vh]" />
+                        <img src="https://i.postimg.cc/CL4d5gLR/generate-a-similar-image-like-this-to-remove-the-owner-rights-4.jpg" className="h-[65vh]" />
                         <hr className="mt-5 lg:hidden" />
                     </div>
                     <div className="lg:w-96 w-[70vw] mt-10 ml-10 ">
