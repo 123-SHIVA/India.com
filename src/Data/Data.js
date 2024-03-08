@@ -11,7 +11,28 @@ import { BsBuildings } from "react-icons/bs";
 import { TbRelationManyToMany } from "react-icons/tb";
 import { GiWaterRecycling } from "react-icons/gi";
 import { GiArchiveResearch } from "react-icons/gi";
-import itcLogo from "../images/itc-online-high-resolution-logo-transparent.png"
+import itcLogo from "../images/itc-online-high-resolution-logo-transparent.png";
+import { TbReport } from "react-icons/tb";
+import { GrDocumentOutlook } from "react-icons/gr";
+import { HiMiniPresentationChartLine } from "react-icons/hi2";
+import { FaArrowTrendUp } from "react-icons/fa6";
+import { BiMoneyWithdraw } from "react-icons/bi";
+import { FiSun } from "react-icons/fi";
+import { PiSpeakerHighBold } from "react-icons/pi";
+import { IoDocumentTextOutline } from "react-icons/io5";
+import { IoServerOutline } from "react-icons/io5";
+import { AiOutlineGlobal } from "react-icons/ai";
+import { RiHotelLine } from "react-icons/ri";
+import { LuMilk } from "react-icons/lu";
+import { MdOutlinePerson3 } from "react-icons/md";
+import { TfiWrite } from "react-icons/tfi";
+import { TbMatchstick } from "react-icons/tb";
+import { MdTrendingUp } from "react-icons/md";
+
+import { MdBorderColor } from "react-icons/md";
+import { RxAvatar } from "react-icons/rx";
+import { LiaCreativeCommonsShare } from "react-icons/lia";
+
 
 
 
@@ -222,7 +243,7 @@ export const ItcNews = [
 
 export const ItcPerspective = [
     {
-      img: "https://menskexpressgloballtd.com/img/vission.png",
+      img:"https://menskexpressgloballtd.com/img/vission.png",
       Title: <h1>The ITC ONLINE Vision</h1>,
       description: (
         <p>
@@ -600,10 +621,6 @@ export const brandsData = [
 
 ]
 
-import { LuMilk } from "react-icons/lu";
-import { MdOutlinePerson3 } from "react-icons/md";
-import { TfiWrite } from "react-icons/tfi";
-import { TbMatchstick } from "react-icons/tb";
 
 export const drawerDate = [
     {
@@ -698,7 +715,7 @@ export const moreCardData = [
 
 export const financialReportingData = [
     {
-      img: "https://www.itcportal.com/images/ir_ic1.png",
+      img: <FaArrowTrendUp/>,
       Title: <h1> Quarterly Results</h1>,
       color: "bg-[#031f4b] shadow-lg",
       description: (
@@ -714,14 +731,14 @@ export const financialReportingData = [
 
     },
     {
-      img: "https://www.itcportal.com/images/qr_ic1.png",
+      img: <TbReport/>,
       color: "bg-[#04396c]  shadow-lg",
       Title: <h1>ITC Report & Accounts</h1>,
 
 
     },
     {
-      img: "https://www.itcportal.com/images/ir_ic3.png",
+      img: <GrDocumentOutlook/>,
       Title: <h1>Press Releases</h1>,
       color: "bg-[#035b96]  shadow-lg",
 
@@ -729,7 +746,7 @@ export const financialReportingData = [
     },
     {
 
-      img: "https://www.itcportal.com/images/ir_ic4.png",
+      img: <HiMiniPresentationChartLine/>,
       color: "bg-[#74c0bc]  shadow-lg",
       Title: <h1> Presentation
       </h1>,
@@ -741,25 +758,23 @@ export const financialReportingData = [
     },
   ];
 
-
-
 export const stackHoldersInformation = [
     {
-      img: "https://www.itcportal.com/images/si_ic1.png",
+      img: <MdBorderColor/>,
       color:"bg-[#00455e]",
       Title: "Disclosures under Regulation 46 of the SEBI Listing Regulations"
       
       
     },
     {
-      img: "https://www.itcportal.com/images/si_ic2.png",
+      img: <MdTrendingUp/>,
       color:"bg-[#01698f]",
       Title: "ITC's Shareholding Pattern"
       
       
     },
     {
-      img: "https://www.itcportal.com/images/si_ic4.png",
+      img: <RxAvatar/> ,
       color:"bg-[#4c8090]",
       Title: "Unclaimed & Unpaid Dividend"
       
@@ -767,58 +782,68 @@ export const stackHoldersInformation = [
     },
     {
       
-      img: "https://www.itcportal.com/images/ir_ic4.png",
+      img: <LiaCreativeCommonsShare/>,
       color:"bg-[#6aa2b3]",
       Title: "shareholder & AGM Information"
     },
   ];
 
 
+  import { LiaNewspaperSolid } from "react-icons/lia";
+  import { IoDocumentsOutline } from "react-icons/io5";
+  import { LuFileSpreadsheet } from "react-icons/lu";
+  import { GiProfit } from "react-icons/gi";
+  // import { LiaNewspaperSolid } from "react-icons/lia";
+  import { GiHistogram } from "react-icons/gi";
+  import { GrDocumentPerformance } from "react-icons/gr";
+  // import { RiHotelLine } from "react-icons/ri";
+  
+  
 
 export  const quickLinksData = [
     {
-      img: "https://www.itcportal.com/images/quick_ic1.png",
+      img:<LiaNewspaperSolid/>,
       Title: "Recent News",
       color:"bg-[#ffffff]"
       
       
     },
     {
-      img: "https://www.itcportal.com/images/ir_quick_ic.png",
+      img: <IoDocumentsOutline/>,
       Title: "ITC Reports & Accounts 2023",
       color:"bg-[#ffffff]"
       
       
     },
     {
-      img: "https://www.itcportal.com/images/bs_quick_ic.png",
+      img: <LuFileSpreadsheet/>,
       Title: "ITC Balance Sheet",
       color:"bg-[#ffffff]"
       
       
     },
     {
-      img: "https://www.itcportal.com/images/pl_quick_ic.png",
+      img: <GiProfit/>,
       Title: "ITC Profit & Loss Statement",
       color:"bg-[#ffffff]"
     },
     {
-      img: "https://www.itcportal.com/images/10yrs_quick_ic.png",
+      img: <LiaNewspaperSolid/>,
       color:"bg-[#ffffff]",
       Title: "10 Years at a Glance",
     },
     {
-      img: "https://www.itcportal.com/images/kr_quick_ic.png",
+      img: <GiHistogram/>,
       color:"bg-[#ffffff]",
       Title: "Key Ratios"
     },
     {
-      img: "https://www.itcportal.com/images/esg_ic.png",
+      img: <GrDocumentPerformance/>,
       color:"bg-[#ffffff]",
       Title: "ITC's ESG Credentials"
     },
     {
-      img: "https://www.itcportal.com/images/demerger_hotel_ic.png",
+      img: <RiHotelLine/>,
       color:"bg-[#ffffff]",
       Title: "Proposed Demerger of Hotels Business"
     },
@@ -827,93 +852,53 @@ export  const quickLinksData = [
 
 export const itcAtGlanceInInvestor = [
     {
-      logo: "https://www.itcportal.com/images/glace_ic1.png",
+      logo: <BiMoneyWithdraw/>,
       title: "₹ 69,481",
       subtitle: "Crores",
       heading: "Gross Revenue",
       para: "figures as on 31.03.2023"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic2.png",
+      logo: <BiMoneyWithdraw/>,
       title: "₹ 18,753.31",
       subtitle: "crores",
       heading: "Net Profit",
       para: "figures as on 31.03.2023"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic3.png",
+      logo: <FiSun/>,
       title: "12",
       heading: "Businesses of Tomorrow"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic4.png",
+      logo: <PiSpeakerHighBold/>,
       title: "25+",
       heading: "FMCG Mother Brands"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic19.png",
+      logo: <IoDocumentTextOutline/>,
       title: "900",
       heading: "Patents filed"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic5.png",
+      logo: <IoServerOutline/>,
       title: "200+",
       heading: "Manufacturing Units"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic20.png",
+      logo: <AiOutlineGlobal/>,
       title: "exports to",
       heading: "100 Countries"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic7.png",
+      logo:<RiHotelLine/>,
       title: "119",
       heading: "Hotels across 80 locations"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic10.png",
-      title: "18 Years",
-      heading: "Carbon Positive"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic11.png",
+      logo: <FaHandHoldingWater/>,
       title: "21 Years",
       heading: "Water Positive"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic12.png",
-      title: "16 Years",
-      heading: "Solid Waste Recycling Positive"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic13.png",
-      title: "4 Million ",
-      heading: "Farmers Benefitted by e-Choupal"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic14.png",
-      title: "6 Million",
-      heading: "Sustainable Livelihoods"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic15.png",
-      title: "43%",
-      heading: "of the Total Energy is Renewable"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic16.png",
-      title: "40",
-      heading: "Platinum Rated Green Building"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic17.png",
-      title: "12 hotels, 1 Data centre",
-      heading: "LEED Zero Carbon"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic18.png",
-      title: "2 Holtels",
-      heading: "LEED Zero Water"
     }
   ]
 
