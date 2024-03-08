@@ -4,15 +4,15 @@ function Footer() {
             <section className="border-t text-sm text-black lg:px-32  px-10">
                 <div className="flex lg:justify-end">
                     <div className="flex items-center gap-3 p-3">
-                        <img src="https://www.itcportal.com/images/icon2.png" />
-                        <p>ITC on social media</p>
+                        <img src="https://img.freepik.com/premium-vector/infographic-three-circle-diagram-linked-segments_91606-39.jpg" className="w-10" />
+                        <p>ITC online on social media</p>
                     </div>
                     <div className="flex items-center gap-3 p-3 px-5 border-l border-r">
-                        <img src="https://www.itcportal.com/images/icon3.png" />
-                        <p>ITC App</p>
+                        <img src="https://i.pinimg.com/564x/ea/fc/b7/eafcb70d4663faa713ba6d1af348cf9c.jpg"  className="w-10"/>
+                        <p>ITC Online App</p>
                     </div>
                     <div className="flex items-center gap-3 p-3">
-                        <img src="https://www.itcportal.com/images/icon4.png" />
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyhAFmzVyC902J7gP5_Oz2H8_mbqFB0HTAJ7232pLYYqup73OZoXCE1sJ3KEUBNxqrAlw&usqp=CAU" className="w-10" />
                         <p>Downloads & Websites</p>
                     </div>
                 </div>
@@ -22,7 +22,7 @@ function Footer() {
             <div className="bg-[#3594e1] text-[#a2ceed] font-semibold hidden lg:block">
                 <div className=" flex text-[11px] w-10/12 m-auto gap-10 px-10 py-14 ">
                     <ul className="leading-6">
-                        <li className="text-white text-sm font-bold">ITC LIMITED</li>
+                        <li className="text-white text-sm font-bold">ITC online LIMITED</li>
                         <li>Virginia House,</li>
                         <li>37, J. L. Nehru Road</li>
                         <li>Kolkata - 700071, India</li>
@@ -41,8 +41,8 @@ function Footer() {
                         <li className="text-white text-sm font-bold">ABOUT ITC</li>
                         <li>Our Profile</li>
                         <li>Our Values</li>
-                        <li>ITC Research and Developement</li>
-                        <li>ITC Leadership</li>
+                        <li>ITC Online Research and Developement</li>
+                        <li>ITC Online Leadership</li>
                         <li>Leadership Speaks</li>
                         <li>Our Policies</li>
                         <li>Investor Pelations</li>
@@ -63,12 +63,12 @@ function Footer() {
                     </ul>
                     <ul className="leading-6">
                         <li className="text-white text-sm font-bold">Sustainability</li>
-                        <li>ITC's Sustainability Initiatives</li>
+                        <li>ITC Online's Sustainability Initiatives</li>
                         <li>Corporate Social responsibility</li>
                         <li>Enviroment, Health & Safety</li>
-                        <li>ITC's Sustainability Policies</li>
-                        <li>ITC CSR Policy</li>
-                        <li>ITC Social investments Impact</li>
+                        <li>ITC Online's Sustainability Policies</li>
+                        <li>ITC Online CSR Policy</li>
+                        <li>ITC Online Social investments Impact</li>
                         <li>Studies</li>
                         <li>Sustainability Report</li>
                         <li>RFPs For impact Assessnent </li>
@@ -77,23 +77,23 @@ function Footer() {
 
                     <ul className="leading-6">
                         <li className="text-white text-sm font-bold">Media Center</li>
-                        <li>Key Facts About ITC</li>
+                        <li>Key Facts About ITC Online</li>
                         <li>Business Information</li>
-                        <li>Everday Stories From ITC</li>
-                        <li>ITC in the news</li>
+                        <li>Everday Stories From ITC Online</li>
+                        <li>ITC Online in the news</li>
                         <li>Press Releases</li>
                         <li>Press Reports</li>
-                        <li>ITC Newsroom</li>
+                        <li>ITC Online Newsroom</li>
                     </ul>
                     <ul className="leading-6">
                         <li className="text-white text-sm font-bold">Brands</li>
                         <li>Investor relation</li>
                         <li>Careers</li>
-                        <li>ITC Resources</li>
+                        <li>ITC Online Resources</li>
                         <li>Downloads</li>
                         <li>Contact Us</li>
                         <li>Store Locator</li>
-                        <li>ITC on Social Media</li>
+                        <li>ITC Online on Social Media</li>
                         <li>Sitemap</li>
                     </ul>
                 </div>
@@ -101,7 +101,7 @@ function Footer() {
 
             <div className=" bg-white text-[#6b6b6b] text-xs py-6 border ">
                 <div className="w-10/12 px-10 flex flex-col lg:flex-row justify-between items-center m-auto">
-                    <div >@ ITC Limited 2024</div>
+                    <div >@ ITC Online Limited 2024</div>
                     <ul className="flex gap-5">
                         <li>Terms of use</li>
                         <li>Privacy Policy</li>

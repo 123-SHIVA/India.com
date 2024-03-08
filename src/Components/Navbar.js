@@ -11,6 +11,7 @@ import { useState } from "react";
 import DropDown from "./DropDown";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
+import ItcLogo from "../images/itc-online-high-resolution-logo-transparent.png";
 import "../App.css";
 import './Navbar.css';
 
@@ -83,7 +84,7 @@ function Navbar() {
         ) : (
           <>
             <div className="flex " >
-              <Link to="/" className=" text-xl"><img src="https://www.itcportal.com/images/logo_itc.png" /></Link>
+              <Link to="/" className=" text-xl"><img className="w-20" src={ItcLogo} /></Link>
             </div>
 
 
@@ -130,7 +131,7 @@ function NavbarElement() {
           role="button"
           className="flex gap-1 items-center"
         >
-          About ITC
+          About ITC Online
           <MdKeyboardArrowDown className="hidden lg:block" />
         </Link>
         <ul
@@ -247,7 +248,7 @@ function NavbarElement() {
           role="button"
           className="flex gap-1 items-center"
         >
-          ITC Resources
+          ITC online Resources
         </Link>
         
       </li>

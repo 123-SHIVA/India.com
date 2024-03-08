@@ -9,8 +9,8 @@ function Sustainability() {
 
       <section >
         <img
-          className="w-full"
-          src="https://www.itcportal.com/images/sus_introbanner.jpg"
+          className="w-full h-96"
+          src="https://cdn.thewire.in/wp-content/uploads/2019/12/23172649/WhatsApp-Image-2019-12-18-at-12.43.49-1024x417.jpeg"
         />
         <div className="relative lg:bottom-24 bottom-16 lg:w-[80%] text-white font-bold  m-auto  ">
 
@@ -21,8 +21,8 @@ function Sustainability() {
               <hr className="w-9 mt-3 border-b-2 border-white"></hr>
             </div>
             <div className="flex flex-col gap-4 items-center bg-[#253722] px-16 lg:py-8  py-2">
-              <img
-                src="https://www.itcportal.com/images/sus_key_ic_in.png"
+              <img 
+                src="https://ezop.com/wp-content/uploads/2021/02/save.png"
                 className="w-16"
                 alt="Sustainability Icon"
               />
@@ -79,13 +79,13 @@ function Sustainability() {
         <div className="lg:w-1/2 py-16 lg:pl-48 px-10 pr-6 lg:bg-[#7ad0d8] bg-[#265d1b] text-sm tracking-wide font-[350] flex flex-col gap-3 ">
           <hr className="w-7 mt-3 border-b-2 border-[#282828]"></hr>
           <h3 className="text-2xl mb-4">
-            Sustainability as a driving force for ITC
+            Sustainability as a driving force for ITC ONLINE
           </h3>
           <p className="mb-4">
             Any sustainable solution to addressing the grave challenges facing
             the world today requires the concerted efforts of all sections of
             society - policymakers, regulators, business, NGOs and civil
-            society. At ITC, we believe that with their immense managerial and
+            society. At ITC ONLINE, we believe that with their immense managerial and
             innovative capacity, businesses can contribute significantly towards
             making a transformational change in society.
           </p>
@@ -102,7 +102,7 @@ function Sustainability() {
         </div>
         <div className="lg:w-1/2 flex justify-center items-center">
           <img
-            src="https://www.itcportal.com/images/driving_force.png"
+            src="https://corus3d.org/site/img/icon.png"
             alt="Driving Force Image"
             className="w-80"
           />
@@ -142,14 +142,14 @@ function Sustainability() {
       <section className="lg:w-[80%] w-[90%] m-auto text-[#282828] text-base font-[350] tracking-tight flex flex-row p-5 ">
         <div className=" w-1/2 mx-4 lg:m-4 flex flex-col lg:flex-row items-center">
           <img
-            src="https://www.itcportal.com/images/images1.jpg"
+            src="https://imaggeo.egu.eu/media/thumbs/previews/2021/03/17/15931.jpg.800x600_q85.jpg"
             alt="Card Image"
             className="lg:w-1/2" />
 
           <div className=" bg-[#265d1b] h-full text-white lg:w-1/2 p-5">
             <h1>Renewable Energy</h1>
             <h1 className="my-4">
-              - About 43% of energy consumption at ITC is from renewable sources
+              - About 43% of energy consumption at ITC ONLINE is from renewable sources
             </h1>
 
           </div>
@@ -157,15 +157,15 @@ function Sustainability() {
 
         <div className=" w-1/2 mx-4 lg:m-4 flex flex-col lg:flex-row items-center">
           <img
-            src="https://www.itcportal.com/images/images2.jpg"
+            src="https://www.destinasian.com/travel/wp-content/uploads/Four-Seasons-Macao-Grand-Suites-665x998.jpg"
             alt="Card Image"
             className="lg:w-1/2" />
 
           <div className=" bg-[#265d1b] h-full text-white lg:w-1/2 p-5">
           <h1>Responsible luxury</h1>
-            <h1 className="my-4">- ITC Hotels: Trailblazer in Responsible Luxury</h1>
+            <h1 className="my-4">- ITC ONLINE Hotels: Trailblazer in Responsible Luxury</h1>
             <h1>
-              - All ITC's Premium Luxury Hotels are LEED Platinium Certified
+              - All ITC ONLINE's Premium Luxury Hotels are LEED Platinium Certified
             </h1>
 
           </div>
@@ -174,30 +174,30 @@ function Sustainability() {
       
       </section>
 
-      {/* ----------------------------ITC's ESG Credentials */}
+      {/* ----------------------------ITC ONLINE's ESG Credentials */}
 
       <section className="lg:w-[80%] w-[90%] p-5 m-auto text-[#282828] font-[400] text-sm ">
-        <h1 className="text-lg f ">ITC's ESG Credentials</h1>
+        <h1 className="text-lg f ">ITC ONLINE's ESG Credentials</h1>
 
         <div className="flex justify-evenly items-center">
           <div className="max-w-sm rounded overflow-hidden ">
             <img
               className="w-full"
-              src="https://www.itcportal.com/images/esg-credential-01.jpg"
+              src="https://th.bing.com/th/id/OIP.1FR2wFMLmjfPDIqtaHcKoAHaDt?rs=1&pid=ImgDetMain"
               alt="Image 1"
             />
           </div>
           <div className="max-w-sm rounded overflow-hidden">
             <img
               className="w-full"
-              src="https://www.itcportal.com/images/esg-credential-02.jpg"
+              src="https://resource.logitech.com/w_1206,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/sustainability/reports-and-resources/dow-jones.png?v=1"
               alt="Image 2"
             />
           </div>
           <div className="max-w-sm rounded overflow-hidden ">
             <img
               className="w-full"
-              src="https://www.itcportal.com/images/esg-credential-03.jpg"
+              src="https://cdn.dorik.com/608882822958b5001128fae9/608882b82958b5001128faeb/images/blog---What-the-IPCC-2022-Mitigation-of-Climate-Change-report-says_m6pfuzbm.png"
               alt="Image 3"
             />
           </div>
@@ -209,7 +209,7 @@ function Sustainability() {
       <section className="lg:w-[80%] w-[90%] p-5 m-auto text-[#282828] font-[400] text-sm">
         <div >
           <h1 className="mb-4 font-semibold text-lg">
-            ITC's Social Investment Initiatives
+            ITC ONLINE's Social Investment Initiatives
           </h1>
 
           <p className="subpixel-antialiased leading-6 tracking-wide">
@@ -244,11 +244,11 @@ function Sustainability() {
       <section className="lg:w-[80%] w-[90%]  p-5 m-auto text-[#282828] font-[350] text-sm">
         <div>
           <h1 className="mb-4 font-semibold text-xl">
-            ITC's Sustainability Impact
+            ITC ONLINE's Sustainability Impact
           </h1>
 
           <p className="subpixel-antialiased leading-6 tracking-wide">
-            At ITC, we take immense pride in the fact that we are a global
+            At ITC ONLINE, we take immense pride in the fact that we are a global
             exemplar in sustainability. Our businesses and value chains today
             support over 60 lakh sustainable livelihoods. We are the only
             company in the world to have achieved the rare distinction of being
@@ -257,7 +257,7 @@ function Sustainability() {
             Company's energy consumption is today met from renewable sources.
             Our growing green building footprint encompasses factories, hotels,
             offices and employee housing. 41 such buildings have been certified
-            at the highest LEED Platinum level. All properties of ITC Hotels are
+            at the highest LEED Platinum level. All properties of ITC ONLINE Hotels are
             certified at the highest LEED Platinum level.
           </p>
         </div>
@@ -268,7 +268,7 @@ function Sustainability() {
 
           <h3 className="text-2xl  mb-2">
             <hr className="w-7 mt-3 border-b-2 mb-3 border-white"></hr>
-            ITC's Corporate Social Responsibility
+            ITC ONLINE's Corporate Social Responsibility
           </h3>
           <p>
             Our commitment to creating societal value is manifest in our CSR
@@ -284,7 +284,7 @@ function Sustainability() {
         </div>
         <div className="lg:w-1/2 flex justify-center items-start">
           <img
-            src="https://www.itcportal.com/images/corporate.jpg"
+            src="https://i.ytimg.com/vi/Nz7gkqGGn6w/maxresdefault.jpg"
             alt="Driving Force Image"
             className="w-full h-96 "
           />
@@ -293,19 +293,19 @@ function Sustainability() {
 
       <section className="lg:w-[80%] w-[95%] p-5 m-auto text-[#282828] font-[350] text-sm tracking-wide leading-6">
         <div className=" p-10">
-          <h1 className="text-2xl mb-4 ">ITC EHS</h1>
+          <h1 className="text-2xl mb-4 ">ITC ONLINE EHS</h1>
 
           <p className="subpixel-antialiased  mb-2">
             {" "}
-            ITC's goal is to achieve the greenest and safest operations across
+            ITC ONLINE's goal is to achieve the greenest and safest operations across
             all its operations.
           </p>
 
           <p className="subpixel-antialiased">
-            In terms of environmental performance, ITC aims to minimise impact
+            In terms of environmental performance, ITC ONLINE aims to minimise impact
             and create a positive footprint wherever possible. The company also
             ensures a safe and healthy workplace for the wellbeing of its
-            employees. All ITC facilities are continually ahead of national
+            employees. All ITC ONLINE facilities are continually ahead of national
             legislation and benchmarked to the best international standards and
             practices in terms of design and infrastructure.
           </p>

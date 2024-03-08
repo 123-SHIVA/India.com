@@ -2,9 +2,13 @@ import { Link } from "react-router-dom";
 import aboutImg from "../images/bannerbg1.jpg";
 import HomeLayout from "../Layouts/HomeLayout";
 import { FaArrowRight } from "react-icons/fa6";
-import sanjibpuri from "../images/sanjibpuri.png";
+import { IoMdTrendingUp } from "react-icons/io";
+import { SiYamahacorporation } from "react-icons/si";
+import { FcBusinessman } from "react-icons/fc";
+
 import ItcAtGlanceCard from "../Cards/ItcAtGlanceCard";
 import { itcAtGlanceData, ItcPerspective, globalHonours, moreAboutItc } from "../Data/Data";
+import avatar_img from "../images/avatar-image.png"
 
 
 
@@ -26,10 +30,10 @@ function AboutPage() {
         <div className="absolute top-0 left-0 right-0  p-20">
           <div className="text-blue-800 flex flex-col lg:flex-row justify-between  ">
             <div className="flex flex-col justify-center gap-5 text-blue-900 font-bold  ">
-              <h1 className="text-5xl">About ITC</h1>
+              <h1 className="text-5xl">About ITC ONLINE</h1>
 
               <div className="text-lg font-[350]">
-                ITC is a leading multi-business Indian enterprise with <br></br>{" "}
+                ITC ONLINE is a leading multi-business Indian enterprise with <br></br>{" "}
                 presence in{" "}
                 <b>
                   FMCG, Paper, Packaging, Agribusiness, Hotels <br></br> and IT
@@ -54,10 +58,10 @@ function AboutPage() {
 
 
 
-      {/* --------------------------ITC at a Glance------------ */}
+      {/* --------------------------ITC ONLINE at a Glance------------ */}
       <section className="px-14 mt-10 w-full  text-black">
         <div>
-          <h1 className=" text-4xl text-black font-semibold ">ITC at a Glance</h1>
+          <h1 className=" text-4xl text-black font-semibold ">ITC ONLINE at a Glance</h1>
 
 
 
@@ -96,8 +100,8 @@ function AboutPage() {
       <section className="bg-sky-100 -mt-2 px-14  ">
         <div className="flex flex-col lg:flex-row justify-between lg:items-center py-8 text-black mt-2 border ">
           <div className="w-5/12">
-            <h1 className="text-4xl font-semibold">ITC <span className="font-bold">Leadership</span></h1>
-            <p className="text-xs leading-6 my-5">Flowing from the concept and principles of Corporate Governance adopted by the Company, leadership within ITC is exercised at three levels. The Board of Directors at the apex, as trustee of shareholders, carries the responsibility for strategic supervision of the Company.</p>
+            <h1 className="text-4xl font-semibold">ITC ONLINE <span className="font-bold">Leadership</span></h1>
+            <p className="text-xs leading-6 my-5">Flowing from the concept and principles of Corporate Governance adopted by the Company, leadership within ITC ONLINE is exercised at three levels. The Board of Directors at the apex, as trustee of shareholders, carries the responsibility for strategic supervision of the Company.</p>
 
             <button className="my-2 ml-0 flex justify-between text-xs font-thin items-center w-40  text-blue py-2 px-5 border-2 border-blue-600 rounded-2xl">
               Read more <FaArrowRight className="text-[8px]" />
@@ -106,7 +110,7 @@ function AboutPage() {
 
           <div className="flex lg:w-6/12 w-full  ">
             <div className=" overflow-hidden shadow-lg flex bg-white w-full px-8 mt-8 pt-8 rounded-xl  ">
-              <img src='https://i.postimg.cc/CL4d5gLR/generate-a-similar-image-like-this-to-remove-the-owner-rights-4.jpg' alt="Placeholder" />
+              <img src={avatar_img} alt="Placeholder" />
               <div className="px-10 pt-16 ">
                 <div className=" w-full">
                   <h1 className="text-3xl" >Mr. Sanjiv Puri</h1>
@@ -125,15 +129,15 @@ function AboutPage() {
         <div className="section">
           <div className="flex bg-gradient-to-b from-blue-700 to-blue-950 text-white text-sm justify-around py-5">
             <div className="flex flex-row gap-5 items-cente">
-              <img src="https://www.itcportal.com/assets/images/about/bod-icon.png" className="w-6 h-6" alt="Image 1" />
+              <IoMdTrendingUp className="w-6 h-6" alt="Image 1" />
               <p>Board of Directors</p>
             </div>
             <div className="flex flex-row gap-5 items-center">
-              <img src="https://www.itcportal.com/assets/images/about/cmc-icon.png" className="w-6 h-6" alt="Image 2" />
+              <SiYamahacorporation className="w-6 h-6" alt="Image 2" />
               <p>Corporate Management Committee</p>
             </div>
             <div className="flex flex-row gap-5 items-center">
-              <img src="https://www.itcportal.com/assets/images/about/bh-icon.png" className="w-6 h-6" alt="Image 3" />
+              <FcBusinessman className="w-6 h-6" alt="Image 3" />
               <p>Business Heads</p>
             </div>
           </div>

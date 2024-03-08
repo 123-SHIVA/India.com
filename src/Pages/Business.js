@@ -25,7 +25,7 @@ function Business() {
 
         {/* Content container */}
         <div className="relative z-10 text-white font-bold  py-20 px-10">
-          <h1 className="text-6xl">ITC Businesses</h1>
+          <h1 className="text-6xl">ITC ONLINE Businesses</h1>
           <div className="grid lg:grid-cols-3 gap-8 mx-auto mt-8">
             {
               bussinessList.map((item, index)=>{

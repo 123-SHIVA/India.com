@@ -24,7 +24,7 @@ function BrandPage() {
                     <div className="lg:w-[85vw] m-auto">
                         <div className="flex justify-between items-center">
                             <div className="p-5 border-x border-gray-700 h-28 flex items-center" >
-                                <Link to="/"><img src="https://www.itcportal.com/brands-microsite/images/logo.png" className="w-[90%]" /></Link>
+                                <Link to="/"><img src="" className="w-[90%]" /></Link>
                             </div>
                             <div className="flex  items-center sm:gap-10   text-sm">
                                 <div className="flex flex-col sm:flex-row ">
