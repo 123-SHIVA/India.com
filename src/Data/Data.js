@@ -4,14 +4,15 @@ import { GiWheat, GiMatchHead } from "react-icons/gi";
 import { TfiPackage } from "react-icons/tfi";
 import { FaHandHoldingWater,FaHotel } from "react-icons/fa";
 import { LuBedDouble, LuMonitorPlay, LuBookOpenCheck,LuArrowUpRightFromCircle } from "react-icons/lu";
-import vision from "../images/vision.png";
-import mission from "../images/mission.png";
-import values from "../images/values.png";
 import { IoLocationOutline } from "react-icons/io5";
 import { TbFileCv } from "react-icons/tb";
 import { FiFileText } from "react-icons/fi";
 import { BsBuildings } from "react-icons/bs";
+import { TbRelationManyToMany } from "react-icons/tb";
+import { GiWaterRecycling } from "react-icons/gi";
+import { GiArchiveResearch } from "react-icons/gi";
 import itcLogo from "../images/itc-online-high-resolution-logo-transparent.png"
+
 
 
 
@@ -24,9 +25,11 @@ export const itcAtGlanceData = [
     {
       logo: <BsBuildings />,
       title: "40",
-      subTitle: "Platinum Rated Green Building"
+      subTitle: "Sliver Rated Green Building"
     },
     {
+      logo: "https://www.itcportal.com/assets/images/glace_ic16.png",
+      title: "10 Hotels, 2 Data Centers",
       logo: <FaHotel />,
       title: "12 Hotels, 1 Data Center",
       subTitle: "LEED Zero Carbon"
@@ -219,11 +222,11 @@ export const ItcNews = [
 
 export const ItcPerspective = [
     {
-      img: vision,
-      Title: <h1>The ITC Vision</h1>,
+      img: "https://menskexpressgloballtd.com/img/vission.png",
+      Title: <h1>The ITC ONLINE Vision</h1>,
       description: (
         <p>
-          Sustain ITC's position as one of India's most valuable corporations
+          Sustain ITC ONLINE's position as one of India's most valuable corporations
           through world class performance, creating growing value for the Indian
           economy and the Company's stakeholders
         </p>
@@ -232,8 +235,8 @@ export const ItcPerspective = [
       
     },
     {
-      img: mission,
-      Title: <h1>The ITC Mission</h1>,
+      img: "https://support.engagerm.com/Get-Answers-Icon.png",
+      Title: <h1>The ITC ONLINE Mission</h1>,
       description: (
         <p>
           To enhance the wealth generating capability of the enterprise in a
@@ -244,11 +247,11 @@ export const ItcPerspective = [
       color:"bg-[#150371]"
     },
     {
-      img: values,
-      Title: <h1> ITC Values</h1>,
+      img:"https://picsera.sirv.com/production/2020/12/Group-127.png",
+      Title: <h1> ITC ONLINE Values</h1>,
       description: (
         <p>
-          ITC believes that its core values of trusteeship, customer focus,
+          ITC ONLINE believes that its core values of trusteeship, customer focus,
           respect for people, excellence, innovation and nation orientation have
           been the guiding principles behind the Company's phenomenal growth,
           helping it to become one of India's most admired and valued enterprises.
@@ -261,30 +264,30 @@ export const ItcPerspective = [
   
 
 export  const globalHonours = [
-  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic1.png", description: "World Business And Development Awards 2012" },
-  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic2.png", description: "The Development Gateway Award 2005" },
-  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic3.png", description: "SAM/SPG Sustainability Leadership Award 2007" },
-  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic4.png", description: "The Stockholm Challenge Award 2006" },
-  { imageUrl: "https://www.itcportal.com/assets/images/about/honurs_ic5.png", description: "ICSI National Award 2006" }
+  { imageUrl: "https://th.bing.com/th/id/R.74da0b22a539be7734620e679b83f289?rik=esdnbx64BF8vGg&riu=http%3a%2f%2fwww.logomark.com%2fImage%2fGroupHiRes%2fGroupHiRes120%2fca920.jpg&ehk=rkQSBDj8KKDrOGlugTe1krH9ig0%2bGeXZev4l%2fT0D0QY%3d&risl=&pid=ImgRaw&r=0", description: "World Business And Development Awards 2012" },
+  { imageUrl: "https://wallstreetgifts.com/pub/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/o/c/oc2745_1.jpg", description: "The Development Gateway Award 2005" },
+  { imageUrl: "https://ak1.ostkcdn.com/images/products/is/images/direct/a214c270379bb36c5915ef5b1b60f5479d84a1ea/Himalayan-Salt-Lamp-Halite-with-Led-Base.jpg?impolicy=medium&imwidth=200", description: "SAM/SPG Sustainability Leadership Award 2007" },
+  { imageUrl: "https://personalized-awards-prod-images.s3-us-west-2.amazonaws.com/product_image_sm/category/5832440660ff9.jpg", description: "The Stockholm Challenge Award 2006" },
+  { imageUrl: "https://www.iran-fruit.com/wp-content/uploads/2020/12/certifications-1.png", description: "ICSI National Award 2006" }
 ];
 
 export const moreAboutItc = [
   {
     img: "https://www.itcportal.com/assets/images/about/about_btm_bg1.jpg",
-    icon: "https://www.itcportal.com/assets/images/about/about_btm_ic1.png",
+    icon: <TbRelationManyToMany/>,
     title: "Investor Relations",
     description: ""
   },
   {
     img: "https://www.itcportal.com/assets/images/about/about_btm_bg2.jpg",
-    icon: "https://www.itcportal.com/assets/images/about/about_btm_ic2.png",
+    icon: <GiWaterRecycling/>,
     title: "Exemplar in Sustainability",
     description: "Only company in the world to be carbon positive, water positive and solid waste recycling positive."
   },
   {
     img: "https://www.itcportal.com/assets/images/about/about_btm_bg3.jpg",
-    icon: "https://www.itcportal.com/assets/images/about/about_btm_ic3.png",
-    title: "ITC Research and  Development",
+    icon: <GiArchiveResearch/>,
+    title: "ITC ONLINE Research and  Development",
     description: ""
   },
 
@@ -628,33 +631,33 @@ export const drawerDate = [
 
 export const bussinessList =[
     {
-      img:"https://www.itcportal.com/assets/images/business_thumb1.jpg",
+      img:"https://www.dotactiv.com/hs-fs/hubfs/client%20banner-2.png?t=1541429225726&width=3298&name=client%20banner-2.png",
       title:"FMCG",
-      discription:"ITC's rich mix of FMCG portfolio is designed and customised to delight consumers in myriad ways."
+      discription:"ITC ONLINE's rich mix of FMCG portfolio is designed and customised to delight consumers in myriad ways."
     },
     {
-      img:"https://www.itcportal.com/assets/images/business_thumb2.jpg",
+      img:"https://cdn.velocityhousing.in/projects/5/medium_1667382371omaxe-india-trade-centre.jpg",
       title:"Hotels",
-      discription:"Launched in 1975, ITC Hotels, India's premier chain of luxury hotes, had become synonymous with India hospitality."
+      discription:"Launched in 1975, ITC ONLINE Hotels, India's premier chain of luxury hotes, had become synonymous with India hospitality."
     },
     {
-      img:"https://www.itcportal.com/assets/images/business_thumb3.jpg",
+      img:"https://cdn.thewire.in/wp-content/uploads/2020/11/02181917/830678-farmers-in-the-fields-pti.1-1200x600.jpg",
       title:"Agri Business",
-      discription:"ITC is one of india's Largest Integrated agri business enterprises with significant presence across every node of the agri value chain."
+      discription:"ITC ONLINE is one of india's Largest Integrated agri business enterprises with significant presence across every node of the agri value chain."
     },
     {
-      img:"https://www.itcportal.com/assets/images/business_thumb4.jpg",
+      img:"https://th.bing.com/th/id/OIP.v11OiJlknOH4j7anWLlT1gHaEB?w=699&h=380&rs=1&pid=ImgDetMain",
       title:"Paperboards and Soeciality Papers",
-      discription:"ITC's Paperboards and Speciality Papers Business is India's largest, technologically advanced and most eco-friendly paper and paperboards business."
+      discription:"ITC ONLINE's Paperboards and Speciality Papers Business is India's largest, technologically advanced and most eco-friendly paper and paperboards business."
     },
     {
-      img:"https://www.itcportal.com/assets/images/business_thumb5.jpg",
+      img:"https://th.bing.com/th/id/OIP.LyLR_0RUxpB-YW-7_0ctDwHaEo?w=280&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       title:"Information Technology",
-      discription:"ITC infortech is a specialized global services provider, let by Business and Technology Consulting."
+      discription:"ITC ONLINE infortech is a specialized global services provider, let by Business and Technology Consulting."
     },
-    { img:"https://www.itcportal.com/assets/images/business_thumb6.jpg",
+    { img:"https://th.bing.com/th/id/OIP.X-FjrVQLCWf7XfzoDxAf9AHaEK?rs=1&pid=ImgDetMain",
       title:"Packaging",
-      discription:"ITC's Packaging Business is the largest value added converter of paperboard packaging in South Asia. It converts over 1,00,000 tonnes of paper, paperboard and laminates per annum."
+      discription:"ITC ONLINE's Packaging Business is the largest value added converter of paperboard packaging in South Asia. It converts over 1,00,000 tonnes of paper, paperboard and laminates per annum."
     },
   ]
   
@@ -918,25 +921,25 @@ export const itcAtGlanceInInvestor = [
 export const ItcVideoGallery = [
     {
 
-      imageSrc: 'https://www.itcportal.com/assets/images/resources/gallery-thumb-chennarayappa-150224.jpg',
+      imageSrc: 'https://th.bing.com/th/id/OIP.xYVo8mASXrCNiny6pJiYYwHaFj?rs=1&pid=ImgDetMain',
       title: 'ITC Stories of change | Chennarayappa',
 
     },
     {
 
-      imageSrc: 'https://www.itcportal.com/assets/images/resources/gallery-thumb-yippee-150224.jpg',
+      imageSrc: 'https://i.ytimg.com/vi/hBN1w2OlJck/maxresdefault.jpg',
       title: 'YiPPee! WOW MASALA',
 
     },
     {
 
-      imageSrc: 'https://www.itcportal.com/assets/images/resources/gallery-thumb-sanjiv-puri-150224.jpg',
+      imageSrc: 'https://assets.techcircle.in/uploads/article-image/2023/04/images/32628-panel-discussion-1-1.jpg',
       title: 'ITC CMD Sanjiv Puri Speaks On Sustain-O-Vation: Transformation, Transition...',
 
     },
     {
 
-      imageSrc: 'https://www.itcportal.com/assets/images/resources/gallery-thumb-children-150224.jpg',
+      imageSrc: 'https://www.mapsofindia.com/ci-moi-images/my-india/2019/02/Need-to-improve-government-school-education-system-665x348.jpg',
       title: "From Slate to Sky: the story of dreams & hope | World Children's Day 2023 | The ITC Way"
 
     },
@@ -947,43 +950,43 @@ export const ItcVideoGallery = [
 
 export  const socialInvestmentData = [
     {
-      image: "https://www.itcportal.com/images/icon1-sustainability.jpg",
+      image: "https://2.imimg.com/data2/SO/FA/MY-3686445/water-shade-development-program-250x250.jpg",
       description: "e-Choupal Ecosystem",
     },
     {
-      image: "https://www.itcportal.com/images/icon2-sustainability.jpg",
+      image: "https://th.bing.com/th/id/R.8ea69697f64fd6bef63e690f3e03cdf6?rik=QJeJ47q02icQQg&riu=http%3a%2f%2fkirehalli.com%2fwp-content%2fuploads%2f2018%2f04%2faraku-coffee-tribal.jpeg&ehk=LG%2frUv9DzKKiq62vWlebNDyQg6wtZxIc%2bsJ5A1gFFhM%3d&risl=&pid=ImgRaw&r=0",
       description: "Afforestation Programme",
     },
     {
-      image: "https://www.itcportal.com/images/icon3-sustainability.jpg",
+      image: "https://th.bing.com/th/id/R.5cb74c8ba81052877fbba7d44d0ff1a1?rik=hdQSKXU1eVB8bg&riu=http%3a%2f%2fim.rediff.com%2f400-400%2fnews%2f2015%2fsep%2f10live-cross.jpg&ehk=21ON4Ye42TeZ7FAhubU7xolaQWOF%2bRclygQ0bwIqaBw%3d&risl=&pid=ImgRaw&r=0",
       description: "Wateshed development Programme",
     },
     {
-      image: "https://www.itcportal.com/images/icon4-sustainability.jpg",
+      image: "https://www.plan-adapt.org/wp-content/uploads/2022/02/ARA-micro-grant-1-300x300.png",
       description: "Sustainable Agriculture",
     },
     {
-      image: "https://www.itcportal.com/images/icon5-sustainability.jpg",
+      image: "https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2013/05/Comp-Feat.jpg",
       description: "Livestock Development",
     },
     {
-      image: "https://www.itcportal.com/images/icon6-sustainability.jpg",
+      image: "https://th.bing.com/th/id/OIP.lOnrsui7iG3h3EPMM38QZgAAAA?w=200&h=200&rs=1&pid=ImgDetMain",
       description: "Women Empowerment",
     },
     {
-      image: "https://www.itcportal.com/images/icon7-sustainability.jpg",
+      image: "https://www-file.huawei.com/-/media/corp2020/images/tech4all/cases/education-digischool1.jpg?la=en",
       description: "Primary Education",
     },
     {
-      image: "https://www.itcportal.com/images/icon8-sustainability.jpg",
+      image: "https://montagebd.com/wp-content/uploads/2022/10/Welding.jpg",
       description: "Skillin & Vocational Training",
     },
     {
-      image: "https://www.itcportal.com/images/icon9-sustainability.jpg",
+      image: "https://www.gemsnewmillenniumschool-alkhail.com/-/media/project/gems/nms_gems_new_millennium_school_al_khail/_page-thumbnails/academic-performnace-tn.jpg?h=400&w=490&hash=FDC51E9478061D949EA46AAE74D8D6D5",
       description: "Health & Sanitation",
     },
     {
-      image: "https://www.itcportal.com/images/icon10-sustainability.jpg",
+      image: "https://hihindia.org/wp-content/uploads/2019/12/HiHIndia-Health-Making-Health-and-Hygiene-a-Way-of-Life-2.jpg",
       description: "Solid Waste Management",
     },
   ];

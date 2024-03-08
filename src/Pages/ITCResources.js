@@ -28,12 +28,12 @@ function ITCResources() {
         />
 
         <div className="relative z-10 text-white text-sm font-[400] pt-20 px-10">
-          <h1 className="text-5xl font-bold">ITC Resources</h1>
+          <h1 className="text-5xl font-bold">ITC ONLINE Resources</h1>
 
           <div className="gap-6 sm:gap-10 flex flex-col sm:flex-row justify-center items-center mt-6 sm:mt-10 p-3 sm:p-5">
             <div className="rounded-lg shadow-lg mb-6 sm:mb-0">
               <img
-                src="https://www.itcportal.com/assets/images/resources/resourcestop_thumb1.jpg"
+                src="https://i.ytimg.com/vi/-Q40pPeGlO0/maxresdefault.jpg"
                 alt="Image 1"
                 className="w-full rounded-lg"
               />
@@ -41,7 +41,7 @@ function ITCResources() {
               <div className="flex flex-col sm:flex-row justify-between items-center py-3 px-2">
                 <div className="text-lg sm:text-2xl font-semibold">
                   <h1>
-                    ITC Sustainability
+                    ITC ONLINE Sustainability
                     <br />
                     Report 2023
                   </h1>
@@ -70,7 +70,7 @@ function ITCResources() {
 
 
       <section className=" p-16 ">
-        <h1 className="text-4xl mb-10 text-black font-semibold">ITC Video Gallery</h1>
+        <h1 className="text-4xl mb-10 text-black font-semibold">ITC ONLINE Video Gallery</h1>
 
         <div className="flex justify-between">
           {ItcVideoGallery.map((item, index) => (

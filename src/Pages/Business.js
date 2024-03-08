@@ -25,7 +25,7 @@ function Business() {
 
         {/* Content container */}
         <div className="relative z-10 text-white font-bold  py-20 px-10">
-          <h1 className="text-6xl">ITC Businesses</h1>
+          <h1 className="text-6xl">ITC ONLINE Businesses</h1>
           <div className="grid lg:grid-cols-3 gap-8 mx-auto mt-8">
             {
               bussinessList.map((item, index)=>{
@@ -53,7 +53,7 @@ function BusinessCard({item}) {
 
     <div>
       <div className="card shadow-sm shadow-gray-200 rounded-md overflow-hidden group">
-        <img src={item.img} className="" />
+        <img src={item.img} className=" h-60" />
         <div className=" relative">
           {/* first div */}
           <div className="bg-[#1b2355] h-0 transition-all group-hover:h-56 absolute top-0 bottom-0 left-0 right-0  "></div>

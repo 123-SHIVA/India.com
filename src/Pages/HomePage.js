@@ -32,7 +32,7 @@ function HomePage() {
                 <div className="my-10 mb-20">
                     <div className="my-5 flex justify-between ">
 
-                        <h1 className=" text-3xl text-white font-bold">Latest Updates</h1>
+                        <h1 className=" text-3xl text-white font-bold">Recent Updates</h1>
                         <div className="flex items-center gap-2  text-gray-800 ">
                             <button className="flex justify-between text-[11px] font-thin items-center w-32 bg-white py-2 px-5 rounded-2xl">View more <FaArrowRight className="text-[8px]" /></button>
                             <IoIosArrowBack className="bg-white rounded-full p-1 text-2xl" />
