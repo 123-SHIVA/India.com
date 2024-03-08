@@ -12,6 +12,7 @@ import { TbFileCv } from "react-icons/tb";
 import { FiFileText } from "react-icons/fi";
 
 
+
 export const itcAtGlanceData = [
     {
       logo: "https://www.itcportal.com/assets/images/glace_ic14.png",
@@ -21,11 +22,11 @@ export const itcAtGlanceData = [
     {
       logo: "https://www.itcportal.com/assets/images/glace_ic15.png",
       title: "40",
-      subTitle: "Platinum Rated Green Building"
+      subTitle: "Sliver Rated Green Building"
     },
     {
       logo: "https://www.itcportal.com/assets/images/glace_ic16.png",
-      title: "12 Hotels, 1 Data Center",
+      title: "10 Hotels, 2 Data Centers",
       subTitle: "LEED Zero Carbon"
     },
     {
