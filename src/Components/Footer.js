@@ -38,7 +38,7 @@ function Footer() {
                     </ul>
 
                     <ul className="leading-6">
-                        <li className="text-white text-sm font-bold">ABOUT ITC</li>
+                        <li className="text-white text-sm font-bold">ABOUT ITC ONLINE</li>
                         <li>Our Profile</li>
                         <li>Our Values</li>
                         <li>ITC Online Research and Developement</li>
