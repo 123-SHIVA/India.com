@@ -11,7 +11,28 @@ import { BsBuildings } from "react-icons/bs";
 import { TbRelationManyToMany } from "react-icons/tb";
 import { GiWaterRecycling } from "react-icons/gi";
 import { GiArchiveResearch } from "react-icons/gi";
-import itcLogo from "../images/itc-online-high-resolution-logo-transparent.png"
+import itcLogo from "../images/itc-online-high-resolution-logo-transparent.png";
+import { TbReport } from "react-icons/tb";
+import { GrDocumentOutlook } from "react-icons/gr";
+import { HiMiniPresentationChartLine } from "react-icons/hi2";
+import { FaArrowTrendUp } from "react-icons/fa6";
+import { BiMoneyWithdraw } from "react-icons/bi";
+import { FiSun } from "react-icons/fi";
+import { PiSpeakerHighBold } from "react-icons/pi";
+import { IoDocumentTextOutline } from "react-icons/io5";
+import { IoServerOutline } from "react-icons/io5";
+import { AiOutlineGlobal } from "react-icons/ai";
+import { RiHotelLine } from "react-icons/ri";
+import { LuMilk } from "react-icons/lu";
+import { MdOutlinePerson3 } from "react-icons/md";
+import { TfiWrite } from "react-icons/tfi";
+import { TbMatchstick } from "react-icons/tb";
+import { MdTrendingUp } from "react-icons/md";
+
+import { MdBorderColor } from "react-icons/md";
+import { RxAvatar } from "react-icons/rx";
+import { LiaCreativeCommonsShare } from "react-icons/lia";
+
 
 
 
@@ -96,12 +117,12 @@ export const LatestUpdate = [
     },
     {
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd44QWCcTqlrAuddKufx93vLe8MBzrpXIHcdoZM0garv8Q950C5b_i58OHd2wU5lHuHkc&usqp=CAU",
-        description: "ITC's ONLINE Biodiversity conversation programme",
+        description: "ITC's Biodiversity conversation programme",
         date: ""
     },
     {
         img: "https://i.pinimg.com/474x/9c/d0/e0/9cd0e0013428014698f084a584d35892.jpg",
-        description: "Focus is on sustainable and inclusive growth'  ",
+        description: "Focus is on sustainable and inclusive growth ",
         date: "11 feb 2024"
     },
     {
@@ -199,17 +220,17 @@ export const ItcNews = [
 
     {
         img: "https://thumbs.dreamstime.com/b/building-industrial-complex-apartments-workers-engineers-work-concreting-construction-buildings-demolition-production-272543479.jpg",
-        description: "Focus is on sustainable and inclusive growth'   ",
+        description: "Focus is on sustainable and inclusive growth ",
         date: "11 feb 2024"
     },
     {
         img: "https://prevenko.com/wp-content/uploads/2021/06/photo-blank-.png",
-        description: "Plateful of vision ",
+        description: "Plateful of vision '",
         date: "03 feb 2024"
     },
     {
         img: "https://www.itcportal.com/assets/images/latest-updates-080224-2.jpg",
-        description: "ITC and a business case for Diversity, Equity and inclusion",
+        description: "ITC ONLINE and a business case for Diversity, Equity and inclusion",
         date: "13 jan 2024"
     },
     {
@@ -222,7 +243,7 @@ export const ItcNews = [
 
 export const ItcPerspective = [
     {
-      img: "https://menskexpressgloballtd.com/img/vission.png",
+      img:"https://menskexpressgloballtd.com/img/vission.png",
       Title: <h1>The ITC ONLINE Vision</h1>,
       description: (
         <p>
@@ -296,12 +317,12 @@ export const moreAboutItc = [
 
 export const vectorOfGrowth = [
     {
-        title: "ITC ONLINE MAARS",
+        title: "ITCMAARS",
         description: "Ushering in NExtgen Agriculture",
         img: "https://img.lovepik.com/background/20211030/medium/lovepik-rice-ear-mobile-phone-wallpaper-background-image_400426969.jpg"
     },
     {
-        title: "ITC ONLINEFOODTECH",
+        title: "ITC ONLINE FOODTECH",
         description: "A New vector of Growth",
         img: "https://png.pngtree.com/thumb_back/fw800/background/20230902/pngtree-book-with-coffee-cake-cake-on-the-table-image_13183240.jpg"
     },
@@ -326,12 +347,12 @@ export const leadershipSpeaks = [
     {
         title: "'Focus is on sustainable and inclusive growth'",
         subTitle: "The Week",
-        description: "In an interview with THE WEEK, ITC ONLINE Chairman  talks about the 'ITC ONLINE Next' vectors of growth - Digital and Sustainability, pillars of ITC's competitiveness",
+        description: "In an interview with THE WEEK, ITC ONLINE talks about the 'ITC ONLINE Next' vectors of growth - Digital and Sustainability, pillars of ITC's competitiveness",
     },
     {
         title: "Plateful of vision:  takes us through ITC's ambitious menu",
         subTitle: "Business Standard",
-        description: "ITC ONLINE Chairman and Business Standard journalist Ishita Ayan Dutt had an in-depth conversation a day after ITC's third-quarter results were declared",
+        description: "ITC ONLINE and Business Standard journalist Ishita Ayan Dutt had an in-depth conversation a day after ITC's third-quarter results were declared",
     },
 
     {
@@ -342,7 +363,7 @@ export const leadershipSpeaks = [
     {
         title: " in Conversation with Ms. Shereen Bhan, CNBCTV18",
         subTitle: " CNBCTV18",
-        description: " Chairman ITC, was recently interviewed by Ms Shereen Bhan, Managing Editor, CNBCTV18. In this candid conversation, Mr Puri shared...",
+        description: " Chairman ITC ONLINE, was recently interviewed by Ms Shereen Bhan, Managing Editor, CNBCTV18. In this candid conversation, Mr Puri shared...",
     },
     {
 
@@ -353,14 +374,14 @@ export const leadershipSpeaks = [
         description: "CMD's Address at 112th AGM.",
     },
     {
-        title: "Corporates need to be responsibly competitive and lead in climate action:",
+        title: "Corporates need to be responsibly competitive and lead in climate action: ITC Online ",
         subTitle: "The Times of India",
-        description: "In his message in ITC's Sustainability and Integrated Report 2023, 'Shaping The Future', ITC ONLINE Chairman  reiterated the significant....",
+        description: "In his message in ITC's Sustainability and Integrated Report 2023, 'Shaping The Future', ITC ONLINE reiterated the significant....",
     },
     {
-        title: "Sustainability, digitalisation key components of ITC's future:",
+        title: "Sustainability, digitalisation key components of ITC's future",
         subTitle: "Hindu Businessline",
-        description: "ITC ONLINE Chairman , gave a disaggregated view of the company's plans in a recent conversation with journalists, discussing new...",
+        description: "ITC ONLINE  gave a disaggregated view of the company's plans in a recent conversation with journalists, discussing new...",
     }
 ]
 
@@ -526,7 +547,7 @@ export const brandsData = [
 
     },
     {
-    
+        // color: "bg-[#213970]",
         products: [
             { name: "Candyman Choco Double Eclairs", img: "https://m.media-amazon.com/images/I/713RMBZQUXL.jpg" },
             { name: "Candyman Tadka", img: "https://cdn.lowestrate.in/20220727141117/414eh6iMO6L.jpg" },
@@ -536,7 +557,7 @@ export const brandsData = [
         logo: "https://humarabazar.com/wp-content/uploads/2022/06/a24de7add52604f32245c828ff56c582.jpeg"
     },
     {
- 
+        // color: "bg-[#E13D31]",
         products: [
             { name: "Jelimals- Space Runner", img: "https://www.itcportal.com/brands-microsite/images/jelimals/jelimals-new05.png" },
             { name: "Jelimals- Tasty Sparkles", img: "https://www.itcportal.com/brands-microsite/images/jelimals/jelimals-new02.png" }
@@ -545,7 +566,7 @@ export const brandsData = [
         logo: "https://m.media-amazon.com/images/S/aplus-media/vc/2d5c080f-f976-4e54-a1be-5c426eec6614.__CR0,0,350,175_PT0_SX350_V1___.png"
     },
     {
-
+        // color: "bg-[#32251C]",
         products: [
             { name: "Fabelle Finesse", img: "https://www.itcportal.com/brands-microsite/images/fabelle/fabelle13.png" },
             { name: "Boxed Chocolate", img: "https://m.media-amazon.com/images/I/81ZtM6YIwOL.jpg" },
@@ -557,7 +578,7 @@ export const brandsData = [
     },
 
     {
-   
+        // color: "bg-[#3E2B2F]",
         products: [
             { name: "Nicamalai", img: "https://m.media-amazon.com/images/I/71tuRGMPBKL.jpg" },
             { name: "Panagiri", img: "https://m.media-amazon.com/images/I/71FLsFAh27L.jpg" },
@@ -568,7 +589,7 @@ export const brandsData = [
     },
 
     {
-    
+        // color: "bg-[#ED62A3]",
         products: [
             { name: "Anti Acne", img: "https://images-static.nykaa.com/media/catalog/product/1/8/18c1768CHARM00000016_1.jpg" },
             { name: "Cold cream", img: "https://rukminim2.flixcart.com/image/850/1000/jnw2he80/moisturizer-cream/h/v/h/175-moisturising-cold-cream-cream-charmis-original-imafah4t2sfhtqwp.jpeg?q=90&crop=false" },
@@ -600,10 +621,6 @@ export const brandsData = [
 
 ]
 
-import { LuMilk } from "react-icons/lu";
-import { MdOutlinePerson3 } from "react-icons/md";
-import { TfiWrite } from "react-icons/tfi";
-import { TbMatchstick } from "react-icons/tb";
 
 export const drawerDate = [
     {
@@ -683,22 +700,22 @@ export const moreCardData = [
     },
     {
         color: "bg-[#ea0244]",
-        title: "ITC ONLINE ADDRESSES",
+        title: "ITC ONLINE  ADDRESSES",
         icon: <FiFileText />,
         description: ""
     },
     {
         color: "bg-[#b66b13]",
-        title: "ITC ONLINE SAMBADDHA",
+        title: "ITC ONLINE  SAMBADDHA",
         icon: <FiFileText />,
-        description: "ITC ONLINE Food vandor Relationship Portal As a perspective vendor, you may wish to share your company details"
+        description: "ITC ONLINE  Food vandor Relationship Portal As a perspective vendor, you may wish to share your company details"
     }
 ]
 
 
 export const financialReportingData = [
     {
-      img: "https://www.itcportal.com/images/ir_ic1.png",
+      img: <FaArrowTrendUp/>,
       Title: <h1> Quarterly Results</h1>,
       color: "bg-[#031f4b] shadow-lg",
       description: (
@@ -714,14 +731,14 @@ export const financialReportingData = [
 
     },
     {
-      img: "https://www.itcportal.com/images/qr_ic1.png",
+      img: <TbReport/>,
       color: "bg-[#04396c]  shadow-lg",
-      Title: <h1>ITC ONLINE Report & Accounts</h1>,
+      Title: <h1>ITC ONLINE  Report & Accounts</h1>,
 
 
     },
     {
-      img: "https://www.itcportal.com/images/ir_ic3.png",
+      img: <GrDocumentOutlook/>,
       Title: <h1>Press Releases</h1>,
       color: "bg-[#035b96]  shadow-lg",
 
@@ -729,7 +746,7 @@ export const financialReportingData = [
     },
     {
 
-      img: "https://www.itcportal.com/images/ir_ic4.png",
+      img: <HiMiniPresentationChartLine/>,
       color: "bg-[#74c0bc]  shadow-lg",
       Title: <h1> Presentation
       </h1>,
@@ -741,25 +758,23 @@ export const financialReportingData = [
     },
   ];
 
-
-
 export const stackHoldersInformation = [
     {
-      img: "https://www.itcportal.com/images/si_ic1.png",
+      img: <MdBorderColor/>,
       color:"bg-[#00455e]",
       Title: "Disclosures under Regulation 46 of the SEBI Listing Regulations"
       
       
     },
     {
-      img: "https://www.itcportal.com/images/si_ic2.png",
+      img: <MdTrendingUp/>,
       color:"bg-[#01698f]",
       Title: "ITC's Shareholding Pattern"
       
       
     },
     {
-      img: "https://www.itcportal.com/images/si_ic4.png",
+      img: <RxAvatar/> ,
       color:"bg-[#4c8090]",
       Title: "Unclaimed & Unpaid Dividend"
       
@@ -767,58 +782,68 @@ export const stackHoldersInformation = [
     },
     {
       
-      img: "https://www.itcportal.com/images/ir_ic4.png",
+      img: <LiaCreativeCommonsShare/>,
       color:"bg-[#6aa2b3]",
       Title: "shareholder & AGM Information"
     },
   ];
 
 
+  import { LiaNewspaperSolid } from "react-icons/lia";
+  import { IoDocumentsOutline } from "react-icons/io5";
+  import { LuFileSpreadsheet } from "react-icons/lu";
+  import { GiProfit } from "react-icons/gi";
+  // import { LiaNewspaperSolid } from "react-icons/lia";
+  import { GiHistogram } from "react-icons/gi";
+  import { GrDocumentPerformance } from "react-icons/gr";
+  // import { RiHotelLine } from "react-icons/ri";
+  
+  
 
 export  const quickLinksData = [
     {
-      img: "https://www.itcportal.com/images/quick_ic1.png",
+      img:<LiaNewspaperSolid/>,
       Title: "Recent News",
       color:"bg-[#ffffff]"
       
       
     },
     {
-      img: "https://www.itcportal.com/images/ir_quick_ic.png",
-      Title: "ITC ONLINE Reports & Accounts 2023",
+      img: <IoDocumentsOutline/>,
+      Title: "ITC ONLINE  Reports & Accounts 2023",
       color:"bg-[#ffffff]"
       
       
     },
     {
-      img: "https://www.itcportal.com/images/bs_quick_ic.png",
-      Title: "ITC ONLINE Balance Sheet",
+      img: <LuFileSpreadsheet/>,
+      Title: "ITC ONLINE  Balance Sheet",
       color:"bg-[#ffffff]"
       
       
     },
     {
-      img: "https://www.itcportal.com/images/pl_quick_ic.png",
-      Title: "ITC ONLINE Profit & Loss Statement",
+      img: <GiProfit/>,
+      Title: "ITC ONLINE  Profit & Loss Statement",
       color:"bg-[#ffffff]"
     },
     {
-      img: "https://www.itcportal.com/images/10yrs_quick_ic.png",
+      img: <LiaNewspaperSolid/>,
       color:"bg-[#ffffff]",
       Title: "10 Years at a Glance",
     },
     {
-      img: "https://www.itcportal.com/images/kr_quick_ic.png",
+      img: <GiHistogram/>,
       color:"bg-[#ffffff]",
       Title: "Key Ratios"
     },
     {
-      img: "https://www.itcportal.com/images/esg_ic.png",
+      img: <GrDocumentPerformance/>,
       color:"bg-[#ffffff]",
       Title: "ITC's ESG Credentials"
     },
     {
-      img: "https://www.itcportal.com/images/demerger_hotel_ic.png",
+      img: <RiHotelLine/>,
       color:"bg-[#ffffff]",
       Title: "Proposed Demerger of Hotels Business"
     },
@@ -827,93 +852,53 @@ export  const quickLinksData = [
 
 export const itcAtGlanceInInvestor = [
     {
-      logo: "https://www.itcportal.com/images/glace_ic1.png",
+      logo: <BiMoneyWithdraw/>,
       title: "₹ 69,481",
       subtitle: "Crores",
       heading: "Gross Revenue",
       para: "figures as on 31.03.2023"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic2.png",
+      logo: <BiMoneyWithdraw/>,
       title: "₹ 18,753.31",
       subtitle: "crores",
       heading: "Net Profit",
       para: "figures as on 31.03.2023"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic3.png",
+      logo: <FiSun/>,
       title: "12",
       heading: "Businesses of Tomorrow"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic4.png",
+      logo: <PiSpeakerHighBold/>,
       title: "25+",
       heading: "FMCG Mother Brands"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic19.png",
+      logo: <IoDocumentTextOutline/>,
       title: "900",
       heading: "Patents filed"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic5.png",
+      logo: <IoServerOutline/>,
       title: "200+",
       heading: "Manufacturing Units"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic20.png",
+      logo: <AiOutlineGlobal/>,
       title: "exports to",
       heading: "100 Countries"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic7.png",
+      logo:<RiHotelLine/>,
       title: "119",
       heading: "Hotels across 80 locations"
     },
     {
-      logo: "https://www.itcportal.com/images/glace_ic10.png",
-      title: "18 Years",
-      heading: "Carbon Positive"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic11.png",
+      logo: <FaHandHoldingWater/>,
       title: "21 Years",
       heading: "Water Positive"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic12.png",
-      title: "16 Years",
-      heading: "Solid Waste Recycling Positive"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic13.png",
-      title: "4 Million ",
-      heading: "Farmers Benefitted by e-Choupal"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic14.png",
-      title: "6 Million",
-      heading: "Sustainable Livelihoods"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic15.png",
-      title: "43%",
-      heading: "of the Total Energy is Renewable"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic16.png",
-      title: "40",
-      heading: "Platinum Rated Green Building"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic17.png",
-      title: "12 hotels, 1 Data centre",
-      heading: "LEED Zero Carbon"
-    },
-    {
-      logo: "https://www.itcportal.com/images/glace_ic18.png",
-      title: "2 Holtels",
-      heading: "LEED Zero Water"
     }
   ]
 
@@ -934,13 +919,13 @@ export const ItcVideoGallery = [
     {
 
       imageSrc: 'https://assets.techcircle.in/uploads/article-image/2023/04/images/32628-panel-discussion-1-1.jpg',
-      title: 'ITC ONLINE CMD Speaks On Sustain-O-Vation: Transformation, Transition...',
+      title: 'ITC ONLINE CMD  Speaks On Sustain-O-Vation: Transformation, Transition...',
 
     },
     {
 
       imageSrc: 'https://www.mapsofindia.com/ci-moi-images/my-india/2019/02/Need-to-improve-government-school-education-system-665x348.jpg',
-      title: "From Slate to Sky: the story of dreams & hope | World Children's Day 2023 | The ITC ONLINE Way"
+      title: "From Slate to Sky: the story of dreams & hope | World Children's Day 2023 | The ITC ONLINE   Way"
 
     },
   ];

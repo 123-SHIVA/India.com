@@ -27,7 +27,7 @@ function Investor() {
 
       <div className="text-center text-white mt-20 mb-10 mx-20">
         <a href="/" className=" border-black bg-[#010b36] font-semibold p-4 tracking-tighter text-xl">
-          ITC ONLINE INSTITUTIONAL INVESTORS & FINANCIAL ANALYSTS DAY: 12TH DECEMBER
+          ITC Online INSTITUTIONAL INVESTORS & FINANCIAL ANALYSTS DAY: 12TH DECEMBER
           2023
         </a>
       </div>
@@ -57,7 +57,7 @@ function Investor() {
       {/* -------------------ITC at a Glance------------------------ */}
 
       <section className="bg-[#f7f7f7] text-center my-10 p-10 text-[#1b2355]">
-        <h1 className="text-2xl tracking-tight">ITC ONLINE AT A GLANCE</h1>
+        <h1 className="text-2xl tracking-tight">ITC Online AT A GLANCE</h1>
         <div className="text-2xl text-[#825e09] font-semibold">|</div>
         <div className="w-[80%] m-auto">
           <div className=" flex gap-2 carousel my-10">
@@ -126,7 +126,7 @@ function Investor() {
                   <li>- Postal Ballot 2024</li>
               </ul>
           </div>
-          <div className="my-5 text-sm">ITC's Investor Service Centre (ISC), registered with SEBI as Category II Share Transfer Agent, provides share registration and related services from its office located at the Company's headquarters in Kolkata. Such services are provided by a dedicated and trained team of professionals backed by state-of-the-art infrastructure. The ISC is accredited with the ISO 9001:2015 certification for investor servicing.</div>
+          <div className="my-5 text-sm">ITC Online 's Investor Service Centre (ISC), registered with SEBI as Category II Share Transfer Agent, provides share registration and related services from its office located at the Company's headquarters in Kolkata. Such services are provided by a dedicated and trained team of professionals backed by state-of-the-art infrastructure. The ISC is accredited with the ISO 9001:2015 certification for investor servicing.</div>
 
       </section>
 
@@ -136,6 +136,41 @@ function Investor() {
 
 
 function FinancingReportCard({ item }) {
+  return (
+    <div className={item.color}>
+      <div className="flex flex-col justify-between h-full  p-7  group ">
+        <div className=" font-semibold">
+          <div className=" mb-2">{item.Title}</div>
+          <div className=" text-[10]  text-xs leading-5 ">
+            {item.description}
+          </div>
+        </div>
+        <div className="flex items-end justify-between">
+          <div className="text-3xl mt-5 ">{item.img}</div>
+          <FaArrowRight className="text-[10px] group-hover:animate-bounce" />
+
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
+function ItcAtGlanceCard({ item }) {
+  return (
+    <div className="w-64 flex flex-col  items-center  font-semibold">
+      <div  className="max-w-20 w-16 mb-2" >{item.logo}</div>
+      <div>
+        <h1 className="text-2xl ">{item.title}</h1>
+        <div className="text-xs">{item.subtitle}</div>
+        <h2 className="text-lg font-[400]">{item.heading}</h2>
+        <div className="text-xs font-[300]">{item.para}</div>
+      </div>
+    </div>
+  )
+}
+
+function FinancingReportCard2({ item }) {
   return (
     <div className={item.color}>
       <div className="flex flex-col justify-between h-full  p-7  group ">
@@ -154,20 +189,4 @@ function FinancingReportCard({ item }) {
     </div>
   )
 }
-
-
-function ItcAtGlanceCard({ item }) {
-  return (
-    <div className="w-64 flex flex-col  items-center  font-semibold">
-      <img src={item.logo} className="max-w-20 w-16 mb-2" />
-      <div>
-        <h1 className="text-2xl ">{item.title}</h1>
-        <div className="text-xs">{item.subtitle}</div>
-        <h2 className="text-lg font-[400]">{item.heading}</h2>
-        <div className="text-xs font-[300]">{item.para}</div>
-      </div>
-    </div>
-  )
-}
-
 export default Investor;
