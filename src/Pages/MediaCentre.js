@@ -6,6 +6,7 @@ import { LuClock } from "react-icons/lu";
 import { itcAtGlanceData, ItcBussinesses, bigStories, ItcStories, ItcNews } from '../Data/Data.js'
 import ItcAtGlanceCard from "../Cards/ItcAtGlanceCard";
 import ItcBussinessesCard from "../Cards/ItcBussinessesCard.js";
+import { FaLink } from "react-icons/fa6";
 import '../App.css';
 
 
@@ -23,6 +24,8 @@ function MediaCentre() {
             </section>
 
             {/* ---------------------------- Media center Big Stories----------------------- */}
+
+            
             <section className="media-centre p-8 pb-36  w-full  text-black ">
 
                 <div className="mb-20 ">
@@ -59,7 +62,7 @@ function MediaCentre() {
 
                     <div className="absolute left-0 right-0 -top-5">
                         <div className="my-5 flex justify-between ">
-                            <h1 className=" text-3xl text-white font-bold ">ITC at a Glance</h1>
+                            <h1 className=" text-3xl text-white font-bold ">ITC Online at a Glance</h1>
                             <div className="flex items-center gap-2  text-gray-800 ">
                                 <button className="flex justify-between text-[11px] font-thin items-center w-32 bg-white py-2 px-5 rounded-2xl">View more <FaArrowRight className="text-[8px]" /></button>
                                 <IoIosArrowBack className="bg-white rounded-full p-1 text-2xl" />
@@ -90,7 +93,7 @@ function MediaCentre() {
             <section className=" my-40 ">
 
                 <div className="lg:w-2/3 w-11/12 m-auto">
-                    <h1 className="text-3xl text-[#1b2355] text-center">ITC <span className="font-semibold"> Businesses</span></h1>
+                    <h1 className="text-3xl text-[#1b2355] text-center">ITC Online <span className="font-semibold"> Businesses</span></h1>
 
                     <div className="grid grid-cols-3 gap-4 my-14">
                         {ItcBussinesses.map((items, index) => {
@@ -124,7 +127,7 @@ function MediaCentre() {
                 </div>
 
                 <div className="w-[100%]">
-                    <h1 className="text-3xl font-bold mb-10">Everyday stories from ITC</h1>
+                    <h1 className="text-3xl font-bold mb-10">Everyday stories from  Online</h1>
 
                     <div className="flex flex-col sm:flex-row  gap-5 ">
 
@@ -143,7 +146,7 @@ function MediaCentre() {
 
             {/* ------------------ ITC in the News-------------- */}
             <section className="text-[#3a3a3a] mx-8 my-16 ">
-                <h1 className="text-4xl">ITC in <b>the News</b></h1>
+                <h1 className="text-4xl">ITC Online in <b>the News</b></h1>
 
                 <div className="w-full grid lg:grid-cols-4 grid-cols-2 gap-7 carousel my-10 ">
 
@@ -188,13 +191,13 @@ function BigStoriesCard({ item }) {
 
 function ItcStoriesCard({ item }) {
     return (
-        <div className="card bg-white text-black overflow-hidden w-72 rounded-md">
-            <img src={item.img} className="h-[50%]" />
+        <div className="card bg-white text-black overflow-hidden w-72 h-40 rounded-md">
+            {/* <img src={item.img} className="h-[50%]" /> */}
             <div className="p-5 flex flex-col  ">
                 <h1 className="font-bold text-xs pb-5">{item.title}</h1>
                 <div className="flex justify-between text-xs  absolute bottom-5  left-5 right-5 ">
                     <span className="flex items-center gap-2 mt-4 "><LuClock />{item.date}</span>
-                    <div className="flex items-center gap-2 mt-4">read more <img src="https://www.itcportal.com/assets/images/mediacentre/read_moreic.png" /></div>
+                    <div className="flex items-center gap-2 mt-4">read more <FaLink className="bg-pink-900 text-white text-2xl p-1 rounded-full" /></div>
                 </div>
             </div>
         </div>

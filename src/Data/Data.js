@@ -132,44 +132,44 @@ export const LatestUpdate = [
     {
 
 
-        img: "https://www.itcportal.com/assets/images/mediacentre/big-story-thumb-solologues-080224.jpg",
-        title: "ITC and a business case for Diversity, Equity and Inclusion: Saturday Solologues",
+        img: "https://t4.ftcdn.net/jpg/05/88/68/59/360_F_588685904_GV8YCwcUm8wCFW4cY1HYsCqTdbV3bRVq.jpg",
+        title: "ITC Online and a business case for Diversity, Equity and Inclusion: Saturday Solologues",
         description: "What happens when an enterprise links its Diversity, Equity and Inclusivity #DEI goals with business objectives? Innovation is...",
         date: "13 jan 2024",
         tag: "The Economic times BrandEquity"
     },
     {
-        img: "https://www.itcportal.com/assets/images/mediacentre/big-story-thumb-plateful-070224.jpg",
-        title: "Plateful of vision: Sanjiv Puri takes us through ITC's ambitious menu",
-        description: "ITC Chairman Sanjiv Puri and Business Standard journalist Ishita Ayan Dutt had an in-depth conversation a day after ITC's thir....",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu2whjzwoBz71waeE07wh1L_sfjpdm6IIf7g&usqp=CAU",
+        title: "Plateful of vision:  takes us through ITC Online's ambitious menu",
+        description: "ITC Online Chairman and Business Standard journalist Ishita Ayan Dutt had an in-depth conversation a day after ITC Online's thir....",
         date: "03 Feb 2024",
         tag: "Business Standard"
     },
     {
-        img: "https://i.postimg.cc/G2sxn2R8/generate-a-similar-image-like-this-to-remove-the-owner-rights-8.jpg",
-        title: "Focus is on sustainable and inclusive growth': Sanjiv Puri",
-        description: "In an interview with THE WEEK, ITC Chairman Sanjiv Puri talks about the 'ITC Next' vectors of growth - Digital and Sustainability; pillars of..",
+        img: "https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg",
+        title: "Focus is on sustainable and inclusive growth': ",
+        description: "In an interview with THE WEEK, ITC Online Chairman  talks about the 'ITC Online Next' vectors of growth - Digital and Sustainability; pillars of..",
         date: "11 Feb 2024",
         tag: "The Week"
     },
     {
-        img: "https://www.itcportal.com/assets/images/mediacentre/big-story-thumb-next-201223.jpg",
-        title: "ITC Next: How do you turn around an elephant and make it dance?",
-        description: "In an in-depth interview with ET Online, ITC Chairman Sanjiv Puri highlighted the key tenets of ITC's diversification into FMCG includin...",
+        img: "https://i.pinimg.com/474x/0a/a8/58/0aa8581c2cb0aa948d63ce3ddad90c81.jpg",
+        title: "ITC Online Next: How do you turn around an elephant and make it dance?",
+        description: "In an in-depth interview with ET Online, ITC Online Chairman highlighted the key tenets of ITC Online's diversification into FMCG includin...",
         date: "10 Dec 2023",
         tag: "The Economic Times"
     },
     {
-        img: "https://www.itcportal.com/assets/images/mediacentre/big-story-thumb-climate-171123.jpg",
-        title: "As India gallops, so will FMCG industry: Sanjiv Puri, ITC CMD",
+        img: "https://png.pngtree.com/png-vector/20220807/ourmid/pngtree-man-avatar-wearing-gray-suit-png-image_6102786.png",
+        title: "As India gallops, so will FMCG industry:  ITC Online CMD",
         description: "The key driver to unleashing FMCG growth through a virtuous cycle of consumtion, investment and income lies in creating gainful...",
         date: "01 Jan 2024",
         tag: "The Economic Times"
     },
     {
-        img: "https://www.itcportal.com/assets/images/mediacentre/big-story-thumb-dairy-240124.jpg",
+        img: "https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg",
         title: "Leveraging Al in dairy and beverage manufacturing to ensure product quality: Sanjay Singal...",
-        description: "In an interview with ET Digital, Sanjay Singal, Chief Operating Officer, Dairy & Beverages, ITC Foods, said that digital...",
+        description: "In an interview with ET Digital, Sanjay Singal, Chief Operating Officer, Dairy & Beverages, ITC Online Foods, said that digital...",
         date: "04 Jan 2024",
         tag: "The Economic Times"
     }
@@ -179,17 +179,17 @@ export const LatestUpdate = [
 export  const ItcStories = [
     {
         img: "https://www.itcportal.com/assets/images/mediacentre/everyday-stories-thumb-bhadrachalam-greenco-240124.jpg",
-        title: "ITC's Bhadrachalam Unit Gets Prestigious GreenCo Platinum+ Certification",
+        title: "ITC Online's Bhadrachalam Unit Gets Prestigious GreenCo Platinum+ Certification",
         date: "05 Jan 2024"
     },
     {
         img: "https://www.itcportal.com/assets/images/mediacentre/everyday-stories-thumb-leed-zero-water-050124.jpg",
-        title: "3 ITC Hotels are LEED Zero Water Certified!",
+        title: "3 ITC Online Hotels are LEED Zero Water Certified!",
         date: "28 Dec 2023"
     },
     {
         img: "https://www.itcportal.com/assets/images/mediacentre/everyday-stories-thumb-idc-050124.jpg",
-        title: "ITC's Paperboards and Specialty Papers Business is the Asia-Pacific winner of IDC Future Enterprise Awards 2023",
+        title: "ITC Online's Paperboards and Specialty Papers Business is the Asia-Pacific winner of IDC Future Enterprise Awards 2023",
         date: "08 Dec 2023"
     },
 ]
@@ -198,12 +198,12 @@ export  const ItcStories = [
 export const ItcNews = [
 
     {
-        img: "https://www.itcportal.com/assets/images/latest-updates-080224.jpg",
+        img: "https://thumbs.dreamstime.com/b/building-industrial-complex-apartments-workers-engineers-work-concreting-construction-buildings-demolition-production-272543479.jpg",
         description: "Focus is on sustainable and inclusive growth' Sanjiv puri  ",
         date: "11 feb 2024"
     },
     {
-        img: "https://www.itcportal.com/assets/images/latest-updates-080224-1.jpg",
+        img: "https://prevenko.com/wp-content/uploads/2021/06/photo-blank-.png",
         description: "Plateful of vision 'Sanjiv puri",
         date: "03 feb 2024"
     },
@@ -213,7 +213,7 @@ export const ItcNews = [
         date: "13 jan 2024"
     },
     {
-        img: "https://www.itcportal.com/assets/images/quarterly-result-thumb.jpg",
+        img: "https://t3.ftcdn.net/jpg/05/07/88/96/360_F_507889611_vdbjUXkBQIfEqdyb5qNtTxCR6jm47wSS.jpg",
         description: "Financial Results for the Quarter Ended December",
         date: "29 jan 2024"
     },
