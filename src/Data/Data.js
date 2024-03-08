@@ -96,22 +96,22 @@ export const LatestUpdate = [
     },
     {
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd44QWCcTqlrAuddKufx93vLe8MBzrpXIHcdoZM0garv8Q950C5b_i58OHd2wU5lHuHkc&usqp=CAU",
-        description: "ITC's Biodiversity conversation programme",
+        description: "ITC's ONLINE Biodiversity conversation programme",
         date: ""
     },
     {
         img: "https://i.pinimg.com/474x/9c/d0/e0/9cd0e0013428014698f084a584d35892.jpg",
-        description: "Focus is on sustainable and inclusive growth' Sanjiv puri  ",
+        description: "Focus is on sustainable and inclusive growth'  ",
         date: "11 feb 2024"
     },
     {
         img: "https://prevenko.com/wp-content/uploads/2021/06/photo-blank-.png",
-        description: "Plateful of vision 'Sanjiv puri",
+        description: "Plateful of vision ",
         date: "03 feb 2024"
     },
     {
         img: "https://t4.ftcdn.net/jpg/05/88/68/59/360_F_588685904_GV8YCwcUm8wCFW4cY1HYsCqTdbV3bRVq.jpg",
-        description: "ITC and a business case for Diversity, Equity and inclusion",
+        description: "ITC ONLINE and a business case for Diversity, Equity and inclusion",
         date: "13 jan 2024"
     },
     {
@@ -121,7 +121,7 @@ export const LatestUpdate = [
     },
     {
         img: itcLogo,
-        description: "ITC Institutional Investors & Financial Analysts Day",
+        description: "ITC ONLINE Institutional Investors & Financial Analysts Day",
         date: "12 dec 2023"
     }
 ]
@@ -199,12 +199,12 @@ export const ItcNews = [
 
     {
         img: "https://thumbs.dreamstime.com/b/building-industrial-complex-apartments-workers-engineers-work-concreting-construction-buildings-demolition-production-272543479.jpg",
-        description: "Focus is on sustainable and inclusive growth' Sanjiv puri  ",
+        description: "Focus is on sustainable and inclusive growth'   ",
         date: "11 feb 2024"
     },
     {
         img: "https://prevenko.com/wp-content/uploads/2021/06/photo-blank-.png",
-        description: "Plateful of vision 'Sanjiv puri",
+        description: "Plateful of vision ",
         date: "03 feb 2024"
     },
     {
@@ -296,12 +296,12 @@ export const moreAboutItc = [
 
 export const vectorOfGrowth = [
     {
-        title: "ITCMAARS",
+        title: "ITC ONLINE MAARS",
         description: "Ushering in NExtgen Agriculture",
         img: "https://img.lovepik.com/background/20211030/medium/lovepik-rice-ear-mobile-phone-wallpaper-background-image_400426969.jpg"
     },
     {
-        title: "ITC FOODTECH",
+        title: "ITC ONLINEFOODTECH",
         description: "A New vector of Growth",
         img: "https://png.pngtree.com/thumb_back/fw800/background/20230902/pngtree-book-with-coffee-cake-cake-on-the-table-image_13183240.jpg"
     },
@@ -326,16 +326,16 @@ export const leadershipSpeaks = [
     {
         title: "'Focus is on sustainable and inclusive growth'",
         subTitle: "The Week",
-        description: "In an interview with THE WEEK, ITC Chairman Sanjiv Puri talks about the 'ITC Next' vectors of growth - Digital and Sustainability, pillars of ITC's competitiveness",
+        description: "In an interview with THE WEEK, ITC ONLINE Chairman  talks about the 'ITC ONLINE Next' vectors of growth - Digital and Sustainability, pillars of ITC's competitiveness",
     },
     {
         title: "Plateful of vision:  takes us through ITC's ambitious menu",
         subTitle: "Business Standard",
-        description: "ITC Chairman Sanjiv Puri and Business Standard journalist Ishita Ayan Dutt had an in-depth conversation a day after ITC's third-quarter results were declared",
+        description: "ITC ONLINE Chairman and Business Standard journalist Ishita Ayan Dutt had an in-depth conversation a day after ITC's third-quarter results were declared",
     },
 
     {
-        title: "As India gallops, so will FMCG industry, ITC CMD",
+        title: "As India gallops, so will FMCG industry, ITC ONLINE CMD",
         subTitle: "The Economic Times",
         description: "The key driver to unleashing FMCG growth through a virtuous cycle of consumption, investment and income lies in creating gainful livelihood opportunities...",
     },
@@ -353,14 +353,14 @@ export const leadershipSpeaks = [
         description: "CMD's Address at 112th AGM.",
     },
     {
-        title: "Corporates need to be responsibly competitive and lead in climate action: ITC chairman Sanjiv Puri",
+        title: "Corporates need to be responsibly competitive and lead in climate action:",
         subTitle: "The Times of India",
-        description: "In his message in ITC's Sustainability and Integrated Report 2023, 'Shaping The Future', ITC Chairman Sanjiv Puri reiterated the significant....",
+        description: "In his message in ITC's Sustainability and Integrated Report 2023, 'Shaping The Future', ITC ONLINE Chairman  reiterated the significant....",
     },
     {
-        title: "Sustainability, digitalisation key components of ITC's future: Sanjiv Puri",
+        title: "Sustainability, digitalisation key components of ITC's future:",
         subTitle: "Hindu Businessline",
-        description: "ITC Chairman Sanjiv Puri, gave a disaggregated view of the company's plans in a recent conversation with journalists, discussing new...",
+        description: "ITC ONLINE Chairman , gave a disaggregated view of the company's plans in a recent conversation with journalists, discussing new...",
     }
 ]
 
@@ -526,7 +526,7 @@ export const brandsData = [
 
     },
     {
-        // color: "bg-[#213970]",
+    
         products: [
             { name: "Candyman Choco Double Eclairs", img: "https://m.media-amazon.com/images/I/713RMBZQUXL.jpg" },
             { name: "Candyman Tadka", img: "https://cdn.lowestrate.in/20220727141117/414eh6iMO6L.jpg" },
@@ -536,7 +536,7 @@ export const brandsData = [
         logo: "https://humarabazar.com/wp-content/uploads/2022/06/a24de7add52604f32245c828ff56c582.jpeg"
     },
     {
-        // color: "bg-[#E13D31]",
+ 
         products: [
             { name: "Jelimals- Space Runner", img: "https://www.itcportal.com/brands-microsite/images/jelimals/jelimals-new05.png" },
             { name: "Jelimals- Tasty Sparkles", img: "https://www.itcportal.com/brands-microsite/images/jelimals/jelimals-new02.png" }
@@ -545,7 +545,7 @@ export const brandsData = [
         logo: "https://m.media-amazon.com/images/S/aplus-media/vc/2d5c080f-f976-4e54-a1be-5c426eec6614.__CR0,0,350,175_PT0_SX350_V1___.png"
     },
     {
-        // color: "bg-[#32251C]",
+
         products: [
             { name: "Fabelle Finesse", img: "https://www.itcportal.com/brands-microsite/images/fabelle/fabelle13.png" },
             { name: "Boxed Chocolate", img: "https://m.media-amazon.com/images/I/81ZtM6YIwOL.jpg" },
@@ -557,7 +557,7 @@ export const brandsData = [
     },
 
     {
-        // color: "bg-[#3E2B2F]",
+   
         products: [
             { name: "Nicamalai", img: "https://m.media-amazon.com/images/I/71tuRGMPBKL.jpg" },
             { name: "Panagiri", img: "https://m.media-amazon.com/images/I/71FLsFAh27L.jpg" },
@@ -568,7 +568,7 @@ export const brandsData = [
     },
 
     {
-        // color: "bg-[#ED62A3]",
+    
         products: [
             { name: "Anti Acne", img: "https://images-static.nykaa.com/media/catalog/product/1/8/18c1768CHARM00000016_1.jpg" },
             { name: "Cold cream", img: "https://rukminim2.flixcart.com/image/850/1000/jnw2he80/moisturizer-cream/h/v/h/175-moisturising-cold-cream-cream-charmis-original-imafah4t2sfhtqwp.jpeg?q=90&crop=false" },
@@ -609,7 +609,7 @@ export const drawerDate = [
     {
         img: <LuMilk />,
         title: "FOODS",
-        products: ["Aashirvaad", "Sunfeast", "Bingo", "Kitechens of India", "SunFeast Yippee", "B Naturals", "SunFeaset Milkshake", "mint-o", "Candyman", "Jelimals", "GumOn", "Fabelle", "Sunbean", "ITC Master Chef", "Farmland", "Sunrise"]
+        products: ["Aashirvaad", "Sunfeast", "Bingo", "Kitechens of India", "SunFeast Yippee", "B Naturals", "SunFeaset Milkshake", "mint-o", "Candyman", "Jelimals", "GumOn", "Fabelle", "Sunbean", "ITC ONLINE Master Chef", "Farmland", "Sunrise"]
     },
     {
         img: <MdOutlinePerson3 />,
@@ -683,15 +683,15 @@ export const moreCardData = [
     },
     {
         color: "bg-[#ea0244]",
-        title: "ITC ADDRESSES",
+        title: "ITC ONLINE ADDRESSES",
         icon: <FiFileText />,
         description: ""
     },
     {
         color: "bg-[#b66b13]",
-        title: "ITC SAMBADDHA",
+        title: "ITC ONLINE SAMBADDHA",
         icon: <FiFileText />,
-        description: "ITC Food vandor Relationship Portal As a perspective vendor, you may wish to share your company details"
+        description: "ITC ONLINE Food vandor Relationship Portal As a perspective vendor, you may wish to share your company details"
     }
 ]
 
@@ -716,7 +716,7 @@ export const financialReportingData = [
     {
       img: "https://www.itcportal.com/images/qr_ic1.png",
       color: "bg-[#04396c]  shadow-lg",
-      Title: <h1>ITC Report & Accounts</h1>,
+      Title: <h1>ITC ONLINE Report & Accounts</h1>,
 
 
     },
@@ -785,21 +785,21 @@ export  const quickLinksData = [
     },
     {
       img: "https://www.itcportal.com/images/ir_quick_ic.png",
-      Title: "ITC Reports & Accounts 2023",
+      Title: "ITC ONLINE Reports & Accounts 2023",
       color:"bg-[#ffffff]"
       
       
     },
     {
       img: "https://www.itcportal.com/images/bs_quick_ic.png",
-      Title: "ITC Balance Sheet",
+      Title: "ITC ONLINE Balance Sheet",
       color:"bg-[#ffffff]"
       
       
     },
     {
       img: "https://www.itcportal.com/images/pl_quick_ic.png",
-      Title: "ITC Profit & Loss Statement",
+      Title: "ITC ONLINE Profit & Loss Statement",
       color:"bg-[#ffffff]"
     },
     {
@@ -922,7 +922,7 @@ export const ItcVideoGallery = [
     {
 
       imageSrc: 'https://th.bing.com/th/id/OIP.xYVo8mASXrCNiny6pJiYYwHaFj?rs=1&pid=ImgDetMain',
-      title: 'ITC Stories of change | Chennarayappa',
+      title: 'ITC ONLINE Stories of change | Chennarayappa',
 
     },
     {
@@ -934,13 +934,13 @@ export const ItcVideoGallery = [
     {
 
       imageSrc: 'https://assets.techcircle.in/uploads/article-image/2023/04/images/32628-panel-discussion-1-1.jpg',
-      title: 'ITC CMD Sanjiv Puri Speaks On Sustain-O-Vation: Transformation, Transition...',
+      title: 'ITC ONLINE CMD Speaks On Sustain-O-Vation: Transformation, Transition...',
 
     },
     {
 
       imageSrc: 'https://www.mapsofindia.com/ci-moi-images/my-india/2019/02/Need-to-improve-government-school-education-system-665x348.jpg',
-      title: "From Slate to Sky: the story of dreams & hope | World Children's Day 2023 | The ITC Way"
+      title: "From Slate to Sky: the story of dreams & hope | World Children's Day 2023 | The ITC ONLINE Way"
 
     },
   ];

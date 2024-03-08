@@ -27,7 +27,7 @@ function Investor() {
 
       <div className="text-center text-white mt-20 mb-10 mx-20">
         <a href="/" className=" border-black bg-[#010b36] font-semibold p-4 tracking-tighter text-xl">
-          ITC INSTITUTIONAL INVESTORS & FINANCIAL ANALYSTS DAY: 12TH DECEMBER
+          ITC ONLINE INSTITUTIONAL INVESTORS & FINANCIAL ANALYSTS DAY: 12TH DECEMBER
           2023
         </a>
       </div>
@@ -57,7 +57,7 @@ function Investor() {
       {/* -------------------ITC at a Glance------------------------ */}
 
       <section className="bg-[#f7f7f7] text-center my-10 p-10 text-[#1b2355]">
-        <h1 className="text-2xl tracking-tight">ITC AT A GLANCE</h1>
+        <h1 className="text-2xl tracking-tight">ITC ONLINE AT A GLANCE</h1>
         <div className="text-2xl text-[#825e09] font-semibold">|</div>
         <div className="w-[80%] m-auto">
           <div className=" flex gap-2 carousel my-10">

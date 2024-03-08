@@ -7,30 +7,30 @@ const careersData = [
   {
     color: 'bg-[#6b1871] bg-opacity-90 ',
     logo: "https://www.itcportal.com/images/careers-icon1.png",
-    title: "Know ITC",
+    title: "Know ITC ONLINE",
     description:
       <ul>
-        <li>ITC</li>
-        <li>ITC Today</li>
+        <li>ITC ONLINE</li>
+        <li>ITC ONLINE Today</li>
         <li>Core Values</li>
         <li>Corporate Governance</li>
-        <li>ITC Brands</li>
-        <li>ITC Businesses</li>
+        <li>ITC ONLINE Brands</li>
+        <li>ITC ONLINE Businesses</li>
         <li>Sustainability</li>
       </ul>,
 
   },{
     color: 'bg-[#6b1871] bg-opacity-90 ',
     logo: "https://www.itcportal.com/images/careers-icon1.png",
-    title: "Know ITC",
+    title: "Know ITC ONLINE",
     description:
       <ul>
-        <li>ITC</li>
-        <li>ITC Today</li>
+        <li>ITC ONLINE</li>
+        <li>ITC ONLINE Today</li>
         <li>Core Values</li>
         <li>Corporate Governance</li>
-        <li>ITC Brands</li>
-        <li>ITC Businesses</li>
+        <li>ITC ONLINE Brands</li>
+        <li>ITC ONLINE Businesses</li>
         <li>Sustainability</li>
       </ul>,
 
@@ -38,15 +38,15 @@ const careersData = [
   ,{
     color: 'bg-[#6b1871] bg-opacity-90 ',
     logo: "https://www.itcportal.com/images/careers-icon1.png",
-    title: "Know ITC",
+    title: "Know ITC ONLINE",
     description:
       <ul>
-        <li>ITC</li>
-        <li>ITC Today</li>
+        <li>ITC ONLINE</li>
+        <li>ITC ONLINE Today</li>
         <li>Core Values</li>
         <li>Corporate Governance</li>
-        <li>ITC Brands</li>
-        <li>ITC Businesses</li>
+        <li>ITC ONLINE Brands</li>
+        <li>ITC ONLINE Businesses</li>
         <li>Sustainability</li>
       </ul>,
 
@@ -54,15 +54,15 @@ const careersData = [
   ,{
     color: 'bg-[#6b1871] bg-opacity-90 ',
     logo: "https://www.itcportal.com/images/careers-icon1.png",
-    title: "Know ITC",
+    title: "Know ITC ONLINE",
     description:
       <ul>
-        <li>ITC</li>
-        <li>ITC Today</li>
+        <li>ITC ONLINE</li>
+        <li>ITC ONLINE Today</li>
         <li>Core Values</li>
         <li>Corporate Governance</li>
-        <li>ITC Brands</li>
-        <li>ITC Businesses</li>
+        <li>ITC ONLINE Brands</li>
+        <li>ITC ONLINE Businesses</li>
         <li>Sustainability</li>
       </ul>,
 
@@ -70,11 +70,11 @@ const careersData = [
   ,{
     color: 'bg-[#6c1871] bg-opacity-90 ',
     logo: "https://www.itcportal.com/images/careers-icon1.png",
-    title: "Know ITC",
+    title: "Know ITC ONLINE",
     description:
       <ul>
-        <li>ITC</li>
-        <li>ITC Today</li>
+        <li>ITC ONLINE</li>
+        <li>ITC ONLINE Today</li>
         <li>Core Values</li>
         <li>Corporate Governance</li>
         <li>ITC Brands</li>
@@ -106,13 +106,13 @@ function Career() {
             <div className="flex gap-5">
               <h1 className="lg:text-4xl text-2xl">Career</h1>
               <p className="border-x  text-xs sm:text-sm lg:px-10 px-4">Building winning businesses.<br />Building business leaders.<br />Creating value for India.</p>
-              <img src="https://www.itcportal.com/images/hub.png" alt="Hub Image" className="" />
+              <img src="https://th.bing.com/th/id/OIP.yLQD9RDEocvSfP9jf0kb4QAAAA?rs=1&pid=ImgDetMain" alt="Hub Image" className="" />
             </div>
 
             <div className="mt-10 flex flex-col gap-5 justify-center items-center text-lg leading-5">
-              <p className="sm:w-1/2 text-center" >If Innovation and creativity pushes the adrenalin in you, then ITC is the kind of orgainsation that should satisfy your quest. </p>
+              <p className="sm:w-1/2 text-center" >If Innovation and creativity pushes the adrenalin in you, then ITC ONLINE is the kind of orgainsation that should satisfy your quest. </p>
               <div className="text-center font-semibold text-xs">
-                <h3>-Mrigaban Ray</h3>
+               
                 <h5>Marketing</h5>
               </div>
             </div>
