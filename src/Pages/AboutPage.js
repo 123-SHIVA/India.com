@@ -189,12 +189,13 @@ function AboutPage() {
 
 function MoreAboutItc({ item }) {
   return (
-    <div>
-      <div className="relative shadow-xl text-center text-white font-bold ">
-        <figure><img src={item.img} alt="Shoes" className="  rounded-lg w-full lg:w-[35vw] h-64" /></figure>
+    <div className={item.bg}>
+      <div className="relative shadow-xl text-center text-white font-bold  w-96 h-64  ">
+       
         <div className=" absolute top-0 right-0 bottom-0 left-0  text-center px-10  py-8">
           <div className="flex flex-col items-center gap-3 relative">
-            <img src={item.icon} />
+            
+            <div className="text-5xl">{item.icon}</div>
             <p className="text-xl ">{item.title}</p>
             <p className="text-xs">{item.description}</p>
           </div>
@@ -213,7 +214,7 @@ function ItcPerspectiveCard({ item , index}) {
   return (
     <li  className={item.color}>
       <div className="overflow-hidden shadow-lg px-16 py-16 lg:py-10 lg:h-[70vh] ">
-        <img src={item.img} alt="sorry" />
+        <img src={item.img} className="w-40 m-auto" alt="sorry" />
         <div className="mt-10 font-semibold ">
           <div className="text-3xl mb-2 text-indigo-200">{item.Title}</div>
           <div className="text-indigo-300 text-xs mt-5">

@@ -273,19 +273,19 @@ export  const globalHonours = [
 
 export const moreAboutItc = [
   {
-    img: "https://www.itcportal.com/assets/images/about/about_btm_bg1.jpg",
+    bg:"bg-purple-950",
     icon: <TbRelationManyToMany/>,
     title: "Investor Relations",
     description: ""
   },
   {
-    img: "https://www.itcportal.com/assets/images/about/about_btm_bg2.jpg",
+    bg:"bg-purple-950",
     icon: <GiWaterRecycling/>,
     title: "Exemplar in Sustainability",
     description: "Only company in the world to be carbon positive, water positive and solid waste recycling positive."
   },
   {
-    img: "https://www.itcportal.com/assets/images/about/about_btm_bg3.jpg",
+    bg:"bg-purple-950",
     icon: <GiArchiveResearch/>,
     title: "ITC ONLINE Research and  Development",
     description: ""
