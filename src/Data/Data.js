@@ -455,180 +455,171 @@ export const Sustainability = [
 
 export const brandsData = [
     {
-        color: "bg-[#ef0000]",
+        // color: "bg-[#ef0000]",
         products: [
-            { name: "Aashirvaad Organic Whole Wheat Atta", img: "https://www.itcportal.com/brands-microsite/images/aashirvaad_home/whole-wheat-atta-home-171023.png" },
-            { name: "Aashirvaad Svasti Paneer Slice", img: "https://www.itcportal.com/brands-microsite/images/aashirvaad/svasti-paneer-slice-111023.png" },
+            { name: "Aashirvaad Organic Whole Wheat Atta", img: "https://www.aashirvaad.com/img/packet-1.png" },
+            { name: "Aashirvaad Svasti Paneer Slice", img: "https://www.jiomart.com/images/product/original/493911965/aashirvaad-svasti-paneer-200-g-pack-of-5-slice-product-images-o493911965-p605034363-0-202309281942.jpg?im=Resize=(1000,1000)" },
             { name: "Ashirvaad Mithaas peda", img: "https://www.itcportal.com/brands-microsite/images/aashirvaad/mithaas-peda-22124.png" }
         ],
         title: "Atta, Vermicelli, Ghee, Salt, Spices, Ready To Eat Meals & Instant Mixes",
-        logo: "https://www.itcportal.com/brands-microsite/images/aashirvaad_home/aashirvaad_home_logo.png"
+        logo: "https://yt3.googleusercontent.com/ytc/AIdro_nByDdLaOBv4vALKMgOx9NzHhyMPexM98Y7qvMbmg=s900-c-k-c0x00ffffff-no-rj"
     },
     {
-        color: "bg-[#C32030]",
+        // color: "bg-[#C32030]",
         products: [
-            { name: "Sunfeast Farmlite Super Millets", img: "https://www.itcportal.com/brands-microsite/images/sunfeast_home/sunfeast39.png" },
-            { name: "Sunfeast Mom's Magic Butter fills", img: "https://www.itcportal.com/brands-microsite/images/sunfeast_home/sunfeast42.png" },
-            { name: "Sunfeast thin Arrowroot", img: "https://www.itcportal.com/brands-microsite/images/sunfeast_home/sunfeast40.png" }
+            { name: "Sunfeast Farmlite Super Millets", img: "https://m.media-amazon.com/images/I/81uASzBOazL.jpg" },
+            { name: "Sunfeast Mom's Magic Butter fills", img: "https://m.media-amazon.com/images/I/81leTwc9BBL.jpg" },
+            { name: "Sunfeast thin Arrowroot", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAr7z-hhD1COvjDp0CO6fDjLFkRuXsopZV0Q&usqp=CAU" }
         ],
         title: "Biscuits, Cookies & Cakes",
-        logo: "https://www.itcportal.com/brands-microsite/images/sunfeast_home/sunfeast.jpg"
+        logo: "https://fmtmagazine.in/wp-content/uploads/2021/09/1630482966855_sunfeast.jpg"
     },
     {
-        color: "bg-[#FFD202]",
         products: [
-            { name: "Tedhe medhe Allo Bhujia", img: "https://www.itcportal.com/brands-microsite/images/bingo_home/bingo18.png" },
-            { name: "Bingo! No Rulz Mix Puffs Tomato", img: "https://www.itcportal.com/brands-microsite/images/bingo_home/bingo19.png" },
+            { name: "Tedhe medhe Allo Bhujia", img: "https://m.media-amazon.com/images/I/61hv6FkOVTL.jpg" },
+            { name: "Bingo! No Rulz Mix Puffs Tomato", img: "https://m.media-amazon.com/images/I/61VQzSMe20L.jpg" },
             { name: "Bingo! Cheese Nachos", img: "https://www.itcportal.com/brands-microsite/images/bingo_home/bingo20.png" }
         ],
         title: "Potato Chips & Finger Snacks",
-        logo: "https://www.itcportal.com/brands-microsite/images/bingo_home/bingo.jpg"
+        logo: "https://images-na.ssl-images-amazon.com/images/S/stores-image-uploads-eu-prod/f/AmazonStores/A21TJRUUN4KGV/ba6512fb0d5a31d35c5fd3c655fbeed8.w400.h400.jpg"
     },
     {
-        color: "bg-[#74271C]",
+        // color: "bg-[#74271C]",
         products: [
-            { name: "Ready to Dine- Daily Treats", img: "https://www.itcportal.com/brands-microsite/images/kitchen_india_home/kitchens-of-india15.png" },
-            { name: "Ready to Dine - Fourmet Delight", img: "https://www.itcportal.com/brands-microsite/images/kitchen_india_home/kitchens-of-india16.png" }
+            { name: "Ready to Dine- Daily Treats", img: "https://www.financialexpress.com/wp-content/uploads/2022/10/Untitled-design-2-4.jpg?w=350" },
+            { name: "Ready to Dine - Fourmet Delight", img: "https://i0.wp.com/india-direct.com/wp-content/uploads/2022/03/51JQRToehpL.jpg?fit=500%2C500&ssl=1" }
         ],
         title: "Ready To Eat Gourmet Cuisine, Masala Mixes, Chutneys & Conserves",
-        logo: "https://www.itcportal.com/brands-microsite/images/kitchen_india_home/koi-logo.png"
+        logo: "https://3.bp.blogspot.com/_rPwR5Mqua4I/SYg6V9NhFrI/AAAAAAAAAFE/0rfnAB-3yh0/s320/LogoZone_KitchensOfIndia.jpg"
     },
     {
-        color: "bg-[#FEED24]",
+        // color: "bg-[#FEED24]",
         products: [
-            { name: "Quick Mealz Chicken Delight", img: "https://www.itcportal.com/brands-microsite/images/yippee_home/yippee09.png" },
-            { name: "Yippee! Saucy Masala", img: "https://www.itcportal.com/brands-microsite/images/yippee_home/yippee01b.png" },
-            { name: "Tricolor Pasta", img: "https://www.itcportal.com/brands-microsite/images/yippee/yippee02.png" }
+            { name: "Quick Mealz Chicken Delight", img: "https://www.sunfeastyippee.com/wp-content/uploads/2023/08/ChickenDelight.png" },
+            { name: "Yippee! Saucy Masala", img: "https://m.media-amazon.com/images/I/81hz4y6lY8L.jpg" },
+            { name: "Tricolor Pasta", img: "https://m.media-amazon.com/images/I/81T7leUDxFL._AC_UF1000,1000_QL80_.jpg" }
         ],
         title: "Instant Noodles & Pasta",
-        logo: "https://www.itcportal.com/brands-microsite/images/yippee_home/yippee2.jpg"
+        logo: "https://i.pinimg.com/originals/a0/13/f5/a013f53482354f0e297068c4405f1859.jpg"
     },
     {
-        color: "bg-[#077F39]",
+        // color: "bg-[#077F39]",
         products: [
-            { name: "Chatpata Jamum", img: "https://www.itcportal.com/brands-microsite/images/bnatural/bnatural-chatpata-jamun-111023.png" },
-            { name: "Fruite N Bits Mixed  Fruite", img: "https://www.itcportal.com/brands-microsite/images/bnatural_home/bnatural19.png" },
-            { name: "Coconut Water", img: "https://www.itcportal.com/brands-microsite/images/bnatural_home/bnatural22.png" }
+            { name: "Chatpata Jamum", img: "https://www.jiomart.com/images/product/original/494231326/b-natural-chatpata-jamun-juice-1-l-product-images-o494231326-p605646837-0-202310181525.jpg?im=Resize=(1000,1000)" },
+            { name: "Fruite N Bits Mixed  Fruite", img: "https://www.bigbasket.com/media/uploads/p/xxl/1226799-2_2-b-natural-fruits-n-bits-mixed-fruit.jpg" },
+            { name: "Coconut Water", img: "https://m.media-amazon.com/images/I/711blihxkzL.jpg" }
         ],
         title: "Juices & Beverages",
-        logo: "https://www.itcportal.com/brands-microsite/images/bnatural_home/bnatural-logo.png"
+        logo: "https://www.justgotochef.com/img/1527339509-B%20Natural-Mixed%20Fruit%20Merry-Logo.jpg"
     },
     {
-        color: "bg-[#19468D]",
+        // color: "bg-[#19468D]",
         products: [
-            { name: "Mint-o GOL Orange Chew", img: "https://www.itcportal.com/brands-microsite/images/minto_home/minto03.png" },
-            { name: "Mint-o Fresh max", img: "https://www.itcportal.com/brands-microsite/images/minto_home/minto05.png" }
+            { name: "Mint-o GOL Orange Chew", img: "https://www.itcportal.com/brands-microsite/images/minto/minto07.png" },
+            { name: "Mint-o Fresh max", img: "https://www.itcportal.com/brands-microsite/images/minto/minto09.png" }
         ],
         title: "Confectionery",
-        logo: "https://www.itcportal.com/brands-microsite/images/minto_home/minto-logo.png"
+        logo: "https://3.bp.blogspot.com/-qvn3Xci2vg8/VBW8AwjRnyI/AAAAAAAABvg/I4XgB1SgStE/s1600/1-%2Bminto-logo-big.jpg"
 
     },
     {
-        color: "bg-[#213970]",
+        // color: "bg-[#213970]",
         products: [
-            { name: "Candyman Choco Double Eclairs", img: "https://www.itcportal.com/brands-microsite/images/candyman/candyman-new-04.png" },
-            { name: "Candyman Tadka", img: "https://www.itcportal.com/brands-microsite/images/candyman/candyman-new-05.png" },
-            { name: "Candyman Toffichoo", img: "https://www.itcportal.com/brands-microsite/images/candyman/candyman-new-06.png" }
+            { name: "Candyman Choco Double Eclairs", img: "https://m.media-amazon.com/images/I/713RMBZQUXL.jpg" },
+            { name: "Candyman Tadka", img: "https://cdn.lowestrate.in/20220727141117/414eh6iMO6L.jpg" },
+            { name: "Candyman Toffichoo", img: "https://m.media-amazon.com/images/I/61CuX0uU-vL._SL1000_.jpg" }
         ],
         title: "Confectionery",
-        logo: "https://www.itcportal.com/brands-microsite/images/candyman_home/candyman-logo.png"
+        logo: "https://humarabazar.com/wp-content/uploads/2022/06/a24de7add52604f32245c828ff56c582.jpeg"
     },
     {
-        color: "bg-[#E13D31]",
+        // color: "bg-[#E13D31]",
         products: [
             { name: "Jelimals- Space Runner", img: "https://www.itcportal.com/brands-microsite/images/jelimals/jelimals-new05.png" },
-            { name: "Jelimals- Tasty Sparkles", img: "https://www.itcportal.com/brands-microsite/images/jelimals/jelimals-new02.png" },
-            { name: "Jelimals - Space jellu -Strawberry", img: "https://www.itcportal.com/brands-microsite/images/jelimals/jelimals-new03.png" }
+            { name: "Jelimals- Tasty Sparkles", img: "https://www.itcportal.com/brands-microsite/images/jelimals/jelimals-new02.png" }
         ],
         title: "Confectionery",
-        logo: "https://www.itcportal.com/brands-microsite/images/jelimals/jelimals-home-logo.png"
+        logo: "https://m.media-amazon.com/images/S/aplus-media/vc/2d5c080f-f976-4e54-a1be-5c426eec6614.__CR0,0,350,175_PT0_SX350_V1___.png"
     },
     {
-        color: "bg-[#32251C]",
+        // color: "bg-[#32251C]",
         products: [
-            { name: "Fabelle Finesse", img: "https://www.itcportal.com/brands-microsite/images/fabelle_home/fabelle-finesse-thumb-180723.png" },
-            { name: "Boxed Chocolate", img: "https://www.itcportal.com/brands-microsite/images/fabelle_home/fabelle04.png" },
-            { name: "Luxury Chocolate Bar", img: "https://www.itcportal.com/brands-microsite/images/fabelle_home/fabelle21home.png" }
+            { name: "Fabelle Finesse", img: "https://www.itcportal.com/brands-microsite/images/fabelle/fabelle13.png" },
+            { name: "Boxed Chocolate", img: "https://m.media-amazon.com/images/I/81ZtM6YIwOL.jpg" },
+            { name: "Luxury Chocolate Bar", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNudSUBms2rQ3BxGKKQFb8Q2uSczUqXC495leY9YvzZC9DH5DnGr1fZDP8yaBzShJP3UI&usqp=CAU" }
         ],
         title: "Luxury Chocolate",
-        logo: "https://www.itcportal.com/brands-microsite/images/fabelle_home/fabelle-logo.png"
+        logo: "https://mir-s3-cdn-cf.behance.net/projects/404/56d0c0179225777.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png"
 
     },
 
     {
-        color: "bg-[#3E2B2F]",
+        // color: "bg-[#3E2B2F]",
         products: [
-            { name: "Nicamalai", img: "https://www.itcportal.com/brands-microsite/images/sunbean_home/sunbean-nicamalai3.png" },
-            { name: "Panagiri", img: "https://www.itcportal.com/brands-microsite/images/sunbean_home/sunbean-nicamalai2.png" },
-            { name: "Sunbean Beater  Caffe", img: "https://www.itcportal.com/brands-microsite/images/sunbean_home/sunbean-01.png" }
+            { name: "Nicamalai", img: "https://m.media-amazon.com/images/I/71tuRGMPBKL.jpg" },
+            { name: "Panagiri", img: "https://m.media-amazon.com/images/I/71FLsFAh27L.jpg" },
+            { name: "Sunbean Beater  Caffe", img: "https://cdn.grofers.com/app/images/products/full_screen/pro_437005.jpg?ts=1701664761" }
         ],
         title: "Gourmet Coffee & Beaten Coffee",
-        logo: "https://www.itcportal.com/brands-microsite/images/sunbean_home/sunbean-logo.png"
+        logo: "https://media.licdn.com/dms/image/C5603AQF1myU_GqrcLQ/profile-displayphoto-shrink_400_400/0/1517018421469?e=2147483647&v=beta&t=rqwJmoNURwA00c-bWsY66yokL-IazqgLeCrR7yMVKco"
     },
 
     {
-        color: "bg-[#ED62A3]",
+        // color: "bg-[#ED62A3]",
         products: [
-            { name: "Anti Acne", img: "https://www.itcportal.com/brands-microsite/images/charmis/charmis-face-serum-01.png" },
-            { name: "Cold cream", img: "https://www.itcportal.com/brands-microsite/images/charmis_home/charmis_home.png" },
-            { name: "face wash", img: "https://www.itcportal.com/brands-microsite/images/charmis_home/charmis_home_facew.png" }
+            { name: "Anti Acne", img: "https://images-static.nykaa.com/media/catalog/product/1/8/18c1768CHARM00000016_1.jpg" },
+            { name: "Cold cream", img: "https://rukminim2.flixcart.com/image/850/1000/jnw2he80/moisturizer-cream/h/v/h/175-moisturising-cold-cream-cream-charmis-original-imafah4t2sfhtqwp.jpeg?q=90&crop=false" },
+            { name: "face wash", img: "https://m.media-amazon.com/images/I/61y8rB25WDL._AC_UF1000,1000_QL80_.jpg" }
         ],
         title: "Cream",
-        logo: "https://www.itcportal.com/brands-microsite/images/charmis_home/charmis-logo_home.jpg"
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtST2YDvlIPke-5U_Sraplxb2sIZvqwJ8zUA&usqp=CAU"
     },
 
     {
-        color: "bg-[#000000]",
+        // color: "bg-[#000000]",
         products: [
-            { name: "Classmate Ar Notebooks", img: "https://www.itcportal.com/brands-microsite/images/classmate_home/ar-notebooks.png" },
-            { name: "Classmate Interaktiv origami craftbooks", img: "https://www.itcportal.com/brands-microsite/images/classmate_home/interaktiv-origami-craftbooks.png" },
-            { name: "pulse 3D Notebooks", img: "https://www.itcportal.com/brands-microsite/images/classmate_home/pulse-3d-notebooks.png" }
+            { name: "Classmate Ar Notebooks", img: "https://m.media-amazon.com/images/I/81c0AU0zx0L.jpg" },
+            { name: "Classmate Interaktiv origami craftbooks", img: "https://m.media-amazon.com/images/I/71ZBY03VO5L.jpg" },
+            { name: "pulse 3D Notebooks", img: "https://images.jdmagicbox.com/quickquotes/images_main/classmate_pulse_6_sub_spiral_notebook_2100114__11926272_0.jpg" }
         ],
         title: "Notebooks, Pens, Pencils, Art Stationery, Geometry Boxes & Scholastic Products",
-        logo: "https://www.itcportal.com/brands-microsite/images/classmate_home/classmate-logo.png"
+        logo: "https://pbs.twimg.com/profile_images/470815227953438720/ON_B5na6_400x400.png"
     },
 
     {
-        color: "bg-[#282828]",
+        // color: "bg-[#943C3C]",
         products: [
-            { name: "Notepads", img: "https://www.itcportal.com/brands-microsite/images/paperkraft_home/notepads.png" },
-            { name: "Beethoven Pen Silver", img: "https://www.itcportal.com/brands-microsite/images/paperkraft_home/pens.png" },
-            { name: "Green Impression Series", img: "https://www.itcportal.com/brands-microsite/images/paperkraft_home/green-impression.png" }
-        ],
-        title: "Premium Notebooks, Diaries, Notepads & Pens",
-        logo: "https://www.itcportal.com/brands-microsite/images/paperkraft_home/paperkraft-logo.png"
-    },
-
-    {
-        color: "bg-[#943C3C]",
-        products: [
-            { name: "Homelites matches", img: "https://www.itcportal.com/brands-microsite/images/homelite-home/homelite-pack.png" }
+            { name: "Homelites matches", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXWktQXI27AH9JT8eE7tO6G59v83SPzwW1iZ9pMhTzKFgOUCJyCOh1iIC974LrpZErdN0&usqp=CAU" }
         ],
         title: "Homelites matches",
-        logo: "https://www.itcportal.com/brands-microsite/images/homelite-home/homelite-ligo.png"
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ijE156GZE8qfZMMQu3zVNzxYkR-9E3MvzxFP3TS3t9C_C8Gjy-fjgGAa4UMhlxWvXtk&usqp=CAU"
     },
 
 ]
 
+import { LuMilk } from "react-icons/lu";
+import { MdOutlinePerson3 } from "react-icons/md";
+import { TfiWrite } from "react-icons/tfi";
+import { TbMatchstick } from "react-icons/tb";
 
 export const drawerDate = [
     {
-        img: "https://www.itcportal.com/brands-microsite/images/food_icon.png",
+        img: <LuMilk />,
         title: "FOODS",
         products: ["Aashirvaad", "Sunfeast", "Bingo", "Kitechens of India", "SunFeast Yippee", "B Naturals", "SunFeaset Milkshake", "mint-o", "Candyman", "Jelimals", "GumOn", "Fabelle", "Sunbean", "ITC Master Chef", "Farmland", "Sunrise"]
     },
     {
-        img: "https://www.itcportal.com/brands-microsite/images/personal_care_icon.png",
+        img: <MdOutlinePerson3 />,
         title: "PERSONAL CARE",
         products: ["EDW Essenza", "Dermafique", "Fiama", "Vivel", "Engage", "Superia", "Nimyle", "Nimwash", "Savlon", "Shower to Shower", "Charmis"]
     },
     {
-        img: "https://www.itcportal.com/brands-microsite/images/education_icon.png",
+        img: <TfiWrite />,
         title: "EDUCATION",
         products: ["Classmate", "Paperkraft"]
     },
     {
-        img: "https://www.itcportal.com/brands-microsite/images/matches_icon.png",
+        img: <TbMatchstick />,
         title: "MATCHES & AGARBATTI",
         products: ["AIM, Mangledeep", "Homelites"]
     }
