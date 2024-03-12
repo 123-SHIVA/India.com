@@ -199,14 +199,14 @@ function HomePage() {
                     <div className="flex gap-10">
                         <img src={itcLogo} className=" w-20 h-20" />
                         <div className="flex flex-col gap-8">
-                            <h2 className="font-bold text-sm">ITC Online Report And Accounts 2023</h2>
+                            <h2 className="font-bold text-sm">ITC Online Report And Accounts 2024</h2>
                             <p className="text-xs">PDF 22.5 MB</p>
                             <MdOutlineFileDownload />
                         </div>
                     </div>
                     <div className="flex gap-12 border-l border-dashed border-gray-400 px-10">
                         <div className="flex flex-col justify-between">
-                            <h2 className="font-bold text-sm">ITC Online Sustainability Report 2023 </h2>
+                            <h2 className="font-bold text-sm">ITC Online Sustainability Report 2024 </h2>
                             <p className="text-xs">PDF 24 MB</p>
                             <MdOutlineFileDownload />
                         </div>

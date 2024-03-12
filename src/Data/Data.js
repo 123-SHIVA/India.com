@@ -136,7 +136,7 @@ export const LatestUpdate = [
         date: "13 jan 2024"
     },
     {
-        img: "https://t3.ftcdn.net/jpg/05/07/88/96/360_F_507889611_vdbjUXkBQIfEqdyb5qNtTxCR6jm47wSS.jpg",
+        img: "https://media.istockphoto.com/id/1733196974/vector/2024-new-year-with-gold-progress-bar-golden-loading-bar-on-black-background-for-christmas.jpg?s=170667a&w=0&k=20&c=TYlT_tEV0iCKsrsLYgmqY6109gd9ELPoR7GJZqPtZ1I=",
         description: "Financial Results for the Quarter Ended December",
         date: "29 jan 2024"
     },
